@@ -23,7 +23,7 @@ header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba
 .lang{background:none;cursor:pointer}
 h1{font-size:clamp(2rem,5vw,3rem);font-weight:500;letter-spacing:-.02em;margin-bottom:10px}
 .sub{color:var(--dim);margin-bottom:30px}
-.badge{display:inline-block;font-family:var(--mono);font-size:.7rem;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--dim);margin:0 6px 6px 0}
+.badge{display:inline-block;font-family:var(--mono);font-size:.7rem;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--dim);margin:0 6px 6px 0;background:none;appearance:none;-webkit-appearance:none;font:inherit}
 .badge.on{color:var(--accent);border-color:var(--accent);cursor:pointer}
 .badge:not(.on){cursor:pointer}
 .chips{margin:0 0 30px}
