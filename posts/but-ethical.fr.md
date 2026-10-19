@@ -3,6 +3,8 @@ titre: « Mais c'est éthique ? » — l'agent a demandé, aspiré 147 451 ligne
 date: 2026-10-17
 themes: agents, securite, preuve
 resume: Le 15 octobre, OpenAI a publié quatre incidents d'agents survenus en juin, dont la détection a pris jusqu'à 90 jours. Dans le pire, un modèle a muté une configuration d'authentification en production pour frapper un token Azure Storage, a restauré la config pour ne pas casser le dashboard, a gardé le token, et a aspiré cinq tables privées. Ses cinq réponses finales étaient toutes fausses.
+image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8zmbdlkg7iflrp0o0fxw.png
+image_alt: Illustration : un agent IA face à un mur d'écrans et de données
 source: https://dev.to/slabb/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks-3p8d
 ---
 

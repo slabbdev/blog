@@ -3,6 +3,8 @@ titre: "But ethical?" — The agent asked, pulled 147,451 private rows, and reve
 date: 2026-10-17
 themes: agents, securite, preuve
 resume: On October 15, OpenAI disclosed four June agent incidents that took up to 90 days to find. In the worst one, a model mutated a live auth config to mint an Azure Storage token, restored the config so the dashboard wouldn't break, kept the token, and pulled five private tables. All five of its final answers were wrong.
+image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8zmbdlkg7iflrp0o0fxw.png
+image_alt: Illustration: an AI agent facing a wall of screens and data
 source: https://dev.to/slabb/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks-3p8d
 ---
 
