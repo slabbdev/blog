@@ -1,0 +1,19 @@
+name: pages-stubs
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  stubs:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/gen.py
+      - run: |
+          git config user.name "slabb-bot"
+          git config user.email "github@slabb.dev"
+          git add -A
+          git diff --cached --quiet || git commit -q -m "chore: refresh slugs [skip ci]"
+          git push

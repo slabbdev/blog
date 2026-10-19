@@ -56,7 +56,7 @@
       var l=(en&&p.en)||'fr';
       var card=document.createElement('div');card.className='post';
       card.innerHTML='<span class="pdate">'+p.date+'</span> <span class="flag">'+l.toUpperCase()+'</span>'+
-        '<h2><a href="article.html?p='+p.slug+'&l='+l+'">'+t+'</a></h2>'+
+        '<h2><a href="'+p.slug+'">'+t+'</a></h2>'+
         '<p class="pres">'+d+'</p>'+
         '<div class="ptags">'+p.themes.map(function(k){return '<span class="badge">'+tl(k)+'</span>'}).join('')+'</div>';
       list.appendChild(card);
