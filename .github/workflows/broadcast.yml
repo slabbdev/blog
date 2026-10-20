@@ -1,0 +1,25 @@
+name: broadcast
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: broadcast
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/broadcast.py --max 2
+        env:
+          BSKY_IDENTIFIER: ${{ secrets.BSKY_IDENTIFIER }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      - run: |
+          git config user.name "slabb-bot"
+          git config user.email "github@slabb.dev"
+          git add broadcast-state.json
+          git diff --cached --quiet || git commit -q -m "broadcast: état [skip ci]"
+          git push
