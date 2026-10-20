@@ -2,6 +2,9 @@
 titre: "OpenCode lost the keys that lived in its cloud. The ones on disk were fine."
 date: 2026-10-19
 themes: securite, agents
+source: https://dev.to/slabb/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g
+image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr49qhm9mantoqtdmhhzi.png
+image_alt: "OpenCode lost the keys that lived in its cloud. The ones on disk were fine."
 resume: "A breach of OpenCode's online console exposed 1.4% of users' stored API keys — five-figure bills at 3am, Anthropic and Google blocking keys, OpenAI refunding credits. The CLI users slept. The incident didn't need the disputed distillation motive to prove the architecture rule: your key's custody grade is the retention policy of wherever you left it."
 ---
 

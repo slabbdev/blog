@@ -2,6 +2,9 @@
 titre: "OpenCode a perdu les clés qui vivaient dans son cloud. Celles sur le disque allaient bien."
 date: 2026-10-19
 themes: securite, agents
+source: https://dev.to/slabb/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g
+image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr49qhm9mantoqtdmhhzi.png
+image_alt: "OpenCode lost the keys that lived in its cloud. The ones on disk were fine."
 resume: "Une intrusion dans la console en ligne d'OpenCode a exposé 1,4 % des clés API stockées — des factures à cinq chiffres à 3h du matin, Anthropic et Google qui bloquent les clés, OpenAI qui rembourse. Les utilisateurs du CLI ont dormi. L'incident n'a pas eu besoin du mobile de distillation contesté pour prouver la règle d'architecture : le grade de custody de votre clé, c'est la politique de rétention de l'endroit où vous l'avez posée."
 ---
 
