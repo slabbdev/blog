@@ -161,7 +161,7 @@
       return fetch('posts/'+slug+'.fr.md').then(function(r){return r.text()}).then(function(fr){
         var f=parseFM(fr),p={slug:slug,titre:f.fm.titre||slug,resume:f.fm.resume||'',resume_en:f.fm.resume_en||'',titre_en:f.fm.titre_en||f.fm.titre,date:f.fm.date||'',image:f.fm.image||'',image_alt:f.fm.image_alt||'',themes:(f.fm.themes||'').split(',').map(function(x){return x.trim()}).filter(Boolean)};
         return fetch('posts/'+slug+'.en.md').then(function(r){if(!r.ok)throw 0;return r.text()},function(){return null}).then(function(enm){
-          if(enm){var fe=parseFM(enm);p.en='en';if(!p.titre_en)p.titre_en=fe.fm.titre;if(!p.resume_en)p.resume_en=fe.fm.resume;}
+          if(enm){var fe=parseFM(enm);p.en='en';p.titre_en=fe.fm.titre;p.resume_en=fe.fm.resume;}
           return p;
         });
       });
