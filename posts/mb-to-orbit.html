@@ -187,8 +187,12 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
       render(langs);related();
     });
   }).catch(function(){
+    ['byline','.share'].forEach(function(sel){var n=document.querySelector(sel);if(n)n.style.display='none'});
+    var hw=document.getElementById('heroWrap');if(hw)hw.style.display='none';
     document.getElementById('titre').textContent=L('Article introuvable','Post not found');
-    document.getElementById('content').innerHTML='<p style="color:var(--dim)"><code>posts/'+esc(slug)+'.md</code></p>';
+    document.getElementById('resume').textContent=L('Cette adresse ne correspond à aucun article publié — il a peut-être été retiré, déplacé, ou pas encore traduit.','This address matches no published post — it may have been removed, moved, or not translated yet.');
+    document.getElementById('content').innerHTML='<p><a class="back" href="index.html">'+L('← retour au blog','← back to the blog')+'</a> &nbsp; <a class="back" href="https://slabb.dev">'+L('← le site','← the site')+'</a></p>';
+    document.getElementById('back').style.display='none';
   });
 })();
 </script>
