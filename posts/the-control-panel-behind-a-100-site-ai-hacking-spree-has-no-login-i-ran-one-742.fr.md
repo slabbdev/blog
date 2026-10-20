@@ -1,5 +1,5 @@
 ---
-titre: "The control panel behind a 100-site AI hacking spree has no login. I ran one."
+titre: "Le panneau de contrôle derrière une vague de piratage IA de 100 sites n'a pas de login. J'en ai fait tourner un."
 date: 2026-10-20
 themes: securite, agents
 resume: "Reuters a regardé une ruée d'agents IA casser 100+ entreprises à cinquante dollars l'intrusion. Le panneau de contrôle open source derrière tout ça, Cairn, ne shippe aucune authentification — j'ai lu le code, puis j'ai fait tourner le panneau chez moi, dents en moins."

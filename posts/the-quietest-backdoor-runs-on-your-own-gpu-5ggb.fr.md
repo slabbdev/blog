@@ -1,10 +1,10 @@
 ---
-titre: "The quietest backdoor runs on your own GPU"
+titre: "Le backdoor le plus silencieux tourne sur votre propre GPU"
 date: 2026-10-20
 themes: securite, agents
-resume: "ProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design — and no scanner can read the source. La frontière d'exécution est le seul grade qui reste."
+resume: "ProjectDiscovery a backdooré un modèle 7B pour moins de 50 $ et l'a fait tourner via un agent de code : normal sur chaque requête, vol d'identifiants sur une phrase déclencheuse. Les modèles abliterated passent vos evals par conception — et aucun scanner ne peut lire la source. La frontière d'exécution est le seul grade qui reste."
 image: https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0x4d1aw3wlyfvu34mh53.png
-image_alt: "The quietest backdoor runs on your own GPU"
+image_alt: "Le backdoor le plus silencieux tourne sur votre propre GPU"
 ---
 
 > Le plus bruyant des attaques de ce mois a facturé ses victimes à 3h du matin. Le plus silencieux tourne sur votre propre GPU, passe tous vos benchmarks, répond normalement à mille requêtes — et attend une phrase que personne ne vous a donnée.
