@@ -133,7 +133,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     var t=(lang==='en'&&c.fm.titre_en)?c.fm.titre_en:c.fm.titre;
     var res=(lang==='en'&&c.fm.resume_en)?c.fm.resume_en:c.fm.resume;
     document.title=t+' — blog.slabb.dev';
-    var cl=document.querySelector('link[rel="canonical"]')||document.createElement('link');cl.rel='canonical';cl.href='https://blog.slabb.dev/'+slug;document.head.appendChild(cl);
+    var cl=document.querySelector('link[rel="canonical"]')||document.createElement('link');cl.rel='canonical';cl.href='https://blog.slabb.dev/posts/'+slug;document.head.appendChild(cl);
     document.getElementById('cats').innerHTML=(c.fm.themes||'').split(',').map(function(k){return '<span class="badge">'+tl(k.trim())+'</span>'}).join('');
     document.getElementById('titre').textContent=t;
     document.getElementById('resume').textContent=res||'';

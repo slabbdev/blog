@@ -14,8 +14,9 @@ for slug in slugs:
     page = tpl.replace('</head>',
         f'<link rel="canonical" href="{BASE}/{slug}">\n'
         f'<script>window.POST_SLUG="{slug}";window.POST_LANG="fr";</script>\n</head>')
-    (root / f'{slug}.html').write_text(page)
-    urls.append(f'{BASE}/{slug}')
+    (root / f'posts/{slug}.html').write_text(page)
+    (root / f'{slug}.html').unlink(missing_ok=True)  # stubs racine de l'ancienne organisation
+    urls.append(f'{BASE}/posts/{slug}')
 
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 sm += ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls)
