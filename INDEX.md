@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- the-quietest-backdoor-runs-on-your-own-gpu-5ggb
 - opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine
 - five-witnesses-and-two-rirs-the-cas-just-discovered-custody
 - but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks
