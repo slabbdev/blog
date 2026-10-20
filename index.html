@@ -7,6 +7,44 @@
 <meta name="description" content="Le blog de Sam Labbe : agents IA en production, sécurité offensive, preuve de conformité. FR d'abord, EN quand ça existe.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0b0d'/%3E%3Crect x='20' y='20' width='24' height='24' rx='4' fill='%237de8a9'/%3E%3C/svg%3E">
 <link href="css/style.css" rel="stylesheet">
+<style>
+.hero{display:grid;grid-template-columns:1.6fr 1fr;gap:16px;margin-top:34px}
+.feat,.fil{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.feat img{width:100%;aspect-ratio:21/9;object-fit:cover;display:block;border-bottom:1px solid var(--line)}
+.feat .fbody{padding:20px 22px 24px}
+.feat h2{font-size:clamp(1.3rem,2.6vw,1.8rem);font-weight:500;line-height:1.2;margin:10px 0 12px}
+.feat h2 a:hover{color:var(--accent)}
+.feat .pres{color:var(--dim);font-size:.95rem;margin-bottom:16px}
+.readmore{font-family:var(--mono);font-size:.8rem;color:var(--accent)}
+.filh{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:14px 16px;border-bottom:1px solid var(--line)}
+.filrow{padding:14px 16px;border-bottom:1px solid var(--line)}
+.filrow:last-child{border-bottom:none}
+.filrow .fd{font-family:var(--mono);font-size:.68rem;color:var(--muted)}
+.filrow a{display:block;font-size:.92rem;font-weight:500;margin:4px 0}
+.filrow a:hover{color:var(--accent)}
+.tbar{display:flex;gap:8px;flex-wrap:wrap;margin:38px 0 0}
+.tbar a{font-family:var(--mono);font-size:.74rem;color:var(--dim);border:1px solid var(--line);padding:7px 14px;border-radius:999px;transition:color .15s,border-color .15s}
+.tbar a:hover{color:var(--accent);border-color:var(--accent)}
+.tsec{margin-top:54px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin-top:22px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s,transform .15s}
+.pcard:hover{border-color:#3a3f46;transform:translateY(-2px)}
+.pcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:1px solid var(--line)}
+.pcard .pbody{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.pcard .pd{font-family:var(--mono);font-size:.68rem;color:var(--muted);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.pcard h3{font-size:1rem;font-weight:500;line-height:1.3}
+.pcard h3 a:hover{color:var(--accent)}
+.pcard .pr{color:var(--dim);font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pcard .pt{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+.ctaband{margin-top:64px;border:1px solid var(--accent);border-radius:16px;padding:28px;background:linear-gradient(120deg,rgba(125,232,169,.07),transparent 70%);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.ctaband b{font-weight:500;font-size:1.1rem}
+.ctaband p{color:var(--dim);font-size:.9rem;margin-top:4px}
+.ctaband .cb{display:flex;gap:12px;flex-wrap:wrap}
+.cb a{font-family:var(--mono);font-size:.8rem;padding:10px 18px;border-radius:999px;border:1px solid var(--line);color:var(--dim);transition:.15s}
+.cb a:hover{color:var(--accent);border-color:var(--accent)}
+.cb a.hot{background:var(--accent);border-color:var(--accent);color:#08110c}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 
@@ -20,12 +58,30 @@
   </div>
 </header>
 
-<main class="wrap" style="padding-top:44px">
+<main class="wrap" style="padding-top:40px">
   <p class="kicker">// agents ia · sécurité · preuve</p>
   <h1>Le journal de bord.</h1>
-  <p class="sub" id="sub">Ce que je construis, ce que je casse, ce que je mesure — publié en FR d'abord, EN quand la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.</p>
-  <div class="chips" id="chips"></div>
-  <div id="list"></div>
+  <p class="sub" id="sub">Ce que je construis, ce que je casse, ce que je mesure — publié en FR d'abord, EN quand la traduction est prête.</p>
+
+  <div class="hero" id="hero" style="display:none"></div>
+  <div class="tbar" id="tbar" style="display:none"></div>
+  <section class="tsec" id="dernieres">
+    <p class="kicker" data-en="// latest posts">// dernières publications</p>
+    <div class="cards" id="dernCards"></div>
+  </section>
+  <div id="tsections"></div>
+
+  <div class="ctaband">
+    <div>
+      <b data-en="This blog is part of slabb.dev — the site that proves what it says.">Ce blog fait partie de slabb.dev — le site qui prouve ce qu'il dit.</b>
+      <p data-en="Sealed pages, a live agent demo, and a public benchmark. RSS if you prefer machines.">Pages scellées, une démo d'agent en direct, et un bench public. RSS si vous préférez les machines.</p>
+    </div>
+    <div class="cb">
+      <a class="hot" href="https://slabb.dev" data-en="the site →">le site →</a>
+      <a href="https://slabb.dev/agent.html" data-en="the agent demo →">la démo agent →</a>
+      <a href="rss.xml">RSS</a>
+    </div>
+  </div>
 </main>
 
 <footer>
@@ -38,46 +94,72 @@
 <script src="js/marked.min.js"></script>
 <script>
 (function(){
-  var LBL={agents:['Agents IA','AI agents'],securite:['Sécurité','Security'],preuve:['Preuve & conformité','Proof & compliance'],web:['Web & produit','Web & product'],devops:['DevOps & CI/CD','DevOps & CI/CD'],ia:['IA','AI'],crypto:['Crypto','Crypto']};
-  function tl(k){var v=LBL[k]||[k,k];return document.documentElement.lang==='en'?v[1]:v[0]}
   var en=false,POSTS=[],chip=null;
-  var chips=document.getElementById('chips'),list=document.getElementById('list'),sub=document.getElementById('sub');
+  var LBL={agents:['Agents IA','AI agents'],securite:['Sécurité','Security'],preuve:['Preuve & conformité','Proof & compliance'],web:['Web & produit','Web & product'],devops:['DevOps & CI/CD','DevOps & CI/CD'],crypto:['Crypto','Crypto'],ia:['IA','AI']};
+  function tl(k){var v=LBL[k]||[k,k];return en?v[1]:v[0]}
+  function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!==undefined)e.innerHTML=h;return e}
+  function esc(x){return String(x).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function parseFM(txt){
     if(txt.indexOf('---')!==0)return{fm:{},body:txt};
     var end=txt.indexOf('---',3),fm={},body=txt.slice(end+3).replace(/^\s+/,'');
     txt.slice(3,end).split('\n').forEach(function(l){var i=l.indexOf(':');if(i>0)fm[l.slice(0,i).trim()]=l.slice(i+1).trim().replace(/^["']|["']$/g,'')});
     return{fm:fm,body:body};
   }
+  function title(p){return (en&&p.titre_en)?p.titre_en:p.titre}
+  function resume(p){return (en&&p.resume_en)?p.resume_en:p.resume}
+  function link(p){return p.slug}
+  function card(p){
+    var d=el('a','pcard');d.href=link(p);
+    d.innerHTML=(p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.image_alt||'')+'">':'')+
+      '<div class="pbody"><span class="pd">'+p.date+(p.en?' <span class="flag">FR+EN</span>':'')+'</span>'+
+      '<h3>'+esc(title(p))+'</h3><p class="pr">'+esc(resume(p).slice(0,150))+(resume(p).length>150?'…':'')+'</p>'+
+      '<div class="pt">'+p.themes.map(function(k){return '<span class="badge">'+tl(k)+'</span>'}).join('')+'</div></div>';
+    return d;
+  }
   function render(){
-    list.innerHTML='';
-    var langs=document.documentElement.lang==='en'?'en':'fr';
-    POSTS.filter(function(p){return !chip||p.themes.indexOf(chip)>=0}).forEach(function(p){
-      var d=en&&p.resume_en?p.resume_en:p.resume, t=en&&p.titre_en?p.titre_en:p.titre;
-      var l=(en&&p.en)||'fr';
-      var card=document.createElement('div');card.className='post';
-      card.innerHTML='<span class="pdate">'+p.date+'</span> <span class="flag">'+l.toUpperCase()+'</span>'+
-        '<h2><a href="'+p.slug+'">'+t+'</a></h2>'+
-        '<p class="pres">'+d+'</p>'+
-        '<div class="ptags">'+p.themes.map(function(k){return '<span class="badge">'+tl(k)+'</span>'}).join('')+'</div>';
-      list.appendChild(card);
+    var hero=document.getElementById('hero');
+    hero.innerHTML='';hero.style.display=POSTS.length?'grid':'none';
+    if(POSTS.length){
+      var p=POSTS[0];
+      var f=el('div','feat');
+      f.innerHTML=(p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.image_alt||'')+'">':'')+
+        '<div class="fbody"><span class="pd" style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">'+p.date+' · '+p.themes.map(tl).join(' · ')+(p.en?' · FR+EN':'')+'</span>'+
+        '<h2><a href="'+link(p)+'">'+esc(title(p))+'</a></h2><p class="pres">'+esc(resume(p).slice(0,220))+(resume(p).length>220?'…':'')+'</p>'+
+        '<a class="readmore" href="'+link(p)+'">'+(en?'read the post →':'lire l\'article →')+'</a></div>';
+      hero.appendChild(f);
+      var rest=POSTS.slice(1,5);
+      if(rest.length){
+        var side=el('div','fil'),h=el('div','filh');h.textContent=en?'the feed':'le fil des publications';side.appendChild(h);
+        rest.forEach(function(r){
+          var row=el('div','filrow');
+          row.innerHTML='<span class="fd">'+r.date+(r.en?' · FR+EN':'')+'</span><a href="'+link(r)+'">'+esc(title(r))+'</a>';
+          side.appendChild(row);
+        });
+        hero.appendChild(side);
+      }
+    }
+    var bar=document.getElementById('tbar');bar.innerHTML='';bar.style.display=POSTS.length?'flex':'none';
+    var counts={};POSTS.forEach(function(p){counts[p.themes[0]]=(counts[p.themes[0]]||0)+1});
+    var a1=el('a');a1.href='#dernieres';a1.textContent=en?'Latest':'Dernières';bar.appendChild(a1);
+    Object.keys(counts).forEach(function(k){var a=el('a');a.href='#theme-'+k;a.textContent=tl(k)+' ('+counts[k]+')';bar.appendChild(a)});
+    var dc=document.getElementById('dernCards');dc.innerHTML='';
+    POSTS.forEach(function(p){dc.appendChild(card(p))});
+    var ts=document.getElementById('tsections');ts.innerHTML='';
+    Object.keys(counts).forEach(function(k){
+      var posts=POSTS.filter(function(p){return p.themes[0]===k});
+      var sec=el('section','tsec');sec.id='theme-'+k;
+      sec.innerHTML='<p class="kicker">// '+tl(k).toLowerCase()+' — '+posts.length+(en?' posts':' articles')+'</p>';
+      var g=el('div','cards');posts.forEach(function(p){g.appendChild(card(p))});sec.appendChild(g);
+      ts.appendChild(sec);
     });
-    if(!list.children.length) list.innerHTML='<p class="sub" style="color:var(--muted)">'+(en?'no post under this theme yet.':'aucun article sous ce thème pour l\'instant.')+'</p>';
+    document.getElementById('sub').innerHTML=en?'What I build, break and measure — published in French first, English when the translation is ready. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure — publié en FR d\'abord, EN quand la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
   }
-  function renderChips(){
-    var all={};POSTS.forEach(function(p){p.themes.forEach(function(k){all[k]=(all[k]||0)+1})});
-    chips.innerHTML='';
-    function mk(k){var n=k==='all'?POSTS.length:all[k]||0;
-      var b=document.createElement('button');b.className='badge on';b.setAttribute('data-k',k);
-      b.textContent=(k==='all'?(en?'All':'Tout'):tl(k))+' ('+n+')';
-      b.addEventListener('click',function(){chip=(chip===k)?null:k;blip(1800);renderChips();render()});
-      chips.appendChild(b);}
-    mk('all');Object.keys(all).forEach(mk);
-  }
+  function renderChips(){}
   fetch('INDEX.md').then(function(r){return r.text()}).then(function(t){
     var slugs=t.split('\n').filter(function(l){return /^- [a-z0-9-]+$/.test(l.trim())}).map(function(l){return l.trim().slice(2)});
     return Promise.all(slugs.map(function(slug){
       return fetch('posts/'+slug+'.fr.md').then(function(r){return r.text()}).then(function(fr){
-        var f=parseFM(fr),p={slug:slug,titre:f.fm.titre||slug,resume:f.fm.resume||'',resume_en:f.fm.resume_en||'',titre_en:f.fm.titre_en||f.fm.titre,date:f.fm.date||'',themes:(f.fm.themes||'').split(',').map(function(x){return x.trim()}).filter(Boolean)};
+        var f=parseFM(fr),p={slug:slug,titre:f.fm.titre||slug,resume:f.fm.resume||'',resume_en:f.fm.resume_en||'',titre_en:f.fm.titre_en||f.fm.titre,date:f.fm.date||'',image:f.fm.image||'',image_alt:f.fm.image_alt||'',themes:(f.fm.themes||'').split(',').map(function(x){return x.trim()}).filter(Boolean)};
         return fetch('posts/'+slug+'.en.md').then(function(r){if(!r.ok)throw 0;return r.text()},function(){return null}).then(function(enm){
           if(enm){var fe=parseFM(enm);p.en='en';if(!p.titre_en)p.titre_en=fe.fm.titre;if(!p.resume_en)p.resume_en=fe.fm.resume;}
           return p;
@@ -86,19 +168,19 @@
     }));
   }).then(function(ps){
     POSTS=ps.filter(function(p){return p.titre});
-    renderChips();render();
-  }).catch(function(){list.innerHTML='<p class="sub" style="color:var(--muted)">INDEX.md introuvable — vérifiez le dépôt.</p>'});
+    render();
+  }).catch(function(){
+    document.getElementById('list')&&(document.getElementById('list').innerHTML='<p class="sub" style="color:var(--muted)">INDEX.md introuvable.</p>');
+  });
   var lb=document.getElementById('langBtn');
   lb.addEventListener('click',function(){
     en=!en;
     document.documentElement.lang=en?'en':'fr';
     lb.textContent=en?'FR':'EN';lb.setAttribute('aria-pressed',en?'true':'false');
-    sub.innerHTML=en?'What I build, break and measure — published in French first, English when the translation is ready. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure — publié en FR d\'abord, EN quand la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
-    renderChips();render();
+    render();
   });
   if(!/^fr/i.test(navigator.language||'fr')) lb.click();
 })();
-function blip(f){try{var a=window.__ba||(window.__ba=new (window.AudioContext||window.webkitAudioContext)());var o=a.createOscillator(),g=a.createGain(),t=a.currentTime;o.type='square';o.frequency.value=f||1800;g.gain.setValueAtTime(.02,t);g.gain.exponentialRampToValueAtTime(.0001,t+.05);o.connect(g).connect(a.destination);o.start(t);o.stop(t+.06)}catch(e){}}
 </script>
 </body>
 </html>

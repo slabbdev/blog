@@ -21,4 +21,34 @@ sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps
 sm += ''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls)
 sm += '</urlset>\n'
 (root / 'sitemap.xml').write_text(sm)
+import datetime
 print(f'gen.py : {len(slugs)} pages slug + sitemap.xml ({", ".join(slugs)})')
+
+# ---- rss.xml ----
+import email.utils, html as _h
+items = []
+for slug in slugs:
+    f = (root / f'posts/{slug}.fr.md')
+    if not f.exists():
+        continue
+    fm, body = {}, f.read_text()
+    if body.startswith('---'):
+        block = body[3:body.index('---', 3)]
+        for line in block.splitlines():
+            if ':' in line:
+                k, v = line.split(':', 1)
+                fm[k.strip()] = v.strip().strip('"')
+    items.append((slug, fm))
+rss = '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>\n'
+rss += '<title>blog.slabb.dev — Sam Labbe</title>\n<link>https://blog.slabb.dev</link>\n'
+rss += '<description>Agents IA, sécurité &amp; preuve — FR d\'abord</description>\n<language>fr</language>\n'
+for slug, fm in items:
+    t = _h.escape(fm.get('titre', slug))
+    d = _h.escape(fm.get('resume', ''))
+    dt = fm.get('date', '')
+    rfc = email.utils.format_datetime(datetime.datetime.fromisoformat(dt)) if dt else ''
+    rss += f'<item><title>{t}</title><link>{BASE}/{slug}</link><guid>{BASE}/{slug}</guid><description>{d}</description>'
+    rss += (f'<pubDate>{rfc}</pubDate>' if rfc else '') + '</item>\n'
+rss += '</channel></rss>\n'
+(root / 'rss.xml').write_text(rss)
+print('rss.xml :', len(items), 'items')
