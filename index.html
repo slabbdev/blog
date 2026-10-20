@@ -17,8 +17,11 @@
 .feat .pres{color:var(--dim);font-size:.95rem;margin-bottom:16px}
 .readmore{font-family:var(--mono);font-size:.8rem;color:var(--accent)}
 .filh{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:14px 16px;border-bottom:1px solid var(--line)}
-.filrow{padding:14px 16px;border-bottom:1px solid var(--line)}
+.filrow{display:flex;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}
 .filrow:last-child{border-bottom:none}
+.rthumb{width:46px;height:46px;border-radius:8px;object-fit:cover;flex:none;border:1px solid var(--line)}
+.rthumb.brandmark{background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0b0d'/%3E%3Crect x='20' y='20' width='24' height='24' rx='4' fill='%237de8a9'/%3E%3C/svg%3E") center/cover;border-color:var(--line)}
+.filrow .fd{margin:0}
 .filrow .fd{font-family:var(--mono);font-size:.68rem;color:var(--muted)}
 .filrow a{display:block;font-size:.92rem;font-weight:500;margin:4px 0}
 .filrow a:hover{color:var(--accent)}
@@ -140,7 +143,8 @@
         var side=el('div','fil'),h=el('div','filh');h.textContent=en?'the feed':'le fil des publications';side.appendChild(h);
         rest.forEach(function(r){
           var row=el('div','filrow');
-          row.innerHTML='<span class="fd">'+r.date+(r.en?' · FR+EN':'')+'</span><a href="'+link(r)+'">'+esc(title(r))+'</a>';
+          var th=r.image?'<img class="rthumb" src="'+esc(r.image)+'" alt="">':'<div class="rthumb brandmark"></div>';
+          row.innerHTML=th+'<div><span class="fd">'+r.date+(r.en?' · FR+EN':'')+'</span><a href="'+link(r)+'">'+esc(title(r))+'</a></div>';
           side.appendChild(row);
         });
         hero.appendChild(side);
