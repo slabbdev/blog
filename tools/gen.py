@@ -12,7 +12,7 @@ tpl = (root / 'article.html').read_text()
 urls = [BASE + '/']
 for slug in slugs:
     page = tpl.replace('</head>',
-        f'<link rel="canonical" href="{BASE}/{slug}">\n'
+        f'<link rel="canonical" href="{BASE}/posts/{slug}">\n'
         f'<script>window.POST_SLUG="{slug}";window.POST_LANG="fr";</script>\n</head>')
     (root / f'posts/{slug}.html').write_text(page)
     (root / f'{slug}.html').unlink(missing_ok=True)  # stubs racine de l'ancienne organisation
