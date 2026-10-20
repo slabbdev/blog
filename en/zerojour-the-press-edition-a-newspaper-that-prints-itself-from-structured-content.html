@@ -151,8 +151,8 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
 (function(){
   var q=new URLSearchParams(location.search);
   var slug=window.POST_SLUG||q.get('p')||'';
-  if(window.POST_LANG) langs=window.POST_LANG;
   var langs=q.get('l')==='en'?'en':'fr';
+  if(window.POST_LANG) langs=window.POST_LANG;
   function L(fr,en){return langs==='en'?en:fr}
   var other=(langs==='en')?'fr':'en';
   var sw=document.getElementById('langSwitch');

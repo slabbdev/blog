@@ -3,7 +3,7 @@ titre: "The quietest backdoor runs on your own GPU"
 date: 2026-10-20
 themes: securite, agents
 resume: "ProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design — and no scanner can read the source. La frontière d'exécution est le seul grade qui reste."
-image: (à compléter après publication dev.to)
+image: https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/0x4d1aw3wlyfvu34mh53.png
 image_alt: "The quietest backdoor runs on your own GPU"
 ---
 
