@@ -49,9 +49,19 @@ footer{border-top:1px solid var(--line);margin-top:72px}
 .md strong{color:var(--fg)}
 .md ul,.md ol{margin:0 0 18px 22px}
 .md li{margin-bottom:8px}
-.md code{font-family:var(--mono);font-size:.85em;background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.md code{font-family:var(--mono);font-size:.9em;background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
 .md pre{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;overflow-x:auto;margin:0 0 20px}
-.md pre code{background:none;border:none;padding:0;font-size:.8rem;line-height:1.6}
+.md pre code{background:none;border:none;padding:0;font-size:.92rem;line-height:1.75;color:#c7cec9}
+/* coloration syntaxique — palette maison, sobre */
+.hljs-keyword,.hljs-selector-tag,.hljs-literal{color:var(--accent)}
+.hljs-string,.hljs-regexp{color:#f0c674}
+.hljs-comment,.hljs-quote{color:var(--muted);font-style:italic}
+.hljs-number,.hljs-symbol{color:#8fc6ff}
+.hljs-title,.hljs-title.function_{color:#eceee9;font-weight:500}
+.hljs-built_in,.hljs-type,.hljs-title.class_{color:#c9a6ff}
+.hljs-attr,.hljs-attribute,.hljs-variable,.hljs-template-variable{color:#9ad6b8}
+.hljs-meta,.hljs-doctag{color:var(--muted)}
+.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-addition{color:var(--accent)}.hljs-deletion{color:#f87171}
 .md blockquote{border-left:2px solid var(--accent);padding:6px 0 6px 18px;margin:0 0 20px;color:var(--dim);overflow-x:auto}
 .md img{max-width:100%;border-radius:10px}
 .md hr{border:none;border-top:1px solid var(--line);margin:34px 0}
