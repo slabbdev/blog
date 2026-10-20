@@ -203,7 +203,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     fetch('/INDEX.md').then(function(r){return r.text()}).then(function(t){
       var slugs=t.split('\n').filter(function(l){return /^- [a-z0-9-]+$/.test(l.trim())}).map(function(l){return l.trim().slice(2)}).filter(function(x){return x!==slug});
       Promise.all(slugs.map(function(sg){
-        return fetch('posts/'+sg+'.fr.md').then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(txt){
+        return fetch('/posts/'+sg+'.fr.md').then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(txt){
           var f=parseFM(txt);
           return {slug:sg,titre:f.fm.titre,titre_en:f.fm.titre_en,date:f.fm.date,image:f.fm.image||'',themes:(f.fm.themes||'').split(',').map(function(x){return x.trim()})};
         },function(){return null});
