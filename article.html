@@ -113,6 +113,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
 (function(){
   var q=new URLSearchParams(location.search);
   var slug=window.POST_SLUG||q.get('p')||'';
+  if(window.POST_LANG) langs=window.POST_LANG;
   var langs=q.get('l')==='en'?'en':'fr';
   var other=(langs==='en')?'fr':'en';
   var sw=document.getElementById('langSwitch');
@@ -181,7 +182,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     cache.fr=parseFM(fr);
     fetch('/posts/'+slug+'.en.md').then(function(r){if(!r.ok)throw 0;return r.text()},function(){return null}).then(function(enm){
       if(enm){cache.en=parseFM(enm);cache.en.fm.titre_en=cache.en.fm.titre;cache.en.fm.resume_en=cache.en.fm.resume;sw.style.display='inline-block';sw.textContent=other.toUpperCase();
-        sw.onclick=function(){location.href='/article.html?p='+encodeURIComponent(slug)+(other==='en'?'&l=en':'')};}
+        sw.onclick=function(){location.href='/'+other+'/'+slug};}
       render(langs);related();
     });
   }).catch(function(){

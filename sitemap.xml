@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://blog.slabb.dev/</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/five-witnesses</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/but-ethical</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/ten-findings</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/xbox-verification</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/rust-memory-safety</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/authority-ladder</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/level-0-controls</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/bashrc-tilde</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/pretraining-gravity</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/hash-chain</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/bitcoin-anchor</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/telegram-semicolon</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/docker-agent-wall</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/tollbooth-real-web</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/verifier-won</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/dns-root-rotation</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/claude-diary</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/status-page</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/agents-seatbelt</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/mb-to-orbit</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/always-on-agents</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/ai-act-logs</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/tinyjs-studio</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/zerojour-press</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/zerojour-advisories</loc></url>
-  <url><loc>https://blog.slabb.dev/posts/flight-data-recorder</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://blog.slabb.dev/fr/five-witnesses</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/five-witnesses"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/five-witnesses"/></url>
+  <url><loc>https://blog.slabb.dev/en/five-witnesses</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/five-witnesses"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/five-witnesses"/></url>
+  <url><loc>https://blog.slabb.dev/fr/but-ethical</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/but-ethical"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/but-ethical"/></url>
+  <url><loc>https://blog.slabb.dev/en/but-ethical</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/but-ethical"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/but-ethical"/></url>
+  <url><loc>https://blog.slabb.dev/fr/ten-findings</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/ten-findings"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/ten-findings"/></url>
+  <url><loc>https://blog.slabb.dev/en/ten-findings</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/ten-findings"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/ten-findings"/></url>
+  <url><loc>https://blog.slabb.dev/fr/xbox-verification</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/xbox-verification"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/xbox-verification"/></url>
+  <url><loc>https://blog.slabb.dev/en/xbox-verification</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/xbox-verification"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/xbox-verification"/></url>
+  <url><loc>https://blog.slabb.dev/fr/rust-memory-safety</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/rust-memory-safety"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/rust-memory-safety"/></url>
+  <url><loc>https://blog.slabb.dev/en/rust-memory-safety</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/rust-memory-safety"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/rust-memory-safety"/></url>
+  <url><loc>https://blog.slabb.dev/fr/authority-ladder</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/authority-ladder"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/authority-ladder"/></url>
+  <url><loc>https://blog.slabb.dev/en/authority-ladder</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/authority-ladder"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/authority-ladder"/></url>
+  <url><loc>https://blog.slabb.dev/fr/level-0-controls</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/level-0-controls"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/level-0-controls"/></url>
+  <url><loc>https://blog.slabb.dev/en/level-0-controls</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/level-0-controls"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/level-0-controls"/></url>
+  <url><loc>https://blog.slabb.dev/fr/bashrc-tilde</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/bashrc-tilde"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/bashrc-tilde"/></url>
+  <url><loc>https://blog.slabb.dev/en/bashrc-tilde</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/bashrc-tilde"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/bashrc-tilde"/></url>
+  <url><loc>https://blog.slabb.dev/fr/pretraining-gravity</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/pretraining-gravity"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/pretraining-gravity"/></url>
+  <url><loc>https://blog.slabb.dev/en/pretraining-gravity</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/pretraining-gravity"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/pretraining-gravity"/></url>
+  <url><loc>https://blog.slabb.dev/fr/hash-chain</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/hash-chain"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/hash-chain"/></url>
+  <url><loc>https://blog.slabb.dev/en/hash-chain</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/hash-chain"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/hash-chain"/></url>
+  <url><loc>https://blog.slabb.dev/fr/bitcoin-anchor</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/bitcoin-anchor"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/bitcoin-anchor"/></url>
+  <url><loc>https://blog.slabb.dev/en/bitcoin-anchor</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/bitcoin-anchor"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/bitcoin-anchor"/></url>
+  <url><loc>https://blog.slabb.dev/fr/telegram-semicolon</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/telegram-semicolon"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/telegram-semicolon"/></url>
+  <url><loc>https://blog.slabb.dev/en/telegram-semicolon</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/telegram-semicolon"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/telegram-semicolon"/></url>
+  <url><loc>https://blog.slabb.dev/fr/docker-agent-wall</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/docker-agent-wall"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/docker-agent-wall"/></url>
+  <url><loc>https://blog.slabb.dev/en/docker-agent-wall</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/docker-agent-wall"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/docker-agent-wall"/></url>
+  <url><loc>https://blog.slabb.dev/fr/tollbooth-real-web</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/tollbooth-real-web"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/tollbooth-real-web"/></url>
+  <url><loc>https://blog.slabb.dev/en/tollbooth-real-web</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/tollbooth-real-web"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/tollbooth-real-web"/></url>
+  <url><loc>https://blog.slabb.dev/fr/verifier-won</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/verifier-won"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/verifier-won"/></url>
+  <url><loc>https://blog.slabb.dev/en/verifier-won</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/verifier-won"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/verifier-won"/></url>
+  <url><loc>https://blog.slabb.dev/fr/dns-root-rotation</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/dns-root-rotation"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/dns-root-rotation"/></url>
+  <url><loc>https://blog.slabb.dev/en/dns-root-rotation</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/dns-root-rotation"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/dns-root-rotation"/></url>
+  <url><loc>https://blog.slabb.dev/fr/claude-diary</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/claude-diary"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/claude-diary"/></url>
+  <url><loc>https://blog.slabb.dev/en/claude-diary</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/claude-diary"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/claude-diary"/></url>
+  <url><loc>https://blog.slabb.dev/fr/status-page</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/status-page"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/status-page"/></url>
+  <url><loc>https://blog.slabb.dev/en/status-page</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/status-page"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/status-page"/></url>
+  <url><loc>https://blog.slabb.dev/fr/agents-seatbelt</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/agents-seatbelt"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/agents-seatbelt"/></url>
+  <url><loc>https://blog.slabb.dev/en/agents-seatbelt</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/agents-seatbelt"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/agents-seatbelt"/></url>
+  <url><loc>https://blog.slabb.dev/fr/mb-to-orbit</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/mb-to-orbit"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/mb-to-orbit"/></url>
+  <url><loc>https://blog.slabb.dev/en/mb-to-orbit</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/mb-to-orbit"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/mb-to-orbit"/></url>
+  <url><loc>https://blog.slabb.dev/fr/always-on-agents</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/always-on-agents"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/always-on-agents"/></url>
+  <url><loc>https://blog.slabb.dev/en/always-on-agents</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/always-on-agents"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/always-on-agents"/></url>
+  <url><loc>https://blog.slabb.dev/fr/ai-act-logs</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/ai-act-logs"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/ai-act-logs"/></url>
+  <url><loc>https://blog.slabb.dev/en/ai-act-logs</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/ai-act-logs"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/ai-act-logs"/></url>
+  <url><loc>https://blog.slabb.dev/fr/tinyjs-studio</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/tinyjs-studio"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/tinyjs-studio"/></url>
+  <url><loc>https://blog.slabb.dev/en/tinyjs-studio</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/tinyjs-studio"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/tinyjs-studio"/></url>
+  <url><loc>https://blog.slabb.dev/fr/zerojour-press</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/zerojour-press"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/zerojour-press"/></url>
+  <url><loc>https://blog.slabb.dev/en/zerojour-press</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/zerojour-press"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/zerojour-press"/></url>
+  <url><loc>https://blog.slabb.dev/fr/zerojour-advisories</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/zerojour-advisories"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/zerojour-advisories"/></url>
+  <url><loc>https://blog.slabb.dev/en/zerojour-advisories</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/zerojour-advisories"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/zerojour-advisories"/></url>
+  <url><loc>https://blog.slabb.dev/fr/flight-data-recorder</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/flight-data-recorder"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/flight-data-recorder"/></url>
+  <url><loc>https://blog.slabb.dev/en/flight-data-recorder</loc><xhtml:link rel="alternate" hreflang="fr" href="https://blog.slabb.dev/fr/flight-data-recorder"/><xhtml:link rel="alternate" hreflang="en" href="https://blog.slabb.dev/en/flight-data-recorder"/></url>
 </urlset>
