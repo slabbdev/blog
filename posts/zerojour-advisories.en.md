@@ -1,0 +1,99 @@
+---
+titre: "ZéroJour: an advisories agent that only works because the content is structured — and we prove it"
+date: 2026-09-29
+themes: agents, preuve
+resume: "Most entries will claim their agent works thanks to structured content. This one measures..."
+source: https://dev.to/slabb/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it-12m1
+---
+
+_Most entries will *claim* their agent works thanks to structured content. This one **measures** it._
+
+ZéroJour is an agent that answers security-advisory questions — the kind an analyst actually asks: *"I run axios 1.2.0, which advisories affect exactly that version?"* or *"network vector, no privileges, no user interaction, score 8+, what fixes each one?"* Answering requires intersecting version ranges, CVSS components, fix status and CWE references across 82 real advisories. A keyword search cannot do that — and we didn't argue it, we measured it.
+
+{% github slabbdev/zerojour %}
+
+## The 3-arm eval
+
+The same model — `glm-4.5-flash`, a free-tier model, via an OpenAI-compatible endpoint — answers every question **three ways**:
+
+| Arm | What it gets | Score |
+| --- | --- | --- |
+| Structured | Sanity Context MCP (GROQ + Knowledge Base) | **9/11** |
+| Naive | Flat keyword search over the same docs | **1/11** |
+| No-tools | The model alone (memorization control) | **0/11** |
+
+Stable across two independent full runs. The bare model scores **zero**: the corpus is deliberately seeded with **2026 advisories that postdate every model's training data** (including one with no published fix at all), so regurgitation cannot fake a win. Ground truth is computed independently from the seed data with plain predicates and semver — never through Sanity.
+
+And the full eval run, question by question — note the no-tools arm failing on all three sample questions above it:
+
+![The real eval run: three arms side by side, question by question](https://raw.githubusercontent.com/slabbdev/zerojour/main/docs/screens/eval-run.png)
+
+**The two misses, in full honesty** (both model-side, both verifiable):
+
+- *Aggregation* ("which package has the most advisories ≥ 7.0?"): the flash model twice claimed `paramiko` — the dataset says `pillow` (4 advisories ≥ 7.0; paramiko has 2). Counting groups reliably at long context is exactly what small models do badly, and we say so instead of hiding it.
+- *"Most recent advisory"*: the model twice grabbed the first document in default storage order (a 2018 advisory) instead of applying `order(published desc)`.
+
+A stronger model is one env variable away (`AGENT_MODEL`) — the harness, the sealed transcripts and the eval all replay with any OpenAI-compatible model.
+
+## What I Built
+
+One dataset, two products. This post is the **measured agent**; my [Path Two submission](#https://dev.to/slabb/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content-where-the-2734) is a newspaper that prints from the same 82 advisories, where the machine composes and only a human can publish. Same source of truth — two different proofs of the same thesis. (The contest rules explicitly allow one entry per path, and even have a tie-break clause for people doing both.)
+
+Three pieces, all real, all running:
+
+1. **A structured corpus** — 82 real advisories (16 npm/pip packages, 50 CWEs, 16 remediation playbooks), fetched from the GitHub Advisory Database (CC-BY-4.0) + the CISA KEV catalog. Withdrawn and malware advisories excluded. `npm run fetch:advisories` rebuilds the whole corpus from live sources — nothing hand-written is imported.
+2. **The agent** — an MCP client over Sanity Context with one local deterministic tool, wrapped in a demo UI where you can watch the tool trace live.
+3. **The proof harness** — 11 eval questions with independent ground truth, a keyword-search baseline, a no-tools arm, and every step sealed into a tamper-evident journal.
+
+## Demo
+
+Ask the structured agent a version question and watch the trace:
+
+![The duel UI: one question, two answers, the scoreboard above](https://raw.githubusercontent.com/slabbdev/zerojour/main/docs/screens/agent-duel.png)
+
+The demo UI runs the duel live: the structured arm cites the exact range (`>= 1.0.0, < 1.18.0`) and fix (`1.18.0`) and separates affected from not-affected; the keyword arm admits it *"lacks the version-specific details needed to determine if axios 1.2.0 is affected"*.
+
+The dataset is public — judges can query it themselves, right now:
+
+```bash
+curl -G "https://ngvnxjkl.api.sanity.io/v2025-01-01/data/query/production" \
+  --data-urlencode 'query=*[_type=="advisory" && severity.components.attackVector=="NETWORK" && severity.components.privilegesRequired=="NONE" && severity.baseScore>=8]{cveId, "score": severity.baseScore, "fix": fix.fixedVersion}'
+# → real results, ~15 ms
+```
+
+Run everything locally: `npm install && npm run eval` replays the whole three-arm comparison.
+
+## How I Used Sanity / My Build Process
+
+- **Schema thoughtfulness**: `advisory` carries version ranges (introduced/fixed/lastAffected), CVSS components **parsed from the official vector string** (so agents query `severity.components.privilegesRequired`, not regex over text), fix status, exploit maturity (sourced ONLY from the CISA KEV catalog — never guessed), and CWE references. `playbook` holds generated remediation prose. `pressArticle` carries an editorial workflow.
+- **Sanity Context, both modes**: one endpoint serves the dataset in GROQ mode; a second serves a Knowledge Base built from the playbook + advisory prose (98 docs, under the 150-doc beta limit). One endpoint serves ONE mode — a dataset-source endpoint ignores KB sources — so the agent connects to both and prefixes the KB tools.
+- **The semver trap**: GROQ compares version strings lexicographically (`"1.10.0" < "1.9.0"`). The agent gets one local deterministic tool (`version_in_range`, real semver) and the schema docs say why. Range checks never happen inside the query.
+- **Iteration honesty**: eval v1 scored 9/11, prompt guards for ordering/aggregation kept it at 9/11 on the re-run — the failures stayed model-side, and the post reports them instead of hiding them.
+
+## Sanity Project Details
+
+- Project ID: **`ngvnxjkl`** · dataset: `production` (public)
+- Public query URL: https://ngvnxjkl.api.sanity.io/v2025-01-01/data/query/production
+- Backend: [github.com/slabbdev/zerojour](https://github.com/slabbdev/zerojour) — 15 tests, mock-MCP integration suite, zero-build demo UI. `npm run eval` replays everything.
+
+## Bonus: auditability — sealing the agent with NoireBox
+
+LLM logs are the only logs nobody trusts by default. So every step of this agent — each query, each MCP tool call, each answer, each eval verdict — is sealed into a local [NoireBox](https://github.com/slabbdev/noirebox) journal: SHA-256 hash chain, Ed25519 signatures, RFC 3161 timestamps.
+
+![The NoireBox flight deck: chain intact, every link visible](https://raw.githubusercontent.com/slabbdev/zerojour/main/docs/screens/noirebox-dashboard.png)
+
+And the part that matters: edit one sealed answer after the fact, and the chain breaks loudly.
+
+![The tampered journal: TAMPERING — invalid hash (content was modified)](https://raw.githubusercontent.com/slabbdev/zerojour/main/docs/screens/noirebox-tamper-broken.png)
+
+That screenshot is real: we copied the journal, edited one agent answer in the copy, and the verifier named the broken link. The uploader's Agent Sessions show your work; the journal proves it wasn't touched afterwards. Same instinct, cryptographic.
+
+**And sealing is not ZéroJour-specific.** NoireBox ships a standard MCP server, so *your* agent — whoever is reading this — can mount it with one config block and get the same tamper-evident trail: [docs/witness-for-any-agent.md](https://github.com/slabbdev/zerojour/blob/main/docs/witness-for-any-agent.md). Running an entry for this challenge? Seal your own. Nobody should take our word for what an agent did — including us.
+
+## Agent Session
+
+Our build ran inside ZCode, which is not one of the transcript uploaders this template supports (Claude Code, Gemini CLI, Codex, Copilot CLI, Pi) — so there is no session file to embed. We did the next best thing, and arguably a stronger one: **every step of every agent run is sealed into the NoireBox journal** shown above. The full trace — each `initial_context` call, each GROQ query, each `version_in_range` intersection, each eval verdict — is publicly replayable from the repo (`npm run eval`) and verifiable against the sealed chain. Same goal as an embedded session: you can check exactly what the agent did, without taking our word for it.
+
+## Code
+
+[github.com/slabbdev/zerojour](https://github.com/slabbdev/zerojour) — `npm run eval` replays the whole thing. This is one of two ZéroJour submissions; the newspaper edition lives in the [Path Two post](#) (linked once published).
