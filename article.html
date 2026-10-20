@@ -108,6 +108,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
 </footer>
 
 <script src="js/marked.min.js"></script>
+<script src="js/highlight.min.js"></script>
 <script>
 (function(){
   var q=new URLSearchParams(location.search);
@@ -145,6 +146,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     if(c.fm.image){hw.style.display='block';document.getElementById('hero').src=c.fm.image;document.getElementById('hero').alt=c.fm.image_alt||t;document.getElementById('heroCap').textContent=c.fm.image_alt||'';}
     else hw.style.display='none';
     document.getElementById('content').innerHTML=marked.parse(c.body);
+    if(window.hljs) document.querySelectorAll('.md pre code').forEach(function(b){try{hljs.highlightElement(b)}catch(e){}});
     document.getElementById('back').textContent=L('← tous les articles','← all posts');
     document.querySelector('[data-share]').textContent=L('partager','share');
     document.getElementById('shCopy').textContent=L('copier le lien','copy link');
