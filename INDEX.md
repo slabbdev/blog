@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8
 - the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742
 - the-quietest-backdoor-runs-on-your-own-gpu-5ggb
 - opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine
