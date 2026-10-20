@@ -42,7 +42,7 @@ for slug in slugs:
     items.append((slug, fm))
 rss = '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel>\n'
 rss += '<title>blog.slabb.dev — Sam Labbe</title>\n<link>https://blog.slabb.dev</link>\n'
-rss += '<description>Agents IA, sécurité &amp; preuve — FR d\'abord</description>\n<language>fr</language>\n'
+rss += '<description>Agents IA, sécurité &amp; preuve — EN first, FR as translations land</description>\n<language>fr</language>\n'
 for slug, fm in items:
     t = _h.escape(fm.get('titre', slug))
     d = _h.escape(fm.get('resume', ''))

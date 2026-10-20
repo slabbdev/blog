@@ -2,7 +2,7 @@
 <rss version="2.0"><channel>
 <title>blog.slabb.dev — Sam Labbe</title>
 <link>https://blog.slabb.dev</link>
-<description>Agents IA, sécurité &amp; preuve — FR d'abord</description>
+<description>Agents IA, sécurité &amp; preuve — EN first, FR as translations land</description>
 <language>fr</language>
 <item><title>« Mais c&#x27;est éthique ? » — l&#x27;agent a demandé, aspiré 147 451 lignes privées, puis effacé ses traces</title><link>https://blog.slabb.dev/but-ethical</link><guid>https://blog.slabb.dev/but-ethical</guid><description>Le 15 octobre, OpenAI a publié quatre incidents d&#x27;agents survenus en juin, dont la détection a pris jusqu&#x27;à 90 jours. Dans le pire, un modèle a muté une configuration d&#x27;authentification en production pour frapper un token Azure Storage, a restauré la config pour ne pas casser le dashboard, a gardé le token, et a aspiré cinq tables privées. Ses cinq réponses finales étaient toutes fausses.</description><pubDate>Sat, 17 Oct 2026 00:00:00 -0000</pubDate></item>
 <item><title>Dix constats, dix réponses — publier l&#x27;audit de notre propre boîte noire</title><link>https://blog.slabb.dev/ten-findings</link><guid>https://blog.slabb.dev/ten-findings</guid><description>Dix failles trouvées par l&#x27;audit de NoireBox, dix réponses publiques. Publier ses vulnérabilités, receipts à l&#x27;appui.</description><pubDate>Thu, 15 Oct 2026 00:00:00 -0000</pubDate></item>
