@@ -6,6 +6,8 @@ import base64, hashlib, json, pathlib, sys, datetime
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 GENESIS = 'blog-slabb-dev-genesis'
 KEY = ROOT / 'keys' / 'blog-seal.key'
+FILES = sorted(['index.html', 'article.html', 'legal.html', 'INDEX.md', 'rss.xml']
+           + [p.replace(ROOT.as_posix()+'/', '') for p in __import__('glob').glob(str(ROOT/'posts/*.md'))])
 
 p = 2**255 - 19
 l = 2**252 + 27742317777372353535851937790883648493
@@ -83,11 +85,8 @@ assert publickey(_SK) == _PK and signature(_SK, b'') == _SG and verify(_PK, b'',
 sha = lambda b: hashlib.sha256(b).hexdigest()
 
 def main():
-    import datetime, glob
-    files = sorted(['index.html', 'article.html', 'legal.html', 'INDEX.md', 'rss.xml']
-                   + [f.replace(ROOT.as_posix()+'/', '') for f in glob.glob(str(ROOT/'posts/*.md'))])
     entries = []
-    for name in files:
+    for name in FILES:
         f = ROOT / name
         if not f.exists(): sys.exit(f'manquant : {name}')
         data = f.read_bytes()
@@ -100,25 +99,34 @@ def main():
         KEY.write_bytes(os.urandom(32)); os.chmod(KEY, 0o600)
         print('clé Ed25519 générée → keys/blog-seal.key (0600 — jamais committée)')
     sk = KEY.read_bytes(); pk = publickey(sk)
+
+    if '--verify' in sys.argv:
+        man = json.loads((ROOT / 'manifest.json').read_text())
+        ok = True
+        print(f"site {man['site']} · construit {man['built_at']}")
+        for e in man['files']:
+            f = ROOT / e['name']
+            good = f.exists() and sha(f.read_bytes()) == e['sha256']
+            ok = ok and good
+            print(f"  {'PASS' if good else 'FAIL'}  {e['name']}")
+        chain = sha(GENESIS.encode())
+        for e in man['files']:
+            chain = sha((chain + e['name'] + e['sha256']).encode())
+        chain_ok = (chain == man['head']); ok = ok and chain_ok
+        sig_ok = verify(base64.b64decode(man['pubkey']), man['head'].encode(), base64.b64decode(man['sig']))
+        ok = ok and sig_ok
+        print(f"chaîne {'PASS' if chain_ok else 'FAIL'} · signature {'PASS' if sig_ok else 'FAIL'}")
+        print('VERDICT :', 'INTACT — rien n\'a bougé depuis le dernier scellement.' if ok else 'COMPROMIS ou modifié depuis le dernier scellement.')
+        sys.exit(0 if ok else 1)
+
     sig = signature(sk, head.encode())
     assert verify(pk, head.encode(), sig)
-    if '--verify' in sys.argv:
-        ok = all(sha((ROOT / e['name']).read_bytes()) == e['sha256'] for e in entries)
-        chain = sha(GENESIS.encode())
-        for e in entries: chain = sha((chain + e['name'] + e['sha256']).encode())
-        sig_ok = verify(pk, head.encode(), sig)
-        print('VERDICT :', 'INTACT' if (ok and chain == head and sig_ok) else 'COMPROMIS')
-        sys.exit(0 if (ok and chain == head and sig_ok) else 1)
     man = {'site': 'blog.slabb.dev', 'format': 'seal v1 — SHA-256 chain + Ed25519',
            'built_at': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
            'genesis': GENESIS, 'files': entries, 'head': head,
            'sig': base64.b64encode(sig).decode(), 'pubkey': base64.b64encode(pk).decode(),
-           'fingerprint': 'sha256:' + sha(base64.b64encode(pk).decode())[:16]}
+           'fingerprint': 'sha256:' + sha(pk)[:16]}
     (ROOT / 'manifest.json').write_text(json.dumps(man, indent=1, ensure_ascii=False) + '\n')
-    if '--verify' in sys.argv:
-        ok = all(sha((ROOT / e['name']).read_bytes()) == e['sha256'] for e in entries)
-        print('VERDICT :', 'INTACT' if ok else 'COMPROMIS')
-        sys.exit(0 if ok else 1)
     print(f"scellé — head {head[:16]}…  fingerprint {man['fingerprint']}  ({len(entries)} fichiers)")
 
 main()
