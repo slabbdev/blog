@@ -3,6 +3,9 @@ titre: "Un RCE 9.2 non authentifié dans PHP : l'audit, la fenêtre de patch, et
 date: 2026-10-21
 themes: securite, webdev
 resume: "CERT-EU dit aux sites qui ne peuvent pas patcher de passer hors ligne : deux failles 9.2 dans PHP lui-même, RCE non authentifiée, toutes les versions depuis PHP 5 potentiellement touchées. L'audit, la surveillance, et l'interrupteur — des preuves exécutables pour la fenêtre d'urgence."
+source: https://dev.to/slabb/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7
+image: https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flziflf5ypu667kn7nbey.png
+image_alt: "Un RCE 9.2 non authentifié dans PHP : l'audit, la fenêtre de patch, et l'interrupteur offline"
 ---
 
 > Une agence cyber européenne dit aux sites web qu'ils pourraient devoir être mis **hors ligne**. Pas patchés plus tard. Pas surveillés. Hors ligne. Le runtime qui fait tourner WordPress, Drupal, Joomla, Magento et la majeure partie de l'hébergement mutualisé a deux failles notées 9.2 — exécution de code à distance non authentifiée — et le patch sort aujourd'hui à 14h00 GMT.

@@ -6,7 +6,7 @@ Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), pui
 - mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8
 - the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742
 - the-quietest-backdoor-runs-on-your-own-gpu-5ggb
-- a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-1m2g
+- a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7
 - opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine
 - five-witnesses-and-two-rirs-the-cas-just-discovered-custody
 - but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks

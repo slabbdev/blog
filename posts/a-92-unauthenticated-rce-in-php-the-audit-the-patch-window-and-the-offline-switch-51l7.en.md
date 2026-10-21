@@ -3,7 +3,9 @@ titre: "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the o
 date: 2026-10-21
 themes: securite, webdev
 resume: "CERT-EU says sites that can't patch should go offline: two 9.2 flaws in PHP itself, unauthenticated RCE, every version since PHP 5 possibly affected. The audit, the watch, and the offline switch — runnable receipts for the emergency window."
-source: https://dev.to/slabb/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-1m2g
+source: https://dev.to/slabb/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7
+image: https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flziflf5ypu667kn7nbey.png
+image_alt: "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the offline switch"
 image_alt: "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the offline switch"
 ---
 
