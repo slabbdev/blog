@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vérification — slabb.dev est scellé</title>
+<title>Vérification — blog.slabb.dev est scellé</title>
 <meta name="description" content="Ce site se vérifie : SHA-256 par fichier, chaîne façon journal noirebox, sceau Ed25519. Vérifiez dans votre navigateur, ou hors-bande avec verify.py.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0b0d'/%3E%3Crect x='20' y='20' width='24' height='24' rx='4' fill='%237de8a9'/%3E%3C/svg%3E">
 <style>
@@ -73,7 +73,7 @@ footer{border-top:1px solid var(--line);margin-top:72px}
 
 <header>
   <div class="wrap bar">
-    <a class="brand" href="index.html">slabb<span>.dev</span></a>
+    <a class="brand" href="index.html"><span style="color:var(--accent)">blog</span>.slabb.dev</a>
     <span style="display:flex;gap:12px;align-items:center"><span class="tag" data-en="this site eats its own dog food">le site mange son propre dog food</span><button class="lang" id="langBtn" type="button" aria-pressed="false" aria-label="Changer de langue / Switch language">EN</button></span>
   </div>
 </header>
@@ -95,20 +95,20 @@ footer{border-top:1px solid var(--line);margin-top:72px}
 
   <section>
     <h2 data-en="The key fingerprint">L'empreinte de la clé</h2>
-    <div class="fpbox">sha256:5d7e19291be7eb6b<small data-en="This is the out-of-band pin: if someone controlled this whole site (host, DNS, repository), only this fingerprint, compared with a copy published elsewhere, would reveal the substitution. Same principle as a noirebox receipt.">C'est le pin out-of-band : si quelqu'un contrôlait tout ce site (hébergeur, DNS, dépôt), seule cette empreinte, comparée à une copie publiée ailleurs, trahirait la substitution. Le principe est le même que pour un receipt noirebox.</small></div>
+    <div class="fpbox" id="fpbox"><small data-en="This is the out-of-band pin: if someone controlled this whole site (host, DNS, repository), only this fingerprint, compared with a copy published elsewhere, would reveal the substitution. Same principle as a noirebox receipt.">C'est le pin out-of-band : si quelqu'un contrôlait tout ce site (hébergeur, DNS, dépôt), seule cette empreinte, comparée à une copie publiée ailleurs, trahirait la substitution. Le principe est le même que pour un receipt noirebox.</small></div>
   </section>
 
   <section>
     <h2 data-en="The paranoid ritual (outside the browser)">Le rituel paranoïaque (hors navigateur)</h2>
     <p class="desc" data-en="Don't take my word for it: redo the computation without a browser and without me. One file, Python stdlib, zero dependencies:">Pour ne pas me croire sur parole, refaites le calcul sans navigateur et sans moi. Un seul fichier, stdlib Python, aucune dépendance :</p>
     <pre><code data-en="# against the live site
-curl -sO https://slabb.dev/verify.py
-python3 verify.py https://slabb.dev
+curl -sO https://blog.slabb.dev/verify.py
+python3 verify.py https://blog.slabb.dev
 
 # or on a local clone
 python3 verify.py ."># contre ce site en ligne
-curl -sO https://slabb.dev/verify.py
-python3 verify.py https://slabb.dev
+curl -sO https://blog.slabb.dev/verify.py
+python3 verify.py https://blog.slabb.dev
 
 # ou sur un clone local
 python3 verify.py .</code></pre>
@@ -162,7 +162,7 @@ function L(fr,en){return document.documentElement.lang==='en'?en:fr}
   }
   function sha(buf){ return crypto.subtle.digest('SHA-256',buf).then(hex); }
   function chain(files){
-    var p=Promise.resolve(enc.encode('slabb.dev-genesis'));
+    var p=Promise.resolve(enc.encode('blog-slabb-dev-genesis'));
     files.forEach(function(f){
       p=p.then(function(prev){ return crypto.subtle.digest('SHA-256',prev).then(function(d){
         var s=hex(d)+f.name+f.sha256; return enc.encode(s);
@@ -189,6 +189,7 @@ function L(fr,en){return document.documentElement.lang==='en'?en:fr}
 
     fetch('manifest.json').then(function(r){ return r.json(); }).then(function(man){
       rt.textContent='manifest.json — '+L('construit le ','built on ')+man.built_at+' · format : '+man.format;
+      var fpb=document.getElementById('fpbox');if(fpb)fpb.insertBefore(document.createTextNode(man.fingerprint),fpb.firstChild);
       var p=Promise.resolve();
       man.files.forEach(function(f){
         p=p.then(function(){
