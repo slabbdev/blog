@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8
 - a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7
 - the-quietest-backdoor-runs-on-your-own-gpu-5ggb
 - the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742
