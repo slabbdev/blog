@@ -68,7 +68,6 @@
     <a class="brand" href="index.html" style="color:var(--accent)">Journal de bord</a><span style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">blog.slabb.dev</span>
     <div class="barright">
       <a class="pill" href="https://slabb.dev">← le site</a>
-      <button class="lang" id="langBtn" type="button" aria-pressed="false">EN</button>
     </div>
   </div>
 </header>
@@ -141,7 +140,7 @@
       f.innerHTML=(p.image?'<img src="'+esc(p.image)+'" alt="'+esc(p.image_alt||'')+'">':'')+
         '<div class="fbody"><span class="pd" style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">'+p.date+' · '+p.themes.map(tl).join(' · ')+(p.en?' · FR+EN':'')+'</span>'+
         '<h2><a href="'+link(p)+'">'+esc(title(p))+'</a></h2><p class="pres">'+esc(resume(p).slice(0,220))+(resume(p).length>220?'…':'')+'</p>'+
-        '<a class="readmore" href="'+link(p)+'">'+(en?'read the post →':'lire l\'article →')+'</a></div>';
+        '<a class="readmore" href="'+link(p)+'">'+'read the post →'+'</a></div>';
       hero.appendChild(f);
       var rest=POSTS.slice(1,6);
       if(rest.length){
@@ -196,7 +195,6 @@
     lb.textContent=en?'FR':'EN';lb.setAttribute('aria-pressed',en?'true':'false');
     render();
   });
-  if(!/^fr/i.test(navigator.language||'fr')) lb.click();
 })();
 </script>
 </body>
