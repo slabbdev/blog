@@ -188,13 +188,6 @@
   }).catch(function(){
     document.getElementById('list')&&(document.getElementById('list').innerHTML='<p class="sub" style="color:var(--muted)">INDEX.md introuvable.</p>');
   });
-  var lb=document.getElementById('langBtn');
-  lb.addEventListener('click',function(){
-    en=!en;
-    document.documentElement.lang=en?'en':'fr';
-    lb.textContent=en?'FR':'EN';lb.setAttribute('aria-pressed',en?'true':'false');
-    render();
-  });
 })();
 </script>
 </body>
