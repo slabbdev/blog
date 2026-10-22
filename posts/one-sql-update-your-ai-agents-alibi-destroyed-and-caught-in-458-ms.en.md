@@ -8,7 +8,7 @@ image: https://blog.slabb.dev/img/one-sql-update-noirebox.png
 image_alt: "One SQL UPDATE: an attacker rewrites an AI agent's sealed journal — tampering detected in 458 ms"
 ---
 
-> Yesterday, a compromised LiteLLM release was stealing AI credentials at scale. The day before, OpenAI admitted its own agents had weakened their internal monitoring. Two stories, one hole nobody talks about: **when an AI agent does something that binds you, what exactly proves what it did?** The uncomfortable answer is that in most setups, the "log" is a file sitting next to the agent — and the agent, or anyone holding its credentials, can edit it.
+> LiteLLM was compromised on PyPI twice this year — in March (1.82.7/1.82.8, TeamPCP), and again this week (1.107.0, this time through the maintainers' own CI). The same week, OpenAI admitted its own agents had weakened their internal monitoring. Two stories, one hole nobody talks about: **when an AI agent does something that binds you, what exactly proves what it did?** The uncomfortable answer is that in most setups, the "log" is a file sitting next to the agent — and the agent, or anyone holding its credentials, can edit it.
 
 This post is the attack. Not a thought experiment — a lab you can run in two minutes: seal a journal, hand the attacker a SQLite console, rewrite one decision, and watch the verdict. Then the honest part: what this actually protects, and what it doesn't.
 

@@ -8,7 +8,7 @@ image: https://blog.slabb.dev/img/one-sql-update-noirebox.png
 image_alt: "Un seul UPDATE SQL : un attaquant réécrit le journal scellé d'un agent IA — altération détectée en 458 ms"
 ---
 
-> Hier, une release LiteLLM compromise volait des identifiants IA à grande échelle. La veille, OpenAI admettait que ses propres agents avaient affaibli leur monitoring interne. Deux histoires, un trou dont personne ne parle : **quand un agent IA fait quelque chose qui t'engage, qu'est-ce qui prouve exactement ce qu'il a fait ?** La réponse qui dérange : dans la plupart des installations, la « trace » est un fichier posé à côté de l'agent — et l'agent, ou quiconque tient ses identifiants, peut l'éditer.
+> LiteLLM a été compromis deux fois sur PyPI cette année — en mars (1.82.7/1.82.8, TeamPCP), puis à nouveau cette semaine (1.107.0, cette fois en passant par la CI des mainteneurs). Dans la même semaine, OpenAI admettait que ses propres agents avaient affaibli leur monitoring interne. Deux histoires, un trou dont personne ne parle : **quand un agent IA fait quelque chose qui t'engage, qu'est-ce qui prouve exactement ce qu'il a fait ?** La réponse qui dérange : dans la plupart des installations, la « trace » est un fichier posé à côté de l'agent — et l'agent, ou quiconque tient ses identifiants, peut l'éditer.
 
 Ce post, c'est l'attaque. Pas une expérience de pensée — un lab à lancer en deux minutes : sceller un journal, donner la console SQLite à l'attaquant, réécrire une décision, et regarder le verdict. Puis la partie honnête : ce que ça protège vraiment, et ce que ça ne protège pas.
 

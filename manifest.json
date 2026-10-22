@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T13:47:48+00:00",
+ "built_at": "2026-10-22T13:57:20+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
@@ -201,13 +201,13 @@
   },
   {
    "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.en.md",
-   "sha256": "55d8dc2fda7be50137fd4c2a6f7226e9d81e5e52456e18a913169c083a9cfed0",
-   "bytes": 7998
+   "sha256": "bff8b6ce8621d6b96d59a047488cad58ed554d86207d257da434df58761b7ea0",
+   "bytes": 8079
   },
   {
    "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.fr.md",
-   "sha256": "ef3166af7645d7b73ba16a35ba18cfc219253d6f494db9c5f16a847b5f47a207",
-   "bytes": 8861
+   "sha256": "a414b2859b0d9978c7ece7d0bb5ecbf4cea25440574a3f3de2d581819a75f507",
+   "bytes": 8975
   },
   {
    "name": "posts/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts.en.md",
@@ -430,8 +430,8 @@
    "bytes": 21125
   }
  ],
- "head": "8bc8130a1e4b56b6ea1eb96ad9f3573772b0e42ce1951a11f90ac563f7628fae",
- "sig": "c/8/w7n8j5+CFPTmNztZCvEZwv57eRKc21FlQOtplUu8keW3xBdsCa58DmNTxCRk3kwzXfTfwpYSSZNoWix7AA==",
+ "head": "47ecc5e4efd99ee8528c57ede05ee1436575dcb95479e581aa083d5679e68f1f",
+ "sig": "C7lFC8hu7h0nJw17uIThal+aRT0Zmgs8N/7M+ozCCgPvQ2r+LSWAdAcw1nMD3XyLYpG3atu+exQRsZQmBOsWCg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
