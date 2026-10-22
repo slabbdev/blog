@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T17:56:43+00:00",
+ "built_at": "2026-10-22T18:04:49+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
@@ -271,13 +271,13 @@
   },
   {
    "name": "posts/six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list.en.md",
-   "sha256": "e84aabb16fd813132d4445eb1b6071c06e16d2cd804640411afa9eb31ef4dd90",
-   "bytes": 7529
+   "sha256": "0f3bf9d3570167ad603b52483d1cdc014de8d92e912dadfc02ed6fbaea65396e",
+   "bytes": 7732
   },
   {
    "name": "posts/six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list.fr.md",
-   "sha256": "5fad5f1a0283dc6cb11e389721c859676f6465d2abd72769498208eaaed1dde9",
-   "bytes": 8231
+   "sha256": "523504f98ad94ec2bd2ae34574f3f3cd1b5871cbfd7bddda456db19a279c60d6",
+   "bytes": 8447
   },
   {
    "name": "posts/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works.en.md",
@@ -450,8 +450,8 @@
    "bytes": 22660
   }
  ],
- "head": "7792243415290b0155b0b6bdea6b1ec53dd93febfee92fa66edd8c0f112ae03c",
- "sig": "wtPJHxNjydNIvTPL1ijFwdpvoTigUn1s2GdAfCsCucuNNqAfu8aJ6ArjbphfvP8hGoUnw87Dcn+znuxyB50mBA==",
+ "head": "0099c754494f360a341ccdafd486c66bcd9bc52341900f30aab4ea8e9ac7f916",
+ "sig": "C2k1tkXG1g7wE1/jwqPrVkzfrGU6XFKmB5juEsJUwmMduJcZv3xiyhGWvIdTsmFWLRanI8uTxtjklO9EQg12Bg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }

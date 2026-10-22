@@ -4,6 +4,8 @@ date: 2026-10-22
 themes: securite, linux
 resume: "Cette nuit, six rapports ZDI — dont deux RCE réseau CVSS 9.0 dans le serveur SMB du kernel, non patchées en mainline — sont arrivés sur la LKML publique au lieu de la liste privée. Réponse de Greg Kroah-Hartman : « For some reason you sent this to public lists, and did not include a patch. » Le lab : ta flotte est-elle exposée ?"
 source: https://lore.kernel.org/lkml/BYAPR01MB3830472B5702C089B0BBB77D80662@BYAPR01MB3830.prod.exchangelabs.com/
+image: https://blog.slabb.dev/img/six-unpatched-linux-kernel-leak.png
+image_alt: "Six rapports ZDI — dont deux RCE KSMBD CVSS 9.0 — fuient sur la LKML publique : la boîte d'envoi, Tux, et le triage du port 445"
 ---
 
 > Cette nuit, la machine de divulgation coordonnée du kernel Linux s'est cassée de la manière la plus banale qui soit : **ZDI (Trend Micro) a envoyé six rapports de vulnérabilités sur la LKML publique** — la liste archivée, lisible par le monde entier — au lieu du canal privé prévu. Deux d'entre elles sont des **RCE réseau CVSS 9.0** dans le serveur SMB du kernel, **non patchées en mainline**. Greg Kroah-Hartman, le numéro deux du kernel, a répondu à chacune : *« For some reason you sent this to public lists, and **did not include a patch**, so there's not much we can do with this. »*
