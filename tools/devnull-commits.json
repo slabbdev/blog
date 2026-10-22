@@ -298,5 +298,17 @@
   "url": "https://blog.slabb.dev/en/i-built-the-flight-data-recorder-for-ai-agents",
   "url_fr": "https://blog.slabb.dev/fr/i-built-the-flight-data-recorder-for-ai-agents",
   "text_commit": "I built the flight data recorder for AI agents.\n\nOr: why I spent my evenings making AI-agent journals impossible to rewrite.              One Tuesday,...\n\n→ https://blog.slabb.dev/en/i-built-the-flight-data-recorder-for-ai-agents"
+ },
+ {
+  "slug": "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4",
+  "date": "2026-10-22",
+  "titre_fr": "Une clé privée de CA valait le chiffre 4. Votre curl lui fait encore confiance (CVE-2026-111943)",
+  "titre_en": "A CA private key was the number 4. Your curl still trusts it (CVE-2026-111943)",
+  "resume_en": "Eight eMudhra intermediate CA keys were mis-generated — recoverable from the public certificates since April 2025. I recovered one in 4 guesses. Browsers are safe; your curl, git and CI may not be.",
+  "url": "https://blog.slabb.dev/en/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4",
+  "url_fr": "https://blog.slabb.dev/fr/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4",
+  "text_commit": "see dev-null commit 01a1632d-0753-73dd-809a-fa7a0214e2fb (214e2fb), 2026-10-22",
+  "commit_id": "01a1632d-0753-73dd-809a-fa7a0214e2fb",
+  "posted_at": "2026-10-22T10:34:17Z"
  }
 ]
