@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-21T19:36:20+00:00",
+ "built_at": "2026-10-22T10:24:17+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "1dc833c6ce43ba0f606f9afa403867024075c3bf823ec9014ba438da250f07e5",
-   "bytes": 2570
+   "sha256": "5d8724e51d3c0c439a6bfbf01dcbd9c9adcc7afb3c8e53ff40e8c7189211b555",
+   "bytes": 2653
   },
   {
    "name": "article.html",
@@ -58,6 +58,16 @@
    "name": "posts/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7.fr.md",
    "sha256": "3f672269ae9fcac3f7853cffd853011a86e434cd22ee9f59eafb03c058d7d5da",
    "bytes": 8659
+  },
+  {
+   "name": "posts/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4.en.md",
+   "sha256": "437ac4b85e2a4cee6a8173fa7b16bc4bb057b6b6fd4a957e6ea2e01aa66adab6",
+   "bytes": 9843
+  },
+  {
+   "name": "posts/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4.fr.md",
+   "sha256": "30edf8cdda2cccad7c5312216cf9802a8040d95ca9e85fd3e7fca0456ba3f112",
+   "bytes": 10800
   },
   {
    "name": "posts/a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough.en.md",
@@ -406,12 +416,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "1779cfd72f13cd6b78cf0fb35fd98d81792c2bdc8f35ddbc50668f93f7c5f907",
-   "bytes": 19738
+   "sha256": "ea5ffeb4169c18510fe9ee50989634ae3604d93489c7eb0aadda78a757a9f05f",
+   "bytes": 20427
   }
  ],
- "head": "121f039fa1dde2f5270bd83c3a70863128b450150a4d355e65d4ff02421d9382",
- "sig": "v42XGsvyFD7TEq++fZr7yqPmKSihw6BJ1SFO7gc36Ccn9qkoOA70zTnzIvnJ1sIr1IpODaSq1a/Cun9v9ZRABw==",
+ "head": "da9788ed7642a2d2660ddfa8bca4ec68673ecb787291c76c51511ea5fd4ce534",
+ "sig": "L/je5UiCb58JeibvKlHxxkNpD/7J5P31BbfhpKBvB9wY4hSRnzsJlqVrVQVR4y2NhQCbEATpR/YE/hbveRMSCw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
