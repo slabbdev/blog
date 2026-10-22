@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list
 - one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms
 - the-eu-really-did-ban-eco-friendly-just-not-quite-the-way-you-were-told
 - a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4
