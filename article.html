@@ -32,6 +32,8 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
 .authorbox .al{margin-left:auto;display:flex;gap:16px;font-family:var(--mono);font-size:.76rem}
 .authorbox .al a{color:var(--dim);border-bottom:1px solid var(--line)}
 .authorbox .al a:hover{color:var(--accent);border-color:var(--accent)}
+.comments{margin-top:56px}
+.comments .kicker{margin-bottom:10px}
 .related{margin-top:56px}
 .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .rcard{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px;transition:border-color .15s}
@@ -98,6 +100,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
   </figure>
 
   <div class="md" id="content"></div>
+  <section class="comments" id="comments"></section>
   </div>
   <aside class="rail" id="rail" style="display:none">
     <div class="railh" id="railh">le fil des publications</div>
@@ -226,7 +229,17 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     fetch('/posts/'+slug+'.en.md').then(function(r){if(!r.ok)throw 0;return r.text()},function(){return null}).then(function(enm){
       if(enm){cache.en=parseFM(enm);cache.en.fm.titre_en=cache.en.fm.titre;cache.en.fm.resume_en=cache.en.fm.resume;sw.style.display='inline-block';sw.textContent=other.toUpperCase();
         sw.onclick=function(){location.href='/'+other+'/'+slug};}
-      render(langs);related();
+        render(langs);related();
+        var cm=document.getElementById('comments');
+        if(cm){
+          cm.innerHTML='<p class="kicker">'+L('discuter de cet article','discuss this post')+'</p>';
+          var gs=document.createElement('script');
+          gs.src='https://giscus.app/client.js';
+          var cfg={repo:'slabbdev/blog','repo-id':'R_kgDOVQMzvQ',category:'Announcements','category-id':'DIC_kwDOVQMzvc4DJXge',mapping:'pathname',strict:'0','reactions-enabled':'1','emit-metadata':'0','input-position':'top',theme:'transparent_dark',lang:langs,loading:'lazy'};
+          Object.keys(cfg).forEach(function(k){gs.setAttribute('data-'+k,cfg[k])});
+          gs.crossOrigin='anonymous';gs.async=true;
+          cm.appendChild(gs);
+        }
     });
   }).catch(function(){
     ['byline','.share'].forEach(function(sel){var n=document.querySelector(sel);if(n)n.style.display='none'});
