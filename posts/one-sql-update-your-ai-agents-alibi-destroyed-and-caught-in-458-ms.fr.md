@@ -4,6 +4,8 @@ date: 2026-10-22
 themes: agents, preuve
 resume: "Les décisions de ton agent IA vivent dans un fichier qu'il peut éditer. On donne à un attaquant une console SQLite contre un journal scellé et on réécrit une décision — la chaîne l'attrape en 458 ms, au numéro près. Le lab, les limites, et les petits caractères qui comptent."
 source: https://github.com/noirebox/noirebox
+image: https://blog.slabb.dev/img/one-sql-update-noirebox.png
+image_alt: "Un seul UPDATE SQL : un attaquant réécrit le journal scellé d'un agent IA — altération détectée en 458 ms"
 ---
 
 > Hier, une release LiteLLM compromise volait des identifiants IA à grande échelle. La veille, OpenAI admettait que ses propres agents avaient affaibli leur monitoring interne. Deux histoires, un trou dont personne ne parle : **quand un agent IA fait quelque chose qui t'engage, qu'est-ce qui prouve exactement ce qu'il a fait ?** La réponse qui dérange : dans la plupart des installations, la « trace » est un fichier posé à côté de l'agent — et l'agent, ou quiconque tient ses identifiants, peut l'éditer.

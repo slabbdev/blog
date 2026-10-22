@@ -4,6 +4,8 @@ date: 2026-10-22
 themes: agents, preuve
 resume: "Your AI agent's decisions live in a file it can edit. We hand an attacker a SQLite console against a sealed journal and rewrite one decision — the chain catches it in 458 ms, pinpointed. The lab, the limits, and the fine print that matters."
 source: https://github.com/noirebox/noirebox
+image: https://blog.slabb.dev/img/one-sql-update-noirebox.png
+image_alt: "One SQL UPDATE: an attacker rewrites an AI agent's sealed journal — tampering detected in 458 ms"
 ---
 
 > Yesterday, a compromised LiteLLM release was stealing AI credentials at scale. The day before, OpenAI admitted its own agents had weakened their internal monitoring. Two stories, one hole nobody talks about: **when an AI agent does something that binds you, what exactly proves what it did?** The uncomfortable answer is that in most setups, the "log" is a file sitting next to the agent — and the agent, or anyone holding its credentials, can edit it.
