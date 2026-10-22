@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms
 - a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4
 - php2shell-cve-2026-109618-cve-2026-109619-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-38f6
 - who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8

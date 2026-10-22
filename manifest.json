@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T13:12:56+00:00",
+ "built_at": "2026-10-22T13:43:16+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "5d8724e51d3c0c439a6bfbf01dcbd9c9adcc7afb3c8e53ff40e8c7189211b555",
-   "bytes": 2653
+   "sha256": "1a99d1cd7d9cfd1081cb9df8281c51132eb5c046ac153648c42eb9cdf2ef6175",
+   "bytes": 2722
   },
   {
    "name": "article.html",
@@ -198,6 +198,16 @@
    "name": "posts/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry.fr.md",
    "sha256": "a4934824330d655b9706e5f3b387b2bdf6247aa1135d7aed4d13159c026f6675",
    "bytes": 7486
+  },
+  {
+   "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.en.md",
+   "sha256": "7aa4b1852c83cc7c799f6b1713acd726bb249ac3d19982f5130a33c0d644c218",
+   "bytes": 7824
+  },
+  {
+   "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.fr.md",
+   "sha256": "25780a18eb373be444ce9f359a00fa5cf23e5f19e299df7ceedb9c316cd1738a",
+   "bytes": 8672
   },
   {
    "name": "posts/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts.en.md",
@@ -416,12 +426,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "ea5ffeb4169c18510fe9ee50989634ae3604d93489c7eb0aadda78a757a9f05f",
-   "bytes": 20427
+   "sha256": "03c1262a493f4ac827d1cb751f7fcca92955f481460ea08f0cf5aeb7da185427",
+   "bytes": 21125
   }
  ],
- "head": "0b8987efa27d4fadc45d30d5a3433372a82613d669edb534328cc574c6c25b52",
- "sig": "J1Dghu3GGRWYO6V5WoKFKxcLEyvFzj3hB/LrQwL2TMOV5rMWL0vDVa0W4ViZL8md3hQht2X9N/dS/HiUf+4dBA==",
+ "head": "c915f5f1274fda23ec05f7bb1b8e59f47ac6b2596ed5fc734fd610c57db7545b",
+ "sig": "HNFEQ51H0QT98aWg3AvzHvwOaHv8lrMzSaxlgH/vaZFEtVd1TFXOP+9dvrlWOKXxCcvtWajXZuS9gZZvdOm8Dw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
