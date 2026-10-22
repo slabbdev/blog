@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T13:09:55+00:00",
+ "built_at": "2026-10-22T13:12:56+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
