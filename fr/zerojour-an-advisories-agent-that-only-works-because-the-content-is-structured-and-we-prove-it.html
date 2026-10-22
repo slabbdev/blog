@@ -221,8 +221,9 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
           cards.slice(0,5).forEach(function(cd){
             var row=document.createElement('a');row.className='railrow';
             row.href=window.POST_SLUG?('/'+langs+'/'+cd.slug):('article.html?p='+encodeURIComponent(cd.slug)+(langs==='en'?'&l=en':''));
-            row.innerHTML=(cd.image?'<img src="'+esc(cd.image)+'" alt="">':'<div class="rthumb brandmark"></div>')+
-              '<div class="ri"><span class="rd">'+cd.date+(cd.image?'':'')+'</span><div class="rt">'+esc((langs==='en'&&cd.titre_en)?cd.titre_en:cd.titre)+'</div></div>';
+            var tt=(langs==='en'&&cd.titre_en)?cd.titre_en:cd.titre;
+            var th=cd.image?'<img class="rthumb2" src="'+esc(cd.image)+'" alt="">':'<div class="rthumb brandmark"></div>';
+            row.innerHTML=th+'<div class="ri"><span class="rd">'+cd.date+'</span><div class="rt">'+esc(tt)+'</div></div>';
             rr.appendChild(row);
           });
         }
