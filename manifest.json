@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T13:57:20+00:00",
+ "built_at": "2026-10-22T14:01:06+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "1a99d1cd7d9cfd1081cb9df8281c51132eb5c046ac153648c42eb9cdf2ef6175",
-   "bytes": 2722
+   "sha256": "dcd7317db779923e0832330cfc850d3cc0e824621e9b3dc1b56305b84de658ea",
+   "bytes": 2796
   },
   {
    "name": "article.html",
@@ -335,6 +335,16 @@
    "bytes": 20997
   },
   {
+   "name": "posts/the-eu-really-did-ban-eco-friendly-just-not-quite-the-way-you-were-told.en.md",
+   "sha256": "62e6f43e73e6a186f6e824ffddc0c3b2c1b50bbc6eb37cce65be32c3b82ccdf4",
+   "bytes": 6689
+  },
+  {
+   "name": "posts/the-eu-really-did-ban-eco-friendly-just-not-quite-the-way-you-were-told.fr.md",
+   "sha256": "dd625776c297f1e4827cd46d5c7f745b39dd7a056a59b525637ee0076ba2ac93",
+   "bytes": 7650
+  },
+  {
    "name": "posts/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready.en.md",
    "sha256": "41aa55d448a9619c0ed5ab01e986269b5248e9890bcedc54427b5014d27484ea",
    "bytes": 9163
@@ -426,12 +436,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "03c1262a493f4ac827d1cb751f7fcca92955f481460ea08f0cf5aeb7da185427",
-   "bytes": 21125
+   "sha256": "52d7c460031d04753ce204d9b045f7eed1e37d47eaf59c58d48b107b316e347c",
+   "bytes": 21891
   }
  ],
- "head": "47ecc5e4efd99ee8528c57ede05ee1436575dcb95479e581aa083d5679e68f1f",
- "sig": "C7lFC8hu7h0nJw17uIThal+aRT0Zmgs8N/7M+ozCCgPvQ2r+LSWAdAcw1nMD3XyLYpG3atu+exQRsZQmBOsWCg==",
+ "head": "ef671dba6b63ba3543832517be5e00f62fb53890b6e41746d112758ddadab361",
+ "sig": "uFL+okZu3zL11zsTGp5+71V3va24qsoXIJLRStndcdR38AfQKPRM/x2f62MDeqUXPVRpmbi1KngYZRuUCw+kBw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
