@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema
 - agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4
 - the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba
 - six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list

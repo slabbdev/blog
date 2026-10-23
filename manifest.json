@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-23T11:18:23+00:00",
+ "built_at": "2026-10-23T15:15:51+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "9d336f211b77877fe0b6c64e9359333b9f48eaace40efbb0776a7bf3f85e5e32",
-   "bytes": 3062
+   "sha256": "5131a060f7be69cada030f6ec391e87f5bcda98bb25196798edbf6a0af07c660",
+   "bytes": 3150
   },
   {
    "name": "article.html",
@@ -340,6 +340,16 @@
    "bytes": 12330
   },
   {
+   "name": "posts/the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema.en.md",
+   "sha256": "7b0545bf8c6b32ee457bb83cdaf1d9a673983f0653c29d02a86f8c2354a33b27",
+   "bytes": 7764
+  },
+  {
+   "name": "posts/the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema.fr.md",
+   "sha256": "92a637b25c16152a07ce9b56c1a7d60a15c8e61296fb5220041861a285592d8a",
+   "bytes": 8721
+  },
+  {
    "name": "posts/the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba.en.md",
    "sha256": "7715e59abb576a6640feb1c411d34dba1a0aeac6b62096229b538b7afdfe1984",
    "bytes": 8651
@@ -466,12 +476,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "22dc5a0992ddd0b4b591e95e6c8aace02b9cd338bbd5c126a1910939e36fd928",
-   "bytes": 24176
+   "sha256": "a112b3baa9e091ffbe035f50e377360c3392cc4ed89399c153d9cc982a0e6b7c",
+   "bytes": 24935
   }
  ],
- "head": "8707a0445959308b01c544c26593283a1590a587f68958484852c2704ccaae70",
- "sig": "Lcd6GdnhqNKWXZhf7KHsnWnlvfRVaemXozeMgZka1+nZQGO8N6ISMPS141VkYR4eDDGNm60oWMQp86MiOk9BCQ==",
+ "head": "384faaede3988ed6e650e04e31e02c081828e047f9a7676f8694c7964b98b388",
+ "sig": "ljLZ6sSW0s2Z8RAJRTJ4zuaJYGXGawnXlOOnCdEAYGI3tFhlFcHaHranfQl063A1D0otiJghEg86pE/482ofAA==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
