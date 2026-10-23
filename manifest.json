@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-23T15:30:29+00:00",
+ "built_at": "2026-10-23T22:54:39+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
@@ -16,8 +16,8 @@
   },
   {
    "name": "index.html",
-   "sha256": "e24c37b85f2c1cd98333a14f077c16238baae5de7940b8d5f3cb94cd7675d296",
-   "bytes": 17358
+   "sha256": "cb2bbdbdd355fe34389dbf90a1e7b4ff5e79dc7a5819734848c96c04e1ea2681",
+   "bytes": 17518
   },
   {
    "name": "legal.html",
@@ -480,8 +480,8 @@
    "bytes": 24935
   }
  ],
- "head": "b869d67993a47790142ee5c22919bc9408c6bc0028ce0336423a0a2de6b610ad",
- "sig": "AL8iwPEzSvyZjGzF41i3iL9ST0X/11PuHQ/7Z1NgJj/CzRYUP9E5mrHSMp+HY+unyGx0yymx0dE57D+xHFPQCQ==",
+ "head": "d57850b5312ca9c9226d35c0e36f7311d22129991eb5133b2ade79855c50b296",
+ "sig": "0l+2xxt62uox47jqcOiOseRZ1X1WFbcDci8JSqTvgw3E9hh7GVg2iJfVF8QFfcChSCgYNmn7OyWnzv1Xr1QzBg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
