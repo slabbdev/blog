@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-23T08:41:10+00:00",
+ "built_at": "2026-10-23T11:06:59+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "342d9b42ae342ee94592deda4fb5749e48e8d0e8dd342034a82076fabe30f39f",
-   "bytes": 2962
+   "sha256": "9d336f211b77877fe0b6c64e9359333b9f48eaace40efbb0776a7bf3f85e5e32",
+   "bytes": 3062
   },
   {
    "name": "article.html",
@@ -78,6 +78,16 @@
    "name": "posts/a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough.fr.md",
    "sha256": "ec8baf00e6c935eff0e521e99c655638bb0041febb07c21b9351958d5eb2b800",
    "bytes": 13121
+  },
+  {
+   "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.en.md",
+   "sha256": "90eca95094a7b7c7ad797775b90853a23fd141cb9d644f1fccde1ee23287b0f3",
+   "bytes": 7998
+  },
+  {
+   "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.fr.md",
+   "sha256": "e96cd39ef368e7d97adbb50f6da8fc8a7141a25bcbbe9c779543fcd773fa1708",
+   "bytes": 9111
   },
   {
    "name": "posts/always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read.en.md",
@@ -456,12 +466,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "d496419ddbded29736b048077422c191d3f4759b7cd84a031ec37802b1eceb06",
-   "bytes": 23383
+   "sha256": "22dc5a0992ddd0b4b591e95e6c8aace02b9cd338bbd5c126a1910939e36fd928",
+   "bytes": 24176
   }
  ],
- "head": "4f7376a3f2ece200e2a39585d2de96805a7b4660227f3d3601604055262b81ec",
- "sig": "TMfiwPTYqamtIZ0WSUkRPITXVADgCs7ZmVZm0Hsw/ige1Zj0XuJE8wLYgB8/YeBVZurA6vngxOIkWPRctMI9Dg==",
+ "head": "d5373d22967d4ab024dec8a3706db4a4a991a06429b626b4ed40cbb148baf6da",
+ "sig": "ttieBnQfw8zKY4mhQHyPAAmD5drDq6JMpPqBOJ2NEEtpANeZQmEfNaYCa4EwNXloSFF4GDnFeWqaJSsRrC7qAQ==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
