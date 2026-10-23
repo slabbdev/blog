@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-23T11:06:59+00:00",
+ "built_at": "2026-10-23T11:18:23+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
@@ -81,12 +81,12 @@
   },
   {
    "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.en.md",
-   "sha256": "90eca95094a7b7c7ad797775b90853a23fd141cb9d644f1fccde1ee23287b0f3",
+   "sha256": "9e7bb60c76f1ef641bf38784edae40194e8918f7fd1d69720542eecd92181831",
    "bytes": 7998
   },
   {
    "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.fr.md",
-   "sha256": "e96cd39ef368e7d97adbb50f6da8fc8a7141a25bcbbe9c779543fcd773fa1708",
+   "sha256": "99b5dc9eb46f6ac8c4fa907462445c0f252caffae3b45829558078879f6b36f7",
    "bytes": 9111
   },
   {
@@ -470,8 +470,8 @@
    "bytes": 24176
   }
  ],
- "head": "d5373d22967d4ab024dec8a3706db4a4a991a06429b626b4ed40cbb148baf6da",
- "sig": "ttieBnQfw8zKY4mhQHyPAAmD5drDq6JMpPqBOJ2NEEtpANeZQmEfNaYCa4EwNXloSFF4GDnFeWqaJSsRrC7qAQ==",
+ "head": "8707a0445959308b01c544c26593283a1590a587f68958484852c2704ccaae70",
+ "sig": "Lcd6GdnhqNKWXZhf7KHsnWnlvfRVaemXozeMgZka1+nZQGO8N6ISMPS141VkYR4eDDGNm60oWMQp86MiOk9BCQ==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }

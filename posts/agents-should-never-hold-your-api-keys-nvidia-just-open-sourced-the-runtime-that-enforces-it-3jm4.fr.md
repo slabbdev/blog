@@ -4,7 +4,7 @@ date: 2026-10-23
 themes: agents, securite
 resume: "NVIDIA open-source OpenShell : des sandboxes au niveau kernel pour les flottes d'agents, des credentials détenues par la gateway au lieu de l'agent, et chaque changement de policy vérifié par un prover Z3 SMT avant approbation humaine. Un walkthrough du repo, mécanisme par mécanisme."
 source: https://dev.to/slabb/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4
-image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj3f6fdyzoum3s4nrfb2l.png
+image: https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6p1gvrjxxl48z65if7if.png
 image_alt: "Les agents ne devraient jamais détenir tes clés API — NVIDIA OpenShell : sandboxes, credentials en gateway, policies vérifiées par Z3"
 ---
 
