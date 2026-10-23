@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-22T18:04:49+00:00",
+ "built_at": "2026-10-23T08:41:10+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "8caf9348b7720b4533bf31cdfa6f30a8dc8aaae37448e54a963298a85b18f9b1",
-   "bytes": 2878
+   "sha256": "342d9b42ae342ee94592deda4fb5749e48e8d0e8dd342034a82076fabe30f39f",
+   "bytes": 2962
   },
   {
    "name": "article.html",
@@ -330,6 +330,16 @@
    "bytes": 12330
   },
   {
+   "name": "posts/the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba.en.md",
+   "sha256": "7715e59abb576a6640feb1c411d34dba1a0aeac6b62096229b538b7afdfe1984",
+   "bytes": 8651
+  },
+  {
+   "name": "posts/the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba.fr.md",
+   "sha256": "d015d1f07abd82a99a18d5187bf0e25a2e56d355bd9bc0ba9ab465a88de2b731",
+   "bytes": 9822
+  },
+  {
    "name": "posts/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742.devto.md",
    "sha256": "a15aa6b4fa449fe9a82ff3bdbcb27be20a416338b47d9f590bc82fdcbf22411b",
    "bytes": 17858
@@ -446,12 +456,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "672703ffb28ea78b544aba2e147243cebc3e9e87b09034ee622f817c8ce64dda",
-   "bytes": 22660
+   "sha256": "d496419ddbded29736b048077422c191d3f4759b7cd84a031ec37802b1eceb06",
+   "bytes": 23383
   }
  ],
- "head": "0099c754494f360a341ccdafd486c66bcd9bc52341900f30aab4ea8e9ac7f916",
- "sig": "C2k1tkXG1g7wE1/jwqPrVkzfrGU6XFKmB5juEsJUwmMduJcZv3xiyhGWvIdTsmFWLRanI8uTxtjklO9EQg12Bg==",
+ "head": "4f7376a3f2ece200e2a39585d2de96805a7b4660227f3d3601604055262b81ec",
+ "sig": "TMfiwPTYqamtIZ0WSUkRPITXVADgCs7ZmVZm0Hsw/ige1Zj0XuJE8wLYgB8/YeBVZurA6vngxOIkWPRctMI9Dg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
