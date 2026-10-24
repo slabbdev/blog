@@ -1,7 +1,7 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-24T13:25:11+00:00",
+ "built_at": "2026-10-24T17:30:40+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
@@ -11,8 +11,8 @@
   },
   {
    "name": "article.html",
-   "sha256": "db4e1ca99c3267276f261b8dd97f71d38856e4e5d3325fc6503833e237755efd",
-   "bytes": 17412
+   "sha256": "ad71a1164d16f03fd61c61d599a2be89f7a1b042c6aa07c2120c0d0157aede56",
+   "bytes": 17466
   },
   {
    "name": "index.html",
@@ -480,8 +480,8 @@
    "bytes": 24935
   }
  ],
- "head": "8a56103799f7c362e4d545e63ba8a53d67da3dcbad1d2e6efbe6f12811b67725",
- "sig": "ZQ2E2Phq/EHCAGM5IBhc/X06hFElDM4QAY1welDQow81Tln5ObfRoOhSlUjfn/+HW77XsT9YfaUxvjYW2Q2WDQ==",
+ "head": "209edc2234487687ae547aecbbc9f5590aa8e51d317653ba5c4a32ba3500f365",
+ "sig": "yNsw9dJV+Ell7eu1OtBf8mvfsjrDASLhs6OlI6l5FAJTnRXpUlvRoZGteo+NW0ezaH0T8QJQHsixNanzPXw7AQ==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
