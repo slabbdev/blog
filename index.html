@@ -69,13 +69,13 @@
     <a class="brand" href="index.html" style="color:var(--accent)">Journal de bord</a><span style="font-family:var(--mono);font-size:.7rem;color:var(--muted)">blog.slabb.dev</span>
     <div class="barright">
       <button class="lang" id="langBtn" type="button" aria-pressed="false" aria-label="Switch language">EN</button>
-      <a class="pill" href="https://slabb.dev">← le site</a>
+      <a class="pill" href="https://slabb.dev" data-en="← the site">← le site</a>
     </div>
   </div>
 </header>
 
 <main class="wrap" style="padding-top:40px">
-  <p class="kicker">// agents ia · sécurité · preuve</p>
+  <p class="kicker" data-en="// agents · security · proof">// agents ia · sécurité · preuve</p>
   <h1 data-en="The logbook.">Le journal de bord.</h1>
   <p class="sub" id="sub">What we build, break and measure — published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.</p>
 
@@ -104,7 +104,7 @@
 <footer>
   <div class="wrap foot">
     <span>⬛ black boxes for systems nobody can fully trust</span>
-    <span><a href="legal.html">legal &amp; privacy</a> · statique, zéro tracking · © 2026 Sam Labbe</span>
+    <span id="footTxt"><a href="legal.html">legal &amp; privacy</a> · statique, zéro tracking · © 2026 Sam Labbe</span>
   </div>
 </footer>
 
@@ -113,6 +113,12 @@
 (function(){
   var savedL=null; try{ savedL=localStorage.getItem('nblang'); }catch(e){}
   var en= savedL ? savedL==='en' : !/^fr/i.test(navigator.language||'fr'),POSTS=[],chip=null;
+  var FRST={};
+  document.querySelectorAll('[data-en]').forEach(function(n){FRST[n]=n.textContent;});
+  function applyStatic(){document.querySelectorAll('[data-en]').forEach(function(n){n.textContent=en?n.getAttribute('data-en'):FRST[n];});}
+  var ft=document.getElementById('footTxt');
+  function applyFoot(){if(ft)ft.innerHTML='<a href="legal.html">legal &amp; privacy</a> · '+(en?'static, zero tracking':'statique, zéro tracking')+' · © 2026 Sam Labbe';}
+  applyStatic();applyFoot();
   var LBL={agents:['Agents IA','AI agents'],securite:['Sécurité','Security'],preuve:['Preuve & conformité','Proof & compliance'],web:['Web & produit','Web & product'],devops:['DevOps & CI/CD','DevOps & CI/CD'],crypto:['Crypto','Crypto'],pki:['PKI &amp; certificats','PKI &amp; certificates'],ia:['IA','AI']};
   function tl(k){var v=LBL[k]||[k,k];return en?v[1]:v[0]}
   function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!==undefined)e.innerHTML=h;return e}
@@ -175,6 +181,7 @@
       ts.appendChild(sec);
     });
     document.getElementById('sub').innerHTML=en?'What I build, break and measure — published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure — publié en EN d\'abord, FR dès que la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
+    applyStatic();applyFoot();
   }
   function renderChips(){}
   fetch('INDEX.md').then(function(r){return r.text()}).then(function(t){
