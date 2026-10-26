@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-24T17:30:40+00:00",
+ "built_at": "2026-10-26T07:08:00+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "5131a060f7be69cada030f6ec391e87f5bcda98bb25196798edbf6a0af07c660",
-   "bytes": 3150
+   "sha256": "378ab942b7455ed1d6f46c6b135f881abea2c2ec05bdee6151bc9edbcdbdde4c",
+   "bytes": 3254
   },
   {
    "name": "article.html",
@@ -143,6 +143,16 @@
    "name": "posts/five-witnesses.devto.md",
    "sha256": "4fafacd38d380dad07521f9ee2a65223078bad3b6df846bf7bc24cee0bd50d2a",
    "bytes": 8499
+  },
+  {
+   "name": "posts/gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f.en.md",
+   "sha256": "05a91d9779dddb66431f04086719965c2b378d3684c23229d75c7f1a2e26bef6",
+   "bytes": 7571
+  },
+  {
+   "name": "posts/gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f.fr.md",
+   "sha256": "205ed47896dc070a20ef3f366ab8fcc432193c644b6c77a1c5811babd06cc7ae",
+   "bytes": 8297
   },
   {
    "name": "posts/i-attack-tested-my-agents-seatbelt-heres-what-survived.en.md",
@@ -476,12 +486,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "a112b3baa9e091ffbe035f50e377360c3392cc4ed89399c153d9cc982a0e6b7c",
-   "bytes": 24935
+   "sha256": "64466cd667e2c06f5976a63d64f8d12b181cb85bec5dbd637935dfde4b2c146d",
+   "bytes": 25705
   }
  ],
- "head": "209edc2234487687ae547aecbbc9f5590aa8e51d317653ba5c4a32ba3500f365",
- "sig": "yNsw9dJV+Ell7eu1OtBf8mvfsjrDASLhs6OlI6l5FAJTnRXpUlvRoZGteo+NW0ezaH0T8QJQHsixNanzPXw7AQ==",
+ "head": "e46564940d4ac7c40aa2add312cc843bd4a0f0ad4b10d5e7a05d83f1a740423b",
+ "sig": "qdXcSZ5S2I+WX4+t2c5fV3piiucVA+NOk2wKzU8J0DzEg2edqNkwDz/PSuXGzetc2iPsH919LgtcB5UhSZXsCQ==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
