@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-26T07:08:00+00:00",
+ "built_at": "2026-10-27T15:11:36+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "378ab942b7455ed1d6f46c6b135f881abea2c2ec05bdee6151bc9edbcdbdde4c",
-   "bytes": 3254
+   "sha256": "5a7e08245b6bf1999533809ce2dbbcd977a3ee83b720e00f5566167609d6be83",
+   "bytes": 3356
   },
   {
    "name": "article.html",
@@ -23,6 +23,16 @@
    "name": "legal.html",
    "sha256": "eb5bcaea87c2e78f88d220f5f7dd7d9416bc8164fce8b54505ed19b90d1d982c",
    "bytes": 5562
+  },
+  {
+   "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.en.md",
+   "sha256": "9168e1dff7db2e750593c5c620f7436d5111033bb133dfe3ad827c5694063e5b",
+   "bytes": 8758
+  },
+  {
+   "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.fr.md",
+   "sha256": "b1980a42db700090c51a23a894e31144b8fa90b88e2311f4de82f14db127f88d",
+   "bytes": 9730
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
@@ -486,12 +496,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "64466cd667e2c06f5976a63d64f8d12b181cb85bec5dbd637935dfde4b2c146d",
-   "bytes": 25705
+   "sha256": "b2cbeb793806c64262430072144cf53078e8f2c6843dd8195d14c259cfcb1d60",
+   "bytes": 26484
   }
  ],
- "head": "e46564940d4ac7c40aa2add312cc843bd4a0f0ad4b10d5e7a05d83f1a740423b",
- "sig": "qdXcSZ5S2I+WX4+t2c5fV3piiucVA+NOk2wKzU8J0DzEg2edqNkwDz/PSuXGzetc2iPsH919LgtcB5UhSZXsCQ==",
+ "head": "5d9867b6fb40cdda847b932cd588e1f6a8707e84daf4f9cc0c880d09f4e358c3",
+ "sig": "Ndgs/Ih+HgHcahN6EFg5rY6UUOTNMU8/VUW+rHUgMxZGlT70UHUPV6BUy8bWleGzPwkPfWt4JKQT0IbCO63nAg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
