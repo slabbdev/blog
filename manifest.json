@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-28T16:57:26+00:00",
+ "built_at": "2026-10-28T21:58:47+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "3841f65b26e6bc9447395b3c761a81a0f08db218744cede8bfb1223432bee4c5",
-   "bytes": 3656
+   "sha256": "54eeaa65fed2adfd527494b2f409b0fcfbb4441f6c1026322553fee35239a591",
+   "bytes": 3714
   },
   {
    "name": "article.html",
@@ -515,6 +515,16 @@
    "bytes": 8704
   },
   {
+   "name": "posts/your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg.en.md",
+   "sha256": "89308ec9abaf82f4dc9b9b38201361bbb534801de5be05d903491424c6d7ae9a",
+   "bytes": 8116
+  },
+  {
+   "name": "posts/your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg.fr.md",
+   "sha256": "c17305e0d565d19d836f8291a1908d24d0cb9bd6389866c44e4d54e9207e70f7",
+   "bytes": 9094
+  },
+  {
    "name": "posts/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it.en.md",
    "sha256": "0d80f15a9112d82999836c34987b1f9d56f9c6d51532f3f7f93d40a9e5fa18b4",
    "bytes": 8950
@@ -536,12 +546,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "5f34434d5b8257bff63aadb18bb158e6a0b0ec0fd8c151946e8be830cd48e923",
-   "bytes": 29105
+   "sha256": "2c17f688e7d7ea703d646710ae307197d4d4de6f616f102eb0b8e788e3758d7f",
+   "bytes": 29753
   }
  ],
- "head": "b04c1dd7c4f02887d2303a823b9b5d1458f663ced763535b050775f329f4b2a4",
- "sig": "WigWQLOZHOmQJDORTUXAy4wP9F1rFOmMkknvIHxlNgZnk4Yy6lSxjEbnG5B6rVgzic617W6d9e8t6eQO6Nc8Cw==",
+ "head": "d521ce2c40afb1ecf073a783ec7cfe00ba564c948649052b827ebf96c1b61de2",
+ "sig": "elHlk7TkpN6PgjsbIIwGbfA1v01O5WwG9hUt8FjX6cu5fZ9HHqsDlPtZCEI2LrwVZ95XzZ0rgTrUaJSRj5YQDw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
