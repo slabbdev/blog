@@ -6,6 +6,10 @@ Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), pui
 - a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i
 - 155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8
 - gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f
+- every-page-of-this-blog-is-sealed-here-is-how-to-verify-it
+- 155-responses-leaked-other-customers-prompts-here-is-the-canary
+- twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions
+- synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did
 - the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema
 - agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4
 - the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba

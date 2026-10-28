@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-28T13:34:20+00:00",
+ "built_at": "2026-10-28T16:07:58+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "27eef0ffb267d3c7907353a84296835b1cd6f503eefe8c28f9ea1fbb82ad2053",
-   "bytes": 3457
+   "sha256": "23c19535460f25a7e88213655093976e870a5728874ce53e26247bc843db978f",
+   "bytes": 3722
   },
   {
    "name": "article.html",
@@ -33,6 +33,16 @@
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.fr.md",
    "sha256": "b1980a42db700090c51a23a894e31144b8fa90b88e2311f4de82f14db127f88d",
    "bytes": 9730
+  },
+  {
+   "name": "posts/155-responses-leaked-other-customers-prompts-here-is-the-canary.en.md",
+   "sha256": "db9c38f69b774efa4cbcc3c2b5478be35c9aae348c4d33dcc6203dc61eac22a7",
+   "bytes": 5433
+  },
+  {
+   "name": "posts/155-responses-leaked-other-customers-prompts-here-is-the-canary.fr.md",
+   "sha256": "1f8c58722ebe0ae89cbc383ff61470a6cc9ea88fa396b876a1076ef49e9c2cc7",
+   "bytes": 6325
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
@@ -148,6 +158,16 @@
    "name": "posts/every-no-ai-contributions-policy-is-a-level-0-control.fr.md",
    "sha256": "ebadac450c5879841c7fe72ad654482f6a9b4eaf9e7d1bb9c84dec1545c7473e",
    "bytes": 12613
+  },
+  {
+   "name": "posts/every-page-of-this-blog-is-sealed-here-is-how-to-verify-it.en.md",
+   "sha256": "44b8129220d60b0d5fcf96ac745dacb856bfd4931948850347cf04e3a3de28af",
+   "bytes": 3901
+  },
+  {
+   "name": "posts/every-page-of-this-blog-is-sealed-here-is-how-to-verify-it.fr.md",
+   "sha256": "9e86dbc4e8f34944438e618fa6d2cef425d93ae04f4f988ac8fe1dca40ae9185",
+   "bytes": 4564
   },
   {
    "name": "posts/five-witnesses-and-two-rirs-the-cas-just-discovered-custody.en.md",
@@ -330,6 +350,16 @@
    "bytes": 8233
   },
   {
+   "name": "posts/synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did.en.md",
+   "sha256": "8fd85a4f2fd53c69ed2c935bfb3d5d2cb186f83ac3e267748b17c73c50745ef1",
+   "bytes": 4246
+  },
+  {
+   "name": "posts/synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did.fr.md",
+   "sha256": "9d21b817474824fd1b01fd920ada2ba7918807b556743efed54f2cd56a519e29",
+   "bytes": 5079
+  },
+  {
    "name": "posts/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box.en.md",
    "sha256": "8c243900b4753f05e2f1b917dfb51b33085c48d4a2ffdb1a27681bd9f40fa764",
    "bytes": 10265
@@ -460,6 +490,16 @@
    "bytes": 9731
   },
   {
+   "name": "posts/twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions.en.md",
+   "sha256": "375ef2c5fff8ff3c52c94441dce05eb72f8a7bc7325e180cfcecd63f909a49cf",
+   "bytes": 3742
+  },
+  {
+   "name": "posts/twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions.fr.md",
+   "sha256": "6cd2a5eafa747e016e784cd19f09148f397a7648a7e2ba4ca8166304044535fd",
+   "bytes": 4475
+  },
+  {
    "name": "posts/we-tested-pre-training-gravity-on-open-weights-it-stayed-home.en.md",
    "sha256": "885f29c6333627b8261e1fe6501594ca2b0e4d63f1b579d6ee16dfbda3a0083f",
    "bytes": 7312
@@ -506,12 +546,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "fd66ce738f3a48c2aad47000d26e8b84245d1ea7cfaef72d3109e4654c3c0e66",
-   "bytes": 27281
+   "sha256": "cc894286275f1615c5d505fe1ded74cadb38793ea6bce595602067a9b7ae2f35",
+   "bytes": 29740
   }
  ],
- "head": "e851fa921c078f1763f6a44ef8a4f9e137ed33d96e47c870f129f5365af31071",
- "sig": "gmv1m000/RtaKPlT19og0JpcbKdKJQsKA2/OxX6V4ng9xBEol9mSNly9LRt6t0CoZJ7WDK1046yU9gTuuu97Dg==",
+ "head": "8e4ea8d7b20602379057013898c78061a88d8f3b001d231f87b97de36da62c1e",
+ "sig": "l+zJa6I32vySvJoOnLoOPQzGaYemtwcJO3nqpNE9rhz+XVYvbXvhLteiGUq04SOWUYEPlWV4oYbRJ6qMYJmACQ==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
