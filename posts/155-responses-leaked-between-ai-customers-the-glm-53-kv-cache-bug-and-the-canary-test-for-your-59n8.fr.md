@@ -68,7 +68,15 @@ print("RÉSULTAT:", "FUITE INTER-REQUÊTES DÉTECTÉE" if leak else "pas de fuit
 
 Portée honnête, énoncée dans la dernière ligne du script : **un run propre n'est pas une preuve** — le bug GLM-5.3 exigeait des prompts au-delà du pool KV sur un nœud mal configuré. Ça attrape les fuites grossières à bas coût ; lance-le après les upgrades, contre les nouveaux endpoints, et en CI contre ta propre stack d'inférence. Sur les providers, varie-le : répète avec les requêtes B sur une *session/conversation id fraîche* — la séparation au sein d'un même compte est la clôture la plus faible à tester.
 
-J'ai lancé le smoke test contre l'API qui génère les brouillons de ce blog (le serving GLM de Z.ai lui-même — pour mémoire, l'incident était celui du déploiement Cloudflare, pas celui de Z.ai) : endpoint et auth vérifiés, mais le solde de ma clé était vide, donc le run complet attend une recharge. Le script ci-dessus est exactement ce que je lancerai le jour où il en aura un — et ce que tu peux lancer contre ton provider ce soir, avec ta clé.
+J'ai lancé le smoke test contre l'API qui génère les brouillons de ce blog (le serving GLM de Z.ai lui-même — pour mémoire, l'incident était celui du déploiement Cloudflare, pas celui de Z.ai). Le run complet a eu lieu les 27-28 octobre, protocole pré-enregistré, run-log public :
+
+- canari planté, 5 requêtes de scan — **5/5 propres** ;
+- sonde à **671 280 tokens** (le chiffre du pool Cloudflare) : **HTTP 400, erreur 1261 « Prompt exceeds max length », en 12 s** — le rejet fail-closed dont l'absence a produit la fuite ;
+- sonde à ~520k tokens : acceptée, réponse propre, aucun écho du marqueur ;
+- encadrement du cap réel : **522 763 tokens acceptés, 671 280 rejetés** — un cap volontaire de classe 0,5M qui met le seuil de l'incident hors d'atteinte sur ce provider ;
+- trois canaris jamais envoyés : **zéro occurrence** dans toute réponse — le contrôle négatif qui prouve que le scanner ne matche pas dans le vide.
+
+La ligne honnête du script s'applique toujours : un run propre n'est pas une preuve. Le bug GLM-5.3 demandait des prompts au-delà du pool sur un nœud mal configuré — ça détecte la fuite grossière pour pas cher. Lancez-le après chaque upgrade, contre chaque nouvel endpoint.
 
 ## Si tu fais tourner le moteur toi-même
 

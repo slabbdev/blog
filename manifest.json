@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-28T16:07:58+00:00",
+ "built_at": "2026-10-28T16:54:54+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "23c19535460f25a7e88213655093976e870a5728874ce53e26247bc843db978f",
-   "bytes": 3722
+   "sha256": "3841f65b26e6bc9447395b3c761a81a0f08db218744cede8bfb1223432bee4c5",
+   "bytes": 3656
   },
   {
    "name": "article.html",
@@ -26,23 +26,13 @@
   },
   {
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.en.md",
-   "sha256": "9168e1dff7db2e750593c5c620f7436d5111033bb133dfe3ad827c5694063e5b",
-   "bytes": 8758
+   "sha256": "29e88013eda537c5ec14f6a0f0cd81517151d4711cdda30677120fcc22cf1adb",
+   "bytes": 9440
   },
   {
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.fr.md",
-   "sha256": "b1980a42db700090c51a23a894e31144b8fa90b88e2311f4de82f14db127f88d",
-   "bytes": 9730
-  },
-  {
-   "name": "posts/155-responses-leaked-other-customers-prompts-here-is-the-canary.en.md",
-   "sha256": "db9c38f69b774efa4cbcc3c2b5478be35c9aae348c4d33dcc6203dc61eac22a7",
-   "bytes": 5433
-  },
-  {
-   "name": "posts/155-responses-leaked-other-customers-prompts-here-is-the-canary.fr.md",
-   "sha256": "1f8c58722ebe0ae89cbc383ff61470a6cc9ea88fa396b876a1076ef49e9c2cc7",
-   "bytes": 6325
+   "sha256": "f590581e8f0b65ebb7d7e741e7831294afad772d1c3c5b8302f54a18137023d6",
+   "bytes": 10509
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
@@ -546,12 +536,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "cc894286275f1615c5d505fe1ded74cadb38793ea6bce595602067a9b7ae2f35",
-   "bytes": 29740
+   "sha256": "5f34434d5b8257bff63aadb18bb158e6a0b0ec0fd8c151946e8be830cd48e923",
+   "bytes": 29105
   }
  ],
- "head": "8e4ea8d7b20602379057013898c78061a88d8f3b001d231f87b97de36da62c1e",
- "sig": "l+zJa6I32vySvJoOnLoOPQzGaYemtwcJO3nqpNE9rhz+XVYvbXvhLteiGUq04SOWUYEPlWV4oYbRJ6qMYJmACQ==",
+ "head": "b04c1dd7c4f02887d2303a823b9b5d1458f663ced763535b050775f329f4b2a4",
+ "sig": "WigWQLOZHOmQJDORTUXAy4wP9F1rFOmMkknvIHxlNgZnk4Yy6lSxjEbnG5B6rVgzic617W6d9e8t6eQO6Nc8Cw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }

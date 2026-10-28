@@ -68,7 +68,15 @@ print("RESULT:", "CROSS-REQUEST LEAK DETECTED" if leak else "no leak in this sam
 
 Honest scope, stated in the script's last line: **a clean run is not a proof** — the GLM-5.3 bug needed prompts beyond the KV pool on a misconfigured node. This catches gross leakage cheaply; run it after upgrades, against new endpoints, and in CI against your own inference stack. On providers, vary it: repeat with the B requests on a *fresh session/conversation id* — same-account separation is the weakest fence to test.
 
-I ran the smoke test against the API that generates this blog's drafts (Z.ai's own GLM serving — for the record, the incident was Cloudflare's deployment, not Z.ai's): endpoint and auth verified, but my key's balance was empty, so the full run waits on a recharge. The script above is exactly what I'll run the day it has one — and what you can run against your provider tonight, with your key.
+I ran the smoke test against the API that generates this blog's drafts (Z.ai's own GLM serving — for the record, the incident was Cloudflare's deployment, not Z.ai's). The full run happened October 27-28, pre-registered protocol, run-log public:
+
+- canary planted, 5 scan requests — **5/5 clean**;
+- probe at **671,280 tokens** (the Cloudflare pool figure): **HTTP 400, error 1261 "Prompt exceeds max length", in 12 s** — the fail-closed reject whose absence produced the leak;
+- ~520k-token probe: accepted, clean reply, no marker echo;
+- bounding the real cap: **522,763 tokens accepted, 671,280 rejected** — a deliberate 0.5M-class cap that puts the incident's threshold out of reach on this provider;
+- three never-sent canaries: **zero hits** in any response — the negative control that proves the scanner doesn't match thin air.
+
+The script's honest line still applies: a clean run is not a proof. The GLM-5.3 bug needed prompts beyond the pool on a misconfigured node — this catches gross leakage cheaply. Run it after every upgrade, against every new endpoint.
 
 ## If you run the engine yourself
 

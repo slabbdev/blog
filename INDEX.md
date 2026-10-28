@@ -7,7 +7,6 @@ Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), pui
 - 155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8
 - gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f
 - every-page-of-this-blog-is-sealed-here-is-how-to-verify-it
-- 155-responses-leaked-other-customers-prompts-here-is-the-canary
 - twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions
 - synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did
 - the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema
