@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i
 - 155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8
 - gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f
 - the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema

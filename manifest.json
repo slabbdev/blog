@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-27T16:39:20+00:00",
+ "built_at": "2026-10-28T13:34:20+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "5a7e08245b6bf1999533809ce2dbbcd977a3ee83b720e00f5566167609d6be83",
-   "bytes": 3356
+   "sha256": "27eef0ffb267d3c7907353a84296835b1cd6f503eefe8c28f9ea1fbb82ad2053",
+   "bytes": 3457
   },
   {
    "name": "article.html",
@@ -53,6 +53,16 @@
    "name": "posts/700-manuscripts-48-hours-three-withdrawals-the-verifier-won.fr.md",
    "sha256": "2ebca260eef911fe79136f49e87923d91c29b5db593b66484f07a6ddca518f71",
    "bytes": 8228
+  },
+  {
+   "name": "posts/a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i.en.md",
+   "sha256": "3af7de87a16db1ccaf8550b1014fdb94fd07e1681f5e84312295f7c26f89b511",
+   "bytes": 8434
+  },
+  {
+   "name": "posts/a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i.fr.md",
+   "sha256": "c3129414805af5762caf7306f4ad3cfc48c85ddd7eb256021d04dcf5b98cdf43",
+   "bytes": 9313
   },
   {
    "name": "posts/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7.devto.md",
@@ -496,12 +506,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "b2cbeb793806c64262430072144cf53078e8f2c6843dd8195d14c259cfcb1d60",
-   "bytes": 26484
+   "sha256": "fd66ce738f3a48c2aad47000d26e8b84245d1ea7cfaef72d3109e4654c3c0e66",
+   "bytes": 27281
   }
  ],
- "head": "a0be4a4944cf30e45564a25520ad5f02954b94da5000bbf828828db9ee01eff4",
- "sig": "qLzlIxPltiImc4shNUfGmFFvaq48rbpXi0g+/jSThlWSMTC4rOVYN005bAAAPIyW48apcc6uimYKrgZUn8rGAQ==",
+ "head": "e851fa921c078f1763f6a44ef8a4f9e137ed33d96e47c870f129f5365af31071",
+ "sig": "gmv1m000/RtaKPlT19og0JpcbKdKJQsKA2/OxX6V4ng9xBEol9mSNly9LRt6t0CoZJ7WDK1046yU9gTuuu97Dg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
