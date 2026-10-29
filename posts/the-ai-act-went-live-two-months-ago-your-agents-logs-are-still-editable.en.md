@@ -12,13 +12,13 @@ In April, an AI coding agent took out a company's production database. One Graph
 
 The confession made the rounds as a punchline. The detail that should have kept you up at night was quieter: the most complete witness to what happened was the agent itself, narrating its own actions in a transcript nobody outside the company could verify. And nobody doubts the story. But nobody doubting it isn't a property of the evidence. It's a property of the narrator's mood that day.
 
-Two dev.to posts framed this summer's version of the debate. [Prompt Injection Is the New SQL Injection](https://dev.to/james_anderson_h/prompt-injection-is-the-new-sql-injection-and-were-not-ready-4ea4) is the one everybody quoted, and it ends where these conversations always end: defenses that shrink the blast radius from "catastrophic" to "survivable", plus a call to audit what your agent *reads* against what it's *allowed to do*. Its companion, [Who's Accountable When the AI Was Just Following Instructions?](https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl), doesn't name a culprit. It asks for one thing instead: *"a record of who authorized what — an unforgeable one, not logs the acting system can quietly rewrite."*
+Two dev.to posts framed this summer's version of the debate. [Prompt Injection Is the New SQL Injection](https://dev.to/james_anderson_h/prompt-injection-is-the-new-sql-injection-and-were-not-ready-4ea4) is the one everybody quoted, and it ends where these conversations always end: defenses that shrink the blast radius from "catastrophic" to "survivable", plus a call to audit what your agent *reads* against what it's *allowed to do*. Its companion, [Who's Accountable When the AI Was Just Following Instructions?](https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl), doesn't name a culprit. It asks for one thing instead: *"a record of who authorized what, an unforgeable one, not logs the acting system can quietly rewrite."*
 
 That sentence is the whole problem. Neither thread shows how to build the thing it asks for. And both conversations live in the first gap. The unforgeable record is second-gap territory, and the law landed there two months ago.
 
 Quick map, because I'll lean on it. Any AI system has two gaps. What it reads versus what it's allowed to do: the exploit gap. What it did versus what its logs say: the cover-up gap. This post lives in the second one.
 
-![The two gaps — Article 12 lives in the second one](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/k53q4a66sb42naubw687.png)
+![The two gaps, Article 12 lives in the second one](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/k53q4a66sb42naubw687.png)
 
 ## Two months ago, the clock started
 
@@ -33,7 +33,7 @@ Article 12 stops being abstract once you read it against an agent stack. The sys
 In agent terms:
 
 - every tool call, with arguments, results, and which model decision produced it
-- every LLM call. Including the transcript the model was fed — yes, that transcript
+- every LLM call. Including the transcript the model was fed, yes, that transcript
 - config changes and substantial modifications, versioned
 - timestamps that don't depend on the honesty of the machine writing them
 - and retention you can prove, not retention you describe in a policy nobody reads
@@ -44,9 +44,9 @@ Nothing in that list scares anyone. Every product in this space logs it today. T
 
 Automatic recording is satisfied by the agent writing its own log. Nobody types it, so it's automatic. But a log written by the system it describes, on infrastructure owned by the operator, is a confession written by the suspect.
 
-Append-only flags stop the sloppy mistakes and nobody else. Hash chains stop outsiders. Neither stops the key holder: they can regenerate the entire history, fabricated events, recomputed hashes, re-signed seals, and end up with an internally consistent journal that verifies against its own key with flying colors. Which proves exactly one thing — that somebody with the key built it. Not *when*. And when is the whole game. A seal created after the fact tells you nothing about what existed before it.
+Append-only flags stop the sloppy mistakes and nobody else. Hash chains stop outsiders. Neither stops the key holder: they can regenerate the entire history, fabricated events, recomputed hashes, re-signed seals, and end up with an internally consistent journal that verifies against its own key with flying colors. Which proves exactly one thing, that somebody with the key built it. Not *when*. And when is the whole game. A seal created after the fact tells you nothing about what existed before it.
 
-<!-- internal link slot: previous post "Anyone with database access can rewrite your AI agent's logs" — paste URL here if live on dev.to -->
+<!-- internal link slot: previous post "Anyone with database access can rewrite your AI agent's logs", paste URL here if live on dev.to -->
 
 ## A witness you can build from parts you already have
 
@@ -89,7 +89,7 @@ openssl ts -verify -data head.bin -in head.tsr -CAfile tsa.crt
 
 Two different failure modes for a forger. OpenTimestamps buries your 32-byte head in a bitcoin Merkle tree, and redoing a network's proof of work is not a plan. The RFC 3161 receipt is the legal tier: a qualified timestamp authority carries a presumption of correctness under eIDAS, which is the difference between a technical measure and a measure a lawyer accepts. Notice what neither witness ever sees: an event. Only an opaque digest. The GDPR conversation stays short.
 
-What the auditor gets is almost boring. Three files: the journal export, the anchoring receipts, and a verifier of about sixty lines that recomputes the chain from genesis, checks every signature against the public key you published, and checks each receipt against its external root. Exit 0 or the history is rejected, no matter when the tampering happened — any rewrite produces a different head than the one the witnesses recorded. Next to those files goes the logging description Annexe IV §2(f) asks for, written once, against a journal that can't quietly drift.
+What the auditor gets is almost boring. Three files: the journal export, the anchoring receipts, and a verifier of about sixty lines that recomputes the chain from genesis, checks every signature against the public key you published, and checks each receipt against its external root. Exit 0 or the history is rejected, no matter when the tampering happened, any rewrite produces a different head than the one the witnesses recorded. Next to those files goes the logging description Annexe IV §2(f) asks for, written once, against a journal that can't quietly drift.
 
 ![What the auditor actually receives: export.json, the receipts, exit 0](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/fnm0dptljdq0t4hkd1tt.png)
 

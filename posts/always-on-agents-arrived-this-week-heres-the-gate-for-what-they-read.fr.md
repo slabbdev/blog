@@ -9,24 +9,24 @@ image_alt: "Les agents toujours allumés sont arrivés cette semaine. Voici le f
 ---
 
 
-> 🇬🇧 **Cet article n'est pas encore traduit** — la version originale en anglais suit. La traduction arrive.
+> 🇬🇧 **Cet article n'est pas encore traduit**, la version originale en anglais suit. La traduction arrive.
 
-Tuesday at DevDay, OpenAI shipped [dots](https://openai.com/index/introducing-dots/): always-on agents that get their [own cloud computer](https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/) and keep working while you sleep. Not a chat window — a resident. Which means the interesting part of your agent's day is now the part you don't watch. Overnight, a dot reads changelogs, issues, inboxes, and MCP tool descriptions that no human just reviewed.
+Tuesday at DevDay, OpenAI shipped [dots](https://openai.com/index/introducing-dots/): always-on agents that get their [own cloud computer](https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/) and keep working while you sleep. Not a chat window, a resident. Which means the interesting part of your agent's day is now the part you don't watch. Overnight, a dot reads changelogs, issues, inboxes, and MCP tool descriptions that no human just reviewed.
 
-How often is that stream poisoned? When Invariant Labs shipped [mcp-scan](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks), their early runs flagged about 5.5% of scanned MCP servers for tool poisoning — malicious instructions inside tool descriptions, invisible to the user, fully visible to the model. And the market noticed what I noticed: two days after DevDay, a runtime-protection vendor finished [wiring itself into a major AI gateway](https://www.onyx.security/blog/onyx-and-truefoundry-extending-ai-control-to-the-ai-gateway). Guardrails for agents just became a product category with a checkout page.
+How often is that stream poisoned? When Invariant Labs shipped [mcp-scan](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks), their early runs flagged about 5.5% of scanned MCP servers for tool poisoning, malicious instructions inside tool descriptions, invisible to the user, fully visible to the model. And the market noticed what I noticed: two days after DevDay, a runtime-protection vendor finished [wiring itself into a major AI gateway](https://www.onyx.security/blog/onyx-and-truefoundry-extending-ai-control-to-the-ai-gateway). Guardrails for agents just became a product category with a checkout page.
 
 This post is the under-the-hood version. What a gate on your agent's read path actually does, and the fifty lines that matter. It's the other half of [this morning's post](https://dev.to/slabb/the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn): that one made what your agent *does* provable. This one screens what it *reads*.
 
 ## You can't fix the channel. You can watch it.
 
-[James Anderson's piece](https://dev.to/james_anderson_h/prompt-injection-is-the-new-sql-injection-and-were-not-ready-4ea4) settled the analogy: SQL injection and prompt injection share a root cause — data and instructions in one channel. SQL got parameterized queries. Prompt injection never did, because the model reads everything as language by design. And his number stands: adaptive attacks reportedly bypass more than 90% of published defenses.
+[James Anderson's piece](https://dev.to/james_anderson_h/prompt-injection-is-the-new-sql-injection-and-were-not-ready-4ea4) settled the analogy: SQL injection and prompt injection share a root cause, data and instructions in one channel. SQL got parameterized queries. Prompt injection never did, because the model reads everything as language by design. And his number stands: adaptive attacks reportedly bypass more than 90% of published defenses.
 
 So the honest goal is smaller, and it's reachable. Know what came in. Flag what looks like a payload. Never let untrusted text into privileged context as prose. Three parts: a tripwire, a quarantine, a receipt.
 
 ## The tripwire
 
 ```python
-"""gate.py — screen untrusted text before it reaches your agent's context.
+"""gate.py, screen untrusted text before it reaches your agent's context.
 Tripwire, not a wall: flag what looks like a payload, seal the verdict.
 """
 import hashlib, re
@@ -76,28 +76,28 @@ if __name__ == "__main__":
     print(v.source, v.sha256[:12], v.flags or "clean")
 ```
 
-Run it against a poisoned changelog and two flags fire: the payload carries zero-width characters — invisible in any rendered page, which is exactly how it hides inside a tool description — and its shape is an imperative aimed at the model. Neither check is clever. That's the point: hidden Unicode and spoofed role tags are cheaper to detect than they are to abandon, so the lazy half of payloads trips here on its way in.
+Run it against a poisoned changelog and two flags fire: the payload carries zero-width characters, invisible in any rendered page, which is exactly how it hides inside a tool description, and its shape is an imperative aimed at the model. Neither check is clever. That's the point: hidden Unicode and spoofed role tags are cheaper to detect than they are to abandon, so the lazy half of payloads trips here on its way in.
 
 ## The quarantine
 
 The flags aren't the wall. The wall is one rule, and it costs a code review:
 
-> Untrusted text never enters the privileged context as prose. It enters as structured data — fields, not paragraphs.
+> Untrusted text never enters the privileged context as prose. It enters as structured data, fields, not paragraphs.
 
-A summary. An extracted set of fields. A diff. Whatever shape your agent needs, produced by something with no tools attached, no authority, and no memory of your secrets. An instruction hiding in a changelog that gets flattened into `{"version": "2.4.0", "changes": [...]}` has nothing left to act on. That's the "architecturally separate untrusted content" line from every serious writeup, including the comments under James's post — it holds because it removes the channel instead of watching it.
+A summary. An extracted set of fields. A diff. Whatever shape your agent needs, produced by something with no tools attached, no authority, and no memory of your secrets. An instruction hiding in a changelog that gets flattened into `{"version": "2.4.0", "changes": [...]}` has nothing left to act on. That's the "architecturally separate untrusted content" line from every serious writeup, including the comments under James's post, it holds because it removes the channel instead of watching it.
 
 ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/qcwdboof1nzfm5wzd3se.png)
 
 ## The receipt
 
-Where do flagged ingests go? Not into a log you'll grep once and lose. They're events like everything else the agent produced — hashed into the chain, sealed, verifiable later. If a dot reads fifty things overnight and acts on one, the morning-after question is one query: what came in, what tripped, what did it do next. I built that half out [this morning](https://dev.to/slabb/the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn) — the gate above hands it a `sha256` and a flag list, which is all a journal needs.
+Where do flagged ingests go? Not into a log you'll grep once and lose. They're events like everything else the agent produced, hashed into the chain, sealed, verifiable later. If a dot reads fifty things overnight and acts on one, the morning-after question is one query: what came in, what tripped, what did it do next. I built that half out [this morning](https://dev.to/slabb/the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn), the gate above hands it a `sha256` and a flag list, which is all a journal needs.
 
 ## Two honest limits
 
 Because screening is the easiest place to lie to yourself.
 
-First: this is a tripwire, not a wall. A payload that knows it's being screened rephrases — no hidden characters, no spoofed tags, one polite sentence that happens to be an instruction. The walls that hold are architectural: quarantine, and server-side re-checks of every tool call against the acting user, every time. The gate buys visibility and time. It doesn't buy safety.
+First: this is a tripwire, not a wall. A payload that knows it's being screened rephrases, no hidden characters, no spoofed tags, one polite sentence that happens to be an instruction. The walls that hold are architectural: quarantine, and server-side re-checks of every tool call against the acting user, every time. The gate buys visibility and time. It doesn't buy safety.
 
-Second: false positives are a tuning bill you will pay. Security mailing lists are full of the exact strings this tripwire hunts; it will flag them daily. That's the right failure direction — a flagged ingest a human reviews beats a clean-looking one nobody did — but budget the review time, or the tripwire becomes wallpaper.
+Second: false positives are a tuning bill you will pay. Security mailing lists are full of the exact strings this tripwire hunts; it will flag them daily. That's the right failure direction, a flagged ingest a human reviews beats a clean-looking one nobody did, but budget the review time, or the tripwire becomes wallpaper.
 
 Dots and their cousins will read more of the internet this year than you will. The question is no longer whether to screen the read path. It's whether anyone is watching when it trips.

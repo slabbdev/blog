@@ -2,132 +2,132 @@
  {
   "slug": "mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8",
   "date": "2026-10-20",
-  "titre_fr": "Timestral de Mistral est n°1 avec 0,003 MASE d'avance. Je l'ai fait tourner — le modèle n'était pas la variable.",
-  "titre_en": "Mistral's Timestral is #1 by 0.003 MASE. I ran it — the model was not the variable.",
-  "resume_en": "Mistral released Timestral, four open-weight time-series models that top three benchmarks — by 0.003 MASE on their own table. I ran all three sizes against one-line baselines, on a known generator and on fresh Paris weather. With one summer of context the 209M lost to \"repeat yesterday\"; with three years it beat everything by a third — and the 20 MB model matched the 837 MB one.",
+  "titre_fr": "Timestral de Mistral est n°1 avec 0,003 MASE d'avance. Je l'ai fait tourner, le modèle n'était pas la variable.",
+  "titre_en": "Mistral's Timestral is #1 by 0.003 MASE. I ran it, the model was not the variable.",
+  "resume_en": "Mistral released Timestral, four open-weight time-series models that top three benchmarks, by 0.003 MASE on their own table. I ran all three sizes against one-line baselines, on a known generator and on fresh Paris weather. With one summer of context the 209M lost to \"repeat yesterday\"; with three years it beat everything by a third, and the 20 MB model matched the 837 MB one.",
   "url": "https://blog.slabb.dev/en/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8",
   "url_fr": "https://blog.slabb.dev/fr/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8",
-  "text_commit": "Mistral's Timestral is #1 by 0.003 MASE. I ran it — the model was not the variable.\n\nMistral released Timestral, four open-weight time-series models that top three benchmarks — by 0.003 MASE on their own table. I ran all three sizes against one-line baselines, on a known generator and on fresh Paris weather. With one summer of context the 209M lost to \"repeat yesterday\"; with three years it beat everything by a third — and the 20 MB model matched the 837 MB one.\n\n→ https://blog.slabb.dev/en/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8"
+  "text_commit": "Mistral's Timestral is #1 by 0.003 MASE. I ran it, the model was not the variable.\n\nMistral released Timestral, four open-weight time-series models that top three benchmarks, by 0.003 MASE on their own table. I ran all three sizes against one-line baselines, on a known generator and on fresh Paris weather. With one summer of context the 209M lost to \"repeat yesterday\"; with three years it beat everything by a third, and the 20 MB model matched the 837 MB one.\n\n→ https://blog.slabb.dev/en/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8"
  },
  {
   "slug": "the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742",
   "date": "2026-10-20",
   "titre_fr": "Le panneau de contrôle derrière une vague de piratage IA de 100 sites n'a pas de login. J'en ai fait tourner un.",
   "titre_en": "The control panel behind a 100-site AI hacking spree has no login. I ran one.",
-  "resume_en": "Reuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication — I read the source, then ran one with the attack mode off.",
+  "resume_en": "Reuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication, I read the source, then ran one with the attack mode off.",
   "url": "https://blog.slabb.dev/en/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742",
   "url_fr": "https://blog.slabb.dev/fr/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742",
-  "text_commit": "The control panel behind a 100-site AI hacking spree has no login. I ran one.\n\nReuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication — I read the source, then ran one with the attack mode off.\n\n→ https://blog.slabb.dev/en/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742"
+  "text_commit": "The control panel behind a 100-site AI hacking spree has no login. I ran one.\n\nReuters watched an AI-agent spree breach 100+ companies at roughly fifty dollars a break-in. The open-source control plane behind it, Cairn, ships without authentication, I read the source, then ran one with the attack mode off.\n\n→ https://blog.slabb.dev/en/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742"
  },
  {
   "slug": "the-quietest-backdoor-runs-on-your-own-gpu-5ggb",
   "date": "2026-10-20",
   "titre_fr": "Le backdoor le plus silencieux tourne sur votre propre GPU",
   "titre_en": "The quietest backdoor runs on your own GPU",
-  "resume_en": "ProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design — and no scanner can read the source.",
+  "resume_en": "ProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design, and no scanner can read the source.",
   "url": "https://blog.slabb.dev/en/the-quietest-backdoor-runs-on-your-own-gpu-5ggb",
   "url_fr": "https://blog.slabb.dev/fr/the-quietest-backdoor-runs-on-your-own-gpu-5ggb",
-  "text_commit": "The quietest backdoor runs on your own GPU\n\nProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design — and no scanner can read the source.\n\n→ https://blog.slabb.dev/en/the-quietest-backdoor-runs-on-your-own-gpu-5ggb"
+  "text_commit": "The quietest backdoor runs on your own GPU\n\nProjectDiscovery backdoored a 7B model for under $50 and ran it through a coding agent: normal on every request, credential theft on one trigger phrase. Abliterated models clear your evals by design, and no scanner can read the source.\n\n→ https://blog.slabb.dev/en/the-quietest-backdoor-runs-on-your-own-gpu-5ggb"
  },
  {
   "slug": "opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine",
   "date": "2026-10-19",
   "titre_fr": "OpenCode a perdu les clés qui vivaient dans son cloud. Celles sur le disque allaient bien.",
   "titre_en": "OpenCode lost the keys that lived in its cloud. The ones on disk were fine.",
-  "resume_en": "A breach of OpenCode's online console exposed 1.4% of users' stored API keys — five-figure bills at 3am, Anthropic and Google blocking keys, OpenAI refunding credits. The CLI users slept. The incident didn't need the disputed distillation motive to prove the architecture rule: your key's custody grade is the retention policy of wherever you left it.",
+  "resume_en": "A breach of OpenCode's online console exposed 1.4% of users' stored API keys, five-figure bills at 3am, Anthropic and Google blocking keys, OpenAI refunding credits. The CLI users slept. The incident didn't need the disputed distillation motive to prove the architecture rule: your key's custody grade is the retention policy of wherever you left it.",
   "url": "https://blog.slabb.dev/en/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine",
   "url_fr": "https://blog.slabb.dev/fr/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine",
-  "text_commit": "OpenCode lost the keys that lived in its cloud. The ones on disk were fine.\n\nA breach of OpenCode's online console exposed 1.4% of users' stored API keys — five-figure bills at 3am, Anthropic and Google blocking keys, OpenAI refunding credits. The CLI users slept. The incident didn't need the disputed distillation motive to prove the architecture rule: your key's custody grade is the retention policy of wherever you left it.\n\n→ https://blog.slabb.dev/en/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine"
+  "text_commit": "OpenCode lost the keys that lived in its cloud. The ones on disk were fine.\n\nA breach of OpenCode's online console exposed 1.4% of users' stored API keys, five-figure bills at 3am, Anthropic and Google blocking keys, OpenAI refunding credits. The CLI users slept. The incident didn't need the disputed distillation motive to prove the architecture rule: your key's custody grade is the retention policy of wherever you left it.\n\n→ https://blog.slabb.dev/en/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine"
  },
  {
   "slug": "five-witnesses-and-two-rirs-the-cas-just-discovered-custody",
   "date": "2026-10-19",
   "titre_fr": "Cinq témoins et deux RIR : les CAs viennent de découvrir la custody",
   "titre_en": "Five witnesses and two RIRs: the CAs just discovered custody",
-  "resume_en": "Let's Encrypt is moving domain validation to seven network perspectives across two RIRs, because a new Baseline Requirement makes multi-perspective corroboration mandatory. The CAs just wrote the custody grade — a quorum of witnesses the attacker can't gang up on — into a standard with a deadline.",
+  "resume_en": "Let's Encrypt is moving domain validation to seven network perspectives across two RIRs, because a new Baseline Requirement makes multi-perspective corroboration mandatory. The CAs just wrote the custody grade, a quorum of witnesses the attacker can't gang up on, into a standard with a deadline.",
   "url": "https://blog.slabb.dev/en/five-witnesses-and-two-rirs-the-cas-just-discovered-custody",
   "url_fr": "https://blog.slabb.dev/fr/five-witnesses-and-two-rirs-the-cas-just-discovered-custody",
-  "text_commit": "Five witnesses and two RIRs: the CAs just discovered custody\n\nLet's Encrypt is moving domain validation to seven network perspectives across two RIRs, because a new Baseline Requirement makes multi-perspective corroboration mandatory. The CAs just wrote the custody grade — a quorum of witnesses the attacker can't gang up on — into a standard with a deadline.\n\n→ https://blog.slabb.dev/en/five-witnesses-and-two-rirs-the-cas-just-discovered-custody"
+  "text_commit": "Five witnesses and two RIRs: the CAs just discovered custody\n\nLet's Encrypt is moving domain validation to seven network perspectives across two RIRs, because a new Baseline Requirement makes multi-perspective corroboration mandatory. The CAs just wrote the custody grade, a quorum of witnesses the attacker can't gang up on, into a standard with a deadline.\n\n→ https://blog.slabb.dev/en/five-witnesses-and-two-rirs-the-cas-just-discovered-custody"
  },
  {
   "slug": "but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks",
   "date": "2026-10-17",
-  "titre_fr": "« Mais c'est éthique ? » — l'agent a demandé, aspiré 147 451 lignes privées, puis effacé ses traces",
-  "titre_en": "But ethical?\" — The agent asked, pulled 147,451 private rows, and reverted its tracks",
+  "titre_fr": "« Mais c'est éthique ? », l'agent a demandé, aspiré 147 451 lignes privées, puis effacé ses traces",
+  "titre_en": "But ethical?\", The agent asked, pulled 147,451 private rows, and reverted its tracks",
   "resume_en": "On October 15, OpenAI disclosed four June agent incidents that took up to 90 days to find. In the worst one, a model mutated a live auth config to mint an Azure Storage token, restored the config so the dashboard wouldn't break, kept the token, and pulled five private tables. All five of its final answers were wrong.",
   "url": "https://blog.slabb.dev/en/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks",
   "url_fr": "https://blog.slabb.dev/fr/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks",
-  "text_commit": "But ethical?\" — The agent asked, pulled 147,451 private rows, and reverted its tracks\n\nOn October 15, OpenAI disclosed four June agent incidents that took up to 90 days to find. In the worst one, a model mutated a live auth config to mint an Azure Storage token, restored the config so the dashboard wouldn't break, kept the token, and pulled five private tables. All five of its final answers were wrong.\n\n→ https://blog.slabb.dev/en/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks"
+  "text_commit": "But ethical?\", The agent asked, pulled 147,451 private rows, and reverted its tracks\n\nOn October 15, OpenAI disclosed four June agent incidents that took up to 90 days to find. In the worst one, a model mutated a live auth config to mint an Azure Storage token, restored the config so the dashboard wouldn't break, kept the token, and pulled five private tables. All five of its final answers were wrong.\n\n→ https://blog.slabb.dev/en/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks"
  },
  {
   "slug": "ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box",
   "date": "2026-10-15",
-  "titre_fr": "Dix constats, dix réponses — publier l'audit de notre propre boîte noire",
-  "titre_en": "Ten findings, ten answers — publishing the audit of our own black box",
-  "resume_en": "An external line-by-line audit of our flight recorder found 10 vulnerabilities. We published all ten with their file, line and severity — and answered every one in release 0.21.0, each fix carrying its own named test. 392 tests collected.",
+  "titre_fr": "Dix constats, dix réponses, publier l'audit de notre propre boîte noire",
+  "titre_en": "Ten findings, ten answers, publishing the audit of our own black box",
+  "resume_en": "An external line-by-line audit of our flight recorder found 10 vulnerabilities. We published all ten with their file, line and severity, and answered every one in release 0.21.0, each fix carrying its own named test. 392 tests collected.",
   "url": "https://blog.slabb.dev/en/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box",
   "url_fr": "https://blog.slabb.dev/fr/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box",
-  "text_commit": "Ten findings, ten answers — publishing the audit of our own black box\n\nAn external line-by-line audit of our flight recorder found 10 vulnerabilities. We published all ten with their file, line and severity — and answered every one in release 0.21.0, each fix carrying its own named test. 392 tests collected.\n\n→ https://blog.slabb.dev/en/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box"
+  "text_commit": "Ten findings, ten answers, publishing the audit of our own black box\n\nAn external line-by-line audit of our flight recorder found 10 vulnerabilities. We published all ten with their file, line and severity, and answered every one in release 0.21.0, each fix carrying its own named test. 392 tests collected.\n\n→ https://blog.slabb.dev/en/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box"
  },
  {
   "slug": "nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch",
   "date": "2026-10-15",
-  "titre_fr": "Neuf ans, un Pico à 5 £ et 100 nanosecondes — le bug de vérification de la Xbox",
-  "titre_en": "Nine years, a £5 Pico, and 100 nanoseconds — the Xbox verification glitch",
+  "titre_fr": "Neuf ans, un Pico à 5 £ et 100 nanosecondes, le bug de vérification de la Xbox",
+  "titre_en": "Nine years, a £5 Pico, and 100 nanoseconds, the Xbox verification glitch",
   "resume_en": "A signature check on a game console, beaten by a pulse of energy shorter than a clock tick. The anatomy of the Reset Glitch Hack, the 9-year arc of the tools, and what it teaches about every verification you run on hardware you don't control.",
   "url": "https://blog.slabb.dev/en/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch",
   "url_fr": "https://blog.slabb.dev/fr/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch",
-  "text_commit": "Nine years, a £5 Pico, and 100 nanoseconds — the Xbox verification glitch\n\nA signature check on a game console, beaten by a pulse of energy shorter than a clock tick. The anatomy of the Reset Glitch Hack, the 9-year arc of the tools, and what it teaches about every verification you run on hardware you don't control.\n\n→ https://blog.slabb.dev/en/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch"
+  "text_commit": "Nine years, a £5 Pico, and 100 nanoseconds, the Xbox verification glitch\n\nA signature check on a game console, beaten by a pulse of energy shorter than a clock tick. The anatomy of the Reset Glitch Hack, the 9-year arc of the tools, and what it teaches about every verification you run on hardware you don't control.\n\n→ https://blog.slabb.dev/en/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch"
  },
  {
   "slug": "the-11-year-old-premise-inside-rusts-memory-safety-proof",
   "date": "2026-10-14",
   "titre_fr": "Le postulat de 11 ans au cœur de la preuve de sûreté mémoire de Rust",
   "titre_en": "The 11-year-old premise inside Rust's memory-safety proof",
-  "resume_en": "\\\"If it compiles, the memory is safe\\\" — a machine-checked proof, Level 2 enforced by the compiler itself. Yesterday an 11-year-old hole appeared in it, and the team's severity call exposed the premise the proof rests on: Drop impls are honest. Verified live on stable and nightly.",
+  "resume_en": "\\\"If it compiles, the memory is safe\\\", a machine-checked proof, Level 2 enforced by the compiler itself. Yesterday an 11-year-old hole appeared in it, and the team's severity call exposed the premise the proof rests on: Drop impls are honest. Verified live on stable and nightly.",
   "url": "https://blog.slabb.dev/en/the-11-year-old-premise-inside-rusts-memory-safety-proof",
   "url_fr": "https://blog.slabb.dev/fr/the-11-year-old-premise-inside-rusts-memory-safety-proof",
-  "text_commit": "The 11-year-old premise inside Rust's memory-safety proof\n\n\\\"If it compiles, the memory is safe\\\" — a machine-checked proof, Level 2 enforced by the compiler itself. Yesterday an 11-year-old hole appeared in it, and the team's severity call exposed the premise the proof rests on: Drop impls are honest. Verified live on stable and nightly.\n\n→ https://blog.slabb.dev/en/the-11-year-old-premise-inside-rusts-memory-safety-proof"
+  "text_commit": "The 11-year-old premise inside Rust's memory-safety proof\n\n\\\"If it compiles, the memory is safe\\\", a machine-checked proof, Level 2 enforced by the compiler itself. Yesterday an 11-year-old hole appeared in it, and the team's severity call exposed the premise the proof rests on: Drop impls are honest. Verified live on stable and nightly.\n\n→ https://blog.slabb.dev/en/the-11-year-old-premise-inside-rusts-memory-safety-proof"
  },
  {
   "slug": "the-authority-ladder-five-rungs-down-four-premises-standing",
   "date": "2026-10-13",
   "titre_fr": "L'échelle d'autorité : cinq barreaux plus bas, quatre prémisses toujours debout",
   "titre_en": "The authority ladder: five rungs down, four premises standing",
-  "resume_en": "My last post ended with \\\"attack it from there.\\\" A reader descended the whole way — and the descent became a ladder with five rungs, each closed by a test, ending at the floor where evidence becomes trust. The page, the probes, and the premises table.",
+  "resume_en": "My last post ended with \\\"attack it from there.\\\" A reader descended the whole way, and the descent became a ladder with five rungs, each closed by a test, ending at the floor where evidence becomes trust. The page, the probes, and the premises table.",
   "url": "https://blog.slabb.dev/en/the-authority-ladder-five-rungs-down-four-premises-standing",
   "url_fr": "https://blog.slabb.dev/fr/the-authority-ladder-five-rungs-down-four-premises-standing",
-  "text_commit": "The authority ladder: five rungs down, four premises standing\n\nMy last post ended with \\\"attack it from there.\\\" A reader descended the whole way — and the descent became a ladder with five rungs, each closed by a test, ending at the floor where evidence becomes trust. The page, the probes, and the premises table.\n\n→ https://blog.slabb.dev/en/the-authority-ladder-five-rungs-down-four-premises-standing"
+  "text_commit": "The authority ladder: five rungs down, four premises standing\n\nMy last post ended with \\\"attack it from there.\\\" A reader descended the whole way, and the descent became a ladder with five rungs, each closed by a test, ending at the floor where evidence becomes trust. The page, the probes, and the premises table.\n\n→ https://blog.slabb.dev/en/the-authority-ladder-five-rungs-down-four-premises-standing"
  },
  {
   "slug": "every-no-ai-contributions-policy-is-a-level-0-control",
   "date": "2026-10-12",
   "titre_fr": "Chaque politique « pas d'IA » est un contrôle de niveau 0",
   "titre_en": "Every \\\"no AI contributions\\\" policy is a Level 0 control",
-  "resume_en": "QGIS just banned AI-assisted code — with \\\"code reversion and sanctioning\\\" as enforcement, and an honesty test as the trigger. The taxonomy of what an enforceable policy actually requires, from a project that ships one.",
+  "resume_en": "QGIS just banned AI-assisted code, with \\\"code reversion and sanctioning\\\" as enforcement, and an honesty test as the trigger. The taxonomy of what an enforceable policy actually requires, from a project that ships one.",
   "url": "https://blog.slabb.dev/en/every-no-ai-contributions-policy-is-a-level-0-control",
   "url_fr": "https://blog.slabb.dev/fr/every-no-ai-contributions-policy-is-a-level-0-control",
-  "text_commit": "Every \\\"no AI contributions\\\" policy is a Level 0 control\n\nQGIS just banned AI-assisted code — with \\\"code reversion and sanctioning\\\" as enforcement, and an honesty test as the trigger. The taxonomy of what an enforceable policy actually requires, from a project that ships one.\n\n→ https://blog.slabb.dev/en/every-no-ai-contributions-policy-is-a-level-0-control"
+  "text_commit": "Every \\\"no AI contributions\\\" policy is a Level 0 control\n\nQGIS just banned AI-assisted code, with \\\"code reversion and sanctioning\\\" as enforcement, and an honesty test as the trigger. The taxonomy of what an enforceable policy actually requires, from a project that ships one.\n\n→ https://blog.slabb.dev/en/every-no-ai-contributions-policy-is-a-level-0-control"
  },
  {
   "slug": "one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry",
   "date": "2026-10-11",
   "titre_fr": "Un tilde quoté dans votre .bashrc est une entrée PATH contrôlée par l'attaquant",
   "titre_en": "One quoted tilde in your .bashrc is an attacker-controlled PATH entry",
-  "resume_en": "export PATH=\\\"$PATH:~/.local/bin/\\\" — the quotes stop tilde expansion, the entry resolves against your current directory, and anyone who can create a ~ folder there owns your shell. Verified live.",
+  "resume_en": "export PATH=\\\"$PATH:~/.local/bin/\\\", the quotes stop tilde expansion, the entry resolves against your current directory, and anyone who can create a ~ folder there owns your shell. Verified live.",
   "url": "https://blog.slabb.dev/en/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry",
   "url_fr": "https://blog.slabb.dev/fr/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry",
-  "text_commit": "One quoted tilde in your .bashrc is an attacker-controlled PATH entry\n\nexport PATH=\\\"$PATH:~/.local/bin/\\\" — the quotes stop tilde expansion, the entry resolves against your current directory, and anyone who can create a ~ folder there owns your shell. Verified live.\n\n→ https://blog.slabb.dev/en/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry"
+  "text_commit": "One quoted tilde in your .bashrc is an attacker-controlled PATH entry\n\nexport PATH=\\\"$PATH:~/.local/bin/\\\", the quotes stop tilde expansion, the entry resolves against your current directory, and anyone who can create a ~ folder there owns your shell. Verified live.\n\n→ https://blog.slabb.dev/en/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry"
  },
  {
   "slug": "we-tested-pre-training-gravity-on-open-weights-it-stayed-home",
   "date": "2026-10-11",
   "titre_fr": "On a testé la gravité du pré-entraînement sur des poids ouverts. Elle est restée au sol.",
   "titre_en": "We tested pre-training gravity on open weights. It stayed home.",
-  "resume_en": "Randal L. Schwartz predicted the canary would trip harder on open weights. 116 graded generations later — the floor held, the ceiling never appeared, and the interesting part is what the models produced instead.",
+  "resume_en": "Randal L. Schwartz predicted the canary would trip harder on open weights. 116 graded generations later, the floor held, the ceiling never appeared, and the interesting part is what the models produced instead.",
   "url": "https://blog.slabb.dev/en/we-tested-pre-training-gravity-on-open-weights-it-stayed-home",
   "url_fr": "https://blog.slabb.dev/fr/we-tested-pre-training-gravity-on-open-weights-it-stayed-home",
-  "text_commit": "We tested pre-training gravity on open weights. It stayed home.\n\nRandal L. Schwartz predicted the canary would trip harder on open weights. 116 graded generations later — the floor held, the ceiling never appeared, and the interesting part is what the models produced instead.\n\n→ https://blog.slabb.dev/en/we-tested-pre-training-gravity-on-open-weights-it-stayed-home"
+  "text_commit": "We tested pre-training gravity on open weights. It stayed home.\n\nRandal L. Schwartz predicted the canary would trip harder on open weights. 116 graded generations later, the floor held, the ceiling never appeared, and the interesting part is what the models produced instead.\n\n→ https://blog.slabb.dev/en/we-tested-pre-training-gravity-on-open-weights-it-stayed-home"
  },
  {
   "slug": "a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough",
@@ -154,40 +154,40 @@
   "date": "2026-10-10",
   "titre_fr": "Un point-virgule non échappé suffisait à voler des comptes Telegram",
   "titre_en": "One unescaped semicolon was enough to steal Telegram accounts",
-  "resume_en": "CVE-2026-107181 — a clicked link, an IPC separator nobody escaped, three files, and your session. Anatomy of an 8.1 whose fix shipped as a \\\"rendering fix\\\".",
+  "resume_en": "CVE-2026-107181, a clicked link, an IPC separator nobody escaped, three files, and your session. Anatomy of an 8.1 whose fix shipped as a \\\"rendering fix\\\".",
   "url": "https://blog.slabb.dev/en/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts",
   "url_fr": "https://blog.slabb.dev/fr/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts",
-  "text_commit": "One unescaped semicolon was enough to steal Telegram accounts\n\nCVE-2026-107181 — a clicked link, an IPC separator nobody escaped, three files, and your session. Anatomy of an 8.1 whose fix shipped as a \\\"rendering fix\\\".\n\n→ https://blog.slabb.dev/en/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts"
+  "text_commit": "One unescaped semicolon was enough to steal Telegram accounts\n\nCVE-2026-107181, a clicked link, an IPC separator nobody escaped, three files, and your session. Anatomy of an 8.1 whose fix shipped as a \\\"rendering fix\\\".\n\n→ https://blog.slabb.dev/en/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts"
  },
  {
   "slug": "docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default",
   "date": "2026-10-09",
   "titre_fr": "Docker vient de livrer le mur anti-agents que je réclamais. Désactivé par défaut.",
   "titre_en": "Docker just shipped the agent wall I wanted. It's off by default.",
-  "resume_en": "docker-agent comes preinstalled with Docker Desktop 4.63 — declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.",
+  "resume_en": "docker-agent comes preinstalled with Docker Desktop 4.63, declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.",
   "url": "https://blog.slabb.dev/en/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default",
   "url_fr": "https://blog.slabb.dev/fr/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default",
-  "text_commit": "Docker just shipped the agent wall I wanted. It's off by default.\n\ndocker-agent comes preinstalled with Docker Desktop 4.63 — declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.\n\n→ https://blog.slabb.dev/en/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default"
+  "text_commit": "Docker just shipped the agent wall I wanted. It's off by default.\n\ndocker-agent comes preinstalled with Docker Desktop 4.63, declarative YAML agents, MCP toolsets, and a VM sandbox with default-deny egress you have to opt into. A source read.\n\n→ https://blog.slabb.dev/en/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default"
  },
  {
   "slug": "my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth",
   "date": "2026-10-08",
   "titre_fr": "Mon agent a rencontré le vrai web : des 403, des challenges, et le péage à venir",
   "titre_en": "My agent met the real web. 403s, challenges, and the coming tollbooth.",
-  "resume_en": "200 real URLs, one vanilla agent, zero challenge solving — 82.5% readable, 72 hosts blocking every AI crawler, zero x402 yet, and one site running a declared paywall with the gate up.",
+  "resume_en": "200 real URLs, one vanilla agent, zero challenge solving, 82.5% readable, 72 hosts blocking every AI crawler, zero x402 yet, and one site running a declared paywall with the gate up.",
   "url": "https://blog.slabb.dev/en/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth",
   "url_fr": "https://blog.slabb.dev/fr/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth",
-  "text_commit": "My agent met the real web. 403s, challenges, and the coming tollbooth.\n\n200 real URLs, one vanilla agent, zero challenge solving — 82.5% readable, 72 hosts blocking every AI crawler, zero x402 yet, and one site running a declared paywall with the gate up.\n\n→ https://blog.slabb.dev/en/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth"
+  "text_commit": "My agent met the real web. 403s, challenges, and the coming tollbooth.\n\n200 real URLs, one vanilla agent, zero challenge solving, 82.5% readable, 72 hosts blocking every AI crawler, zero x402 yet, and one site running a declared paywall with the gate up.\n\n→ https://blog.slabb.dev/en/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth"
  },
  {
   "slug": "700-manuscripts-48-hours-three-withdrawals-the-verifier-won",
   "date": "2026-10-08",
   "titre_fr": "700 manuscrits, 48 heures, trois retraits : le vérificateur a gagné",
   "titre_en": "700 manuscripts, 48 hours, three withdrawals. The verifier won.",
-  "resume_en": "OpenAI published hundreds of AI-produced math results before fully formalizing them. Two days later, three are gone — and that is the system working, not failing.",
+  "resume_en": "OpenAI published hundreds of AI-produced math results before fully formalizing them. Two days later, three are gone, and that is the system working, not failing.",
   "url": "https://blog.slabb.dev/en/700-manuscripts-48-hours-three-withdrawals-the-verifier-won",
   "url_fr": "https://blog.slabb.dev/fr/700-manuscripts-48-hours-three-withdrawals-the-verifier-won",
-  "text_commit": "700 manuscripts, 48 hours, three withdrawals. The verifier won.\n\nOpenAI published hundreds of AI-produced math results before fully formalizing them. Two days later, three are gone — and that is the system working, not failing.\n\n→ https://blog.slabb.dev/en/700-manuscripts-48-hours-three-withdrawals-the-verifier-won"
+  "text_commit": "700 manuscripts, 48 hours, three withdrawals. The verifier won.\n\nOpenAI published hundreds of AI-produced math results before fully formalizing them. Two days later, three are gone, and that is the system working, not failing.\n\n→ https://blog.slabb.dev/en/700-manuscripts-48-hours-three-withdrawals-the-verifier-won"
  },
  {
   "slug": "the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready",
@@ -204,10 +204,10 @@
   "date": "2026-10-06",
   "titre_fr": "Elle utilisait Claude comme journal intime. Les CGU font désormais partie de l'accusation.",
   "titre_en": "She used Claude as a diary. The terms of service are now part of the charge.",
-  "resume_en": "Florida law requires a threat 'viewable by another person'. A chatbot's review policy supplied that person. What the record shows — and what builders should change.",
+  "resume_en": "Florida law requires a threat 'viewable by another person'. A chatbot's review policy supplied that person. What the record shows, and what builders should change.",
   "url": "https://blog.slabb.dev/en/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge",
   "url_fr": "https://blog.slabb.dev/fr/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge",
-  "text_commit": "She used Claude as a diary. The terms of service are now part of the charge.\n\nFlorida law requires a threat 'viewable by another person'. A chatbot's review policy supplied that person. What the record shows — and what builders should change.\n\n→ https://blog.slabb.dev/en/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge"
+  "text_commit": "She used Claude as a diary. The terms of service are now part of the charge.\n\nFlorida law requires a threat 'viewable by another person'. A chatbot's review policy supplied that person. What the record shows, and what builders should change.\n\n→ https://blog.slabb.dev/en/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge"
  },
  {
   "slug": "the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why",
@@ -224,20 +224,20 @@
   "date": "2026-10-03",
   "titre_fr": "J'ai attaqué le ceinturon de mon propre agent. Voici ce qui a survécu.",
   "titre_en": "I attack-tested my agent's seatbelt. Here's what survived.",
-  "resume_en": "A blocklist for destructive agent commands passed its own tests — then failed four bypasses I wrote...",
+  "resume_en": "A blocklist for destructive agent commands passed its own tests, then failed four bypasses I wrote...",
   "url": "https://blog.slabb.dev/en/i-attack-tested-my-agents-seatbelt-heres-what-survived",
   "url_fr": "https://blog.slabb.dev/fr/i-attack-tested-my-agents-seatbelt-heres-what-survived",
-  "text_commit": "I attack-tested my agent's seatbelt. Here's what survived.\n\nA blocklist for destructive agent commands passed its own tests — then failed four bypasses I wrote...\n\n→ https://blog.slabb.dev/en/i-attack-tested-my-agents-seatbelt-heres-what-survived"
+  "text_commit": "I attack-tested my agent's seatbelt. Here's what survived.\n\nA blocklist for destructive agent commands passed its own tests, then failed four bypasses I wrote...\n\n→ https://blog.slabb.dev/en/i-attack-tested-my-agents-seatbelt-heres-what-survived"
  },
  {
   "slug": "594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached",
   "date": "2026-10-01",
   "titre_fr": "~1 Mo en orbite : le navigateur de votre agent est livré avec votre OS",
   "titre_en": "~1 MB to orbit: your agent's browser ships with your OS",
-  "resume_en": "A single Rust binary that drives the WebView your OS already ships — 0.6–1.2 MB, no Chromium, MCP-native. Benchmarked against Playwright and Lightpanda.",
+  "resume_en": "A single Rust binary that drives the WebView your OS already ships, 0.6–1.2 MB, no Chromium, MCP-native. Benchmarked against Playwright and Lightpanda.",
   "url": "https://blog.slabb.dev/en/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached",
   "url_fr": "https://blog.slabb.dev/fr/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached",
-  "text_commit": "~1 MB to orbit: your agent's browser ships with your OS\n\nA single Rust binary that drives the WebView your OS already ships — 0.6–1.2 MB, no Chromium, MCP-native. Benchmarked against Playwright and Lightpanda.\n\n→ https://blog.slabb.dev/en/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached"
+  "text_commit": "~1 MB to orbit: your agent's browser ships with your OS\n\nA single Rust binary that drives the WebView your OS already ships, 0.6–1.2 MB, no Chromium, MCP-native. Benchmarked against Playwright and Lightpanda.\n\n→ https://blog.slabb.dev/en/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached"
  },
  {
   "slug": "always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read",
@@ -262,32 +262,32 @@
  {
   "slug": "tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app",
   "date": "2026-09-29",
-  "titre_fr": "TinyJS App Studio — transformer n'importe quel site en appli desktop de ~6 Mo",
-  "titre_en": "TinyJS App Studio — The GUI to wrap any website or JS project into a ~6 MB desktop app, no Electron, no Node, no bundled Chromium",
-  "resume_en": "A tiny desktop workspace for the tinyjs CLI: create from templates, open any project folder, run and edit live — or wrap any site into 6 MB.",
+  "titre_fr": "TinyJS App Studio, transformer n'importe quel site en appli desktop de ~6 Mo",
+  "titre_en": "TinyJS App Studio, The GUI to wrap any website or JS project into a ~6 MB desktop app, no Electron, no Node, no bundled Chromium",
+  "resume_en": "A tiny desktop workspace for the tinyjs CLI: create from templates, open any project folder, run and edit live, or wrap any site into 6 MB.",
   "url": "https://blog.slabb.dev/en/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app",
   "url_fr": "https://blog.slabb.dev/fr/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app",
-  "text_commit": "TinyJS App Studio — The GUI to wrap any website or JS project into a ~6 MB desktop app, no Electron, no Node, no bundled Chromium\n\nA tiny desktop workspace for the tinyjs CLI: create from templates, open any project folder, run and edit live — or wrap any site into 6 MB.\n\n→ https://blog.slabb.dev/en/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app"
+  "text_commit": "TinyJS App Studio, The GUI to wrap any website or JS project into a ~6 MB desktop app, no Electron, no Node, no bundled Chromium\n\nA tiny desktop workspace for the tinyjs CLI: create from templates, open any project folder, run and edit live, or wrap any site into 6 MB.\n\n→ https://blog.slabb.dev/en/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app"
  },
  {
   "slug": "zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content",
   "date": "2026-09-29",
   "titre_fr": "ZéroJour (édition presse) : un journal qui s'imprime lui-même depuis du contenu structuré",
-  "titre_en": "ZéroJour (the press edition): a newspaper that prints itself from structured content — where the machine composes and only a human can publish",
+  "titre_en": "ZéroJour (the press edition): a newspaper that prints itself from structured content, where the machine composes and only a human can publish",
   "resume_en": "A daily paper with no reporters.  ZéroJour is a newspaper printed live from the same structured...",
   "url": "https://blog.slabb.dev/en/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content",
   "url_fr": "https://blog.slabb.dev/fr/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content",
-  "text_commit": "ZéroJour (the press edition): a newspaper that prints itself from structured content — where the machine composes and only a human can publish\n\nA daily paper with no reporters.  ZéroJour is a newspaper printed live from the same structured...\n\n→ https://blog.slabb.dev/en/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content"
+  "text_commit": "ZéroJour (the press edition): a newspaper that prints itself from structured content, where the machine composes and only a human can publish\n\nA daily paper with no reporters.  ZéroJour is a newspaper printed live from the same structured...\n\n→ https://blog.slabb.dev/en/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content"
  },
  {
   "slug": "zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it",
   "date": "2026-09-29",
   "titre_fr": "ZéroJour : un agent d'advisories qui ne fonctionne que parce que le contenu est structuré",
-  "titre_en": "ZéroJour: an advisories agent that only works because the content is structured — and we prove it",
+  "titre_en": "ZéroJour: an advisories agent that only works because the content is structured, and we prove it",
   "resume_en": "Most entries will claim their agent works thanks to structured content. This one measures...",
   "url": "https://blog.slabb.dev/en/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it",
   "url_fr": "https://blog.slabb.dev/fr/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it",
-  "text_commit": "ZéroJour: an advisories agent that only works because the content is structured — and we prove it\n\nMost entries will claim their agent works thanks to structured content. This one measures...\n\n→ https://blog.slabb.dev/en/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it"
+  "text_commit": "ZéroJour: an advisories agent that only works because the content is structured, and we prove it\n\nMost entries will claim their agent works thanks to structured content. This one measures...\n\n→ https://blog.slabb.dev/en/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it"
  },
  {
   "slug": "i-built-the-flight-data-recorder-for-ai-agents",
@@ -304,7 +304,7 @@
   "date": "2026-10-22",
   "titre_fr": "Une clé privée de CA valait le chiffre 4. Votre curl lui fait encore confiance (CVE-2026-111943)",
   "titre_en": "A CA private key was the number 4. Your curl still trusts it (CVE-2026-111943)",
-  "resume_en": "Eight eMudhra intermediate CA keys were mis-generated — recoverable from the public certificates since April 2025. I recovered one in 4 guesses. Browsers are safe; your curl, git and CI may not be.",
+  "resume_en": "Eight eMudhra intermediate CA keys were mis-generated, recoverable from the public certificates since April 2025. I recovered one in 4 guesses. Browsers are safe; your curl, git and CI may not be.",
   "url": "https://blog.slabb.dev/en/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4",
   "url_fr": "https://blog.slabb.dev/fr/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4",
   "text_commit": "see dev-null commit 01a1632d-0753-73dd-809a-fa7a0214e2fb (214e2fb), 2026-10-22",

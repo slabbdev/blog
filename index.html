@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Journal de bord — agents IA, sécurité &amp; preuve | Sam Labbe</title>
-<meta name="description" content="Journal de bord — le blog de Sam Labbe : agents IA, sécurité &amp; preuve. EN d'abord, FR au fil des traductions.">
+<title>Journal de bord, agents IA, sécurité &amp; preuve | Sam Labbe</title>
+<meta name="description" content="Journal de bord, le blog de Sam Labbe : agents IA, sécurité &amp; preuve. EN d'abord, FR au fil des traductions.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0b0d'/%3E%3Crect x='20' y='20' width='24' height='24' rx='4' fill='%237de8a9'/%3E%3C/svg%3E">
 <link href="css/style.css" rel="stylesheet">
 <style>
@@ -55,11 +55,11 @@
 </style>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Journal de bord">
-<meta property="og:title" content="Journal de bord — agents IA, sécurité &amp; preuve">
+<meta property="og:title" content="Journal de bord, agents IA, sécurité &amp; preuve">
 <meta property="og:description" content="Le blog de Sam Labbe : agents IA en production, sécurité offensive, preuve de conformité.">
 <meta property="og:url" content="https://blog.slabb.dev/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Journal de bord — agents IA, sécurité &amp; preuve">
+<meta name="twitter:title" content="Journal de bord, agents IA, sécurité &amp; preuve">
 <meta name="twitter:description" content="Le blog de Sam Labbe : agents IA, sécurité, preuve.">
 </head>
 <body>
@@ -77,7 +77,7 @@
 <main class="wrap" style="padding-top:40px">
   <p class="kicker" data-en="// agents · security · proof">// agents ia · sécurité · preuve</p>
   <h1 data-en="The logbook.">Le journal de bord.</h1>
-  <p class="sub" id="sub">What we build, break and measure — published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.</p>
+  <p class="sub" id="sub">What we build, break and measure, published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.</p>
 
   <div class="hero" id="hero" style="display:none"></div>
   <div class="tbar" id="tbar" style="display:none"></div>
@@ -89,7 +89,7 @@
 
   <div class="ctaband">
     <div>
-      <b data-en="This blog is part of slabb.dev — the site that proves what it says.">Ce blog fait partie de slabb.dev — le site qui prouve ce qu'il dit.</b>
+      <b data-en="This blog is part of slabb.dev, the site that proves what it says.">Ce blog fait partie de slabb.dev, le site qui prouve ce qu'il dit.</b>
       <p data-en="Sealed pages, a live agent demo, and a public benchmark. RSS if you prefer machines.">Pages scellées, une démo d'agent en direct, et un bench public. RSS si vous préférez les machines.</p>
     </div>
     <div class="cb">
@@ -189,11 +189,11 @@
     Object.keys(counts).forEach(function(k){
       var posts=POSTS.filter(function(p){return p.themes[0]===k});
       var sec=el('section','tsec');sec.id='theme-'+k;
-      sec.innerHTML='<p class="kicker">// '+tl(k).toLowerCase()+' — '+posts.length+(en?' posts':' articles')+'</p>';
+      sec.innerHTML='<p class="kicker">// '+tl(k).toLowerCase()+', '+posts.length+(en?' posts':' articles')+'</p>';
       var g=el('div','cards');posts.forEach(function(p){g.appendChild(card(p))});sec.appendChild(g);
       ts.appendChild(sec);
     });
-    document.getElementById('sub').innerHTML=en?'What I build, break and measure — published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure — publié en EN d\'abord, FR dès que la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
+    document.getElementById('sub').innerHTML=en?'What I build, break and measure, published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure, publié en EN d\'abord, FR dès que la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
     applyStatic();applyFoot();
     lzx(document);
   }
