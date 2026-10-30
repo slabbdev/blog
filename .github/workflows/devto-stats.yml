@@ -1,0 +1,23 @@
+name: devto-stats
+on:
+  schedule:
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: devto-stats
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/devto_stats.py
+        env:
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+      - run: |
+          git config user.name "slabb-bot"
+          git config user.email "github@slabb.dev"
+          git add devto-stats.json
+          git diff --cached --quiet || git commit -q -m "devto-stats: mise à jour [skip ci]"
+          git push
