@@ -52,6 +52,7 @@
 .sico:hover{color:var(--accent);border-color:var(--accent)}
 .sico svg{fill:currentColor}
 .lang{font-family:var(--mono);font-size:.72rem;color:var(--dim);border:1px solid var(--line);padding:6px 13px;border-radius:999px;background:none;cursor:pointer;transition:color .15s,border-color .15s}.lang:hover{color:var(--accent);border-color:var(--accent)}
+.devtoline{font-family:var(--mono);font-size:.76rem;color:var(--muted);margin-top:8px}
 </style>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Journal de bord">
@@ -78,6 +79,7 @@
   <p class="kicker" data-en="// agents · security · proof">// agents ia · sécurité · preuve</p>
   <h1 data-en="The logbook.">Le journal de bord.</h1>
   <p class="sub" id="sub">What we build, break and measure, published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.</p>
+  <p class="devtoline" id="devtoLine" style="display:none"></p>
 
   <div class="hero" id="hero" style="display:none"></div>
   <div class="tbar" id="tbar" style="display:none"></div>
@@ -119,6 +121,15 @@
   var ft=document.getElementById('footTxt');
   function applyFoot(){if(ft)ft.innerHTML='<a href="legal.html">legal &amp; privacy</a> · '+(en?'static, zero tracking':'statique, zéro tracking')+' · © 2026 Sam Labbe';}
   applyStatic();applyFoot();
+  var DEVTO=null;
+  /* stats dev.to : total cumulé, affiché seulement si devto-stats.json existe (committé par le workflow) */
+  function renderDevto(){
+    var dl=document.getElementById('devtoLine');if(!dl||!DEVTO||!DEVTO.totals)return;
+    var loc=en?'en-GB':'fr-FR';
+    dl.textContent='∑ '+DEVTO.totals.views.toLocaleString(loc)+' '+(en?'cumulated views on dev.to':'vues cumulées sur dev.to')+' · '+DEVTO.totals.reactions.toLocaleString(loc)+' ♥';
+    dl.style.display='block';
+  }
+  fetch('devto-stats.json').then(function(r){return r.ok?r.json():null}).then(function(s){DEVTO=s;renderDevto();}).catch(function(){});
   var LBL={agents:['Agents IA','AI agents'],securite:['Sécurité','Security'],preuve:['Preuve & conformité','Proof & compliance'],web:['Web & produit','Web & product'],devops:['DevOps & CI/CD','DevOps & CI/CD'],crypto:['Crypto','Crypto'],pki:['PKI &amp; certificats','PKI &amp; certificates'],ia:['IA','AI']};
   function tl(k){var v=LBL[k]||[k,k];return en?v[1]:v[0]}
   function el(t,c,h){var e=document.createElement(t);if(c)e.className=c;if(h!==undefined)e.innerHTML=h;return e}
@@ -195,6 +206,7 @@
     });
     document.getElementById('sub').innerHTML=en?'What I build, break and measure, published in English first, French as soon as each translation lands. Adding a post = drop a <code>.md</code> and one line in <code>INDEX.md</code>.':'Ce que je construis, ce que je casse, ce que je mesure, publié en EN d\'abord, FR dès que la traduction est prête. Ajouter un article = déposer un <code>.md</code> et une ligne dans <code>INDEX.md</code>.';
     applyStatic();applyFoot();
+    renderDevto();
     lzx(document);
   }
   function renderChips(){}
