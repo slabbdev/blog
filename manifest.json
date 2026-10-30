@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-30T08:19:25+00:00",
+ "built_at": "2026-10-30T19:53:05+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "52de1137ae59896ade077d0841ac73e10ae8b468df68d9923624b1e98e28c0f8",
-   "bytes": 3811
+   "sha256": "abc4620b4048993decba9ed0b995ad72ad81e140742b99d4ed83032b1bd9768e",
+   "bytes": 3915
   },
   {
    "name": "article.html",
@@ -320,6 +320,16 @@
    "bytes": 7222
   },
   {
+   "name": "posts/pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f.en.md",
+   "sha256": "29aad512ce6a76084dd1f96cf2ad5a4fcd9ebb2f0df69cada8ac80834c8ee95b",
+   "bytes": 9035
+  },
+  {
+   "name": "posts/pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f.fr.md",
+   "sha256": "0c4d91680ae93922fa044d1650fdf9f4a3567d1990e50416999466f6c9b8ebf0",
+   "bytes": 9895
+  },
+  {
    "name": "posts/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge.en.md",
    "sha256": "170c2d9dbf10a275ccba2885bd04bddc051116ba128251ab4d67c6bfe7d3db79",
    "bytes": 8468
@@ -556,12 +566,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "7a47bf546b844139e24423a2cc0a2080c3f321ac6930f5f3a4b066b0d418c19f",
-   "bytes": 30397
+   "sha256": "619334646a6d349071e31138bca4a21171af0770f9abf71f20b759eda3f7d2a0",
+   "bytes": 31206
   }
  ],
- "head": "98e028de0e80c6d4026f7a7cd14e88d6563c118fbb160d93e24a5f08661f32de",
- "sig": "+6eRFnoRq4Xu/EeyXC2aeloiLrzS1iJXZuDlwYH/yEZ2in3nMkS4I6tNo6/tPJQFTuoE54cfD5V+DMdbupagCg==",
+ "head": "fa321471f9ab20735f34f5f32775ce0eea82fbc717a6f9f2af87ef280ba3d618",
+ "sig": "2tO+81WgOH5lWxHMkPHdgG+ubhHxqMpM2POhXeoJdPLYTIBtDKka62JWrA1qnhjyAaJ7BDhSWfZkrGVWGRoRDw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }

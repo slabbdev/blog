@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f
 - a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj
 - your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg
 - a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i
