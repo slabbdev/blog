@@ -15,6 +15,8 @@ import json, os, pathlib, sys, datetime, urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'devto-stats.json'
 BASE = os.environ.get('DEVTO_API', 'https://dev.to/api')
+# dev.to bloque les UA génériques (403 Forbidden Bots) : on s'identifie
+UA = 'blog-slabb-devto-stats/1.0 (+https://blog.slabb.dev)'
 DRY = '--dry-run' in sys.argv
 
 def me(key):
@@ -22,7 +24,7 @@ def me(key):
     out, page = [], 1
     while True:
         req = urllib.request.Request(f'{BASE}/articles/me?per_page=100&page={page}',
-            headers={'api-key': key, 'accept': 'application/json'})
+            headers={'api-key': key, 'accept': 'application/json', 'User-Agent': UA})
         with urllib.request.urlopen(req, timeout=30) as r:
             batch = json.load(r)
         out.extend(batch)
