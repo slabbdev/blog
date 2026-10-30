@@ -1,58 +1,58 @@
 {
  "site": "blog.slabb.dev",
- "format": "seal v1, SHA-256 chain + Ed25519",
- "built_at": "2026-10-28T21:58:47+00:00",
+ "format": "seal v1 — SHA-256 chain + Ed25519",
+ "built_at": "2026-10-30T08:19:25+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "54eeaa65fed2adfd527494b2f409b0fcfbb4441f6c1026322553fee35239a591",
-   "bytes": 3714
+   "sha256": "52de1137ae59896ade077d0841ac73e10ae8b468df68d9923624b1e98e28c0f8",
+   "bytes": 3811
   },
   {
    "name": "article.html",
-   "sha256": "018159b4b9902180bbb96de6a23efaa5fd6c68d2d02ae66a1641ef13700f635f",
-   "bytes": 18691
+   "sha256": "9c1db79027925fd427e43b66f17174c42fd967d192d3ef485e7655de752c7e3c",
+   "bytes": 18658
   },
   {
    "name": "index.html",
-   "sha256": "4b10fc4d4db7cedc747c7910a3e8bdc62c4559be9f1bd41194312358ebcae42c",
-   "bytes": 18902
+   "sha256": "95f985dfc2a8db4869b7d2a8ee29b87c5f9b569c9257f478fca50dfe81890605",
+   "bytes": 18872
   },
   {
    "name": "legal.html",
-   "sha256": "eb5bcaea87c2e78f88d220f5f7dd7d9416bc8164fce8b54505ed19b90d1d982c",
-   "bytes": 5562
+   "sha256": "4b1000200a52038407c754c8706f77e71b28317acb5442e0ef2ae5af0490487f",
+   "bytes": 5526
   },
   {
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.en.md",
-   "sha256": "29e88013eda537c5ec14f6a0f0cd81517151d4711cdda30677120fcc22cf1adb",
-   "bytes": 9440
+   "sha256": "978775a726ec089e7960cc0ff34f166993f6b21e706209b7f004b7e457799d16",
+   "bytes": 9353
   },
   {
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.fr.md",
-   "sha256": "f590581e8f0b65ebb7d7e741e7831294afad772d1c3c5b8302f54a18137023d6",
-   "bytes": 10509
+   "sha256": "41559c98c46708141b57120ec2576ded992837e5a1b5e2f83fc87419a27da3a4",
+   "bytes": 10419
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
-   "sha256": "583c67b5a5f0df8c993f3ce42de9f7f403c93fd1b34efc1a81aef418876bb039",
-   "bytes": 11078
+   "sha256": "d9225b940886490cc142872aed5e0700e296c696adffd31647f59f1aec84cf8e",
+   "bytes": 10952
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.fr.md",
-   "sha256": "d5aa5ae45425026febfa404204c1b1c5eac5d7867c07b307030e703b5bc0fc87",
-   "bytes": 11163
+   "sha256": "11b2f2d9b56cb2e6467952f8e6189768f603b4b2ccd984b8ab13b349a96dc243",
+   "bytes": 11037
   },
   {
    "name": "posts/700-manuscripts-48-hours-three-withdrawals-the-verifier-won.en.md",
-   "sha256": "e24073aa5ada8b2be8487d46e631c7a4b045bac28f7e5930c53a697213691e38",
-   "bytes": 8154
+   "sha256": "16e5e604b4d17cbf8cdbd9ca9d30a9be3a403356bb8dab148b74d37212d3f7d1",
+   "bytes": 8082
   },
   {
    "name": "posts/700-manuscripts-48-hours-three-withdrawals-the-verifier-won.fr.md",
-   "sha256": "2ebca260eef911fe79136f49e87923d91c29b5db593b66484f07a6ddca518f71",
-   "bytes": 8228
+   "sha256": "9bc1ea1cede32b6cb13baa08fc5ebb59daeebb49aae3f060711f11734720890c",
+   "bytes": 8153
   },
   {
    "name": "posts/a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i.en.md",
@@ -66,453 +66,463 @@
   },
   {
    "name": "posts/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7.devto.md",
-   "sha256": "c6791ecc6a61dbe4cf15c37f5eec4a2778cc77469d1566eaece608dd775a3d69",
-   "bytes": 7397
+   "sha256": "91441a04081586b643d73f3213b91c43427fdca275d3e7b9d695373d37dca815",
+   "bytes": 7322
   },
   {
    "name": "posts/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7.en.md",
-   "sha256": "a7cadec04aa3c8e4a3f57747261e3c6fac82cc1fb92b486f0c6d39c203db7468",
-   "bytes": 7883
+   "sha256": "e90a45df121ec55773fe263499dab41f522574f12a9c0955fcfffc21f8c4755f",
+   "bytes": 7808
   },
   {
    "name": "posts/a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7.fr.md",
-   "sha256": "3f672269ae9fcac3f7853cffd853011a86e434cd22ee9f59eafb03c058d7d5da",
-   "bytes": 8659
+   "sha256": "4f39af8fa772dd1addd0fabdb72dd653de6edfc6cf9a68117c46ab86233dc741",
+   "bytes": 8587
   },
   {
    "name": "posts/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4.en.md",
-   "sha256": "437ac4b85e2a4cee6a8173fa7b16bc4bb057b6b6fd4a957e6ea2e01aa66adab6",
-   "bytes": 9843
+   "sha256": "1588fd784cc1ac03687737fbdcdaaf59c1a769e3e29fea4255454bbf4b59e30d",
+   "bytes": 9765
   },
   {
    "name": "posts/a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4.fr.md",
-   "sha256": "30edf8cdda2cccad7c5312216cf9802a8040d95ca9e85fd3e7fca0456ba3f112",
-   "bytes": 10800
+   "sha256": "c82da8efb438d34ff8c8a349bfd70e225a791f86c0bcbf0147df0685d2057920",
+   "bytes": 10722
   },
   {
    "name": "posts/a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough.en.md",
-   "sha256": "950c6aaadfb832e83ac1bdac1b7aa1310fb3a81f626d2435bdff5ee9fe3282e2",
-   "bytes": 13026
+   "sha256": "a9523fe5f2e0a9079479ac910e2a6ca3acfe960ee1a024d82347c5e25eea615d",
+   "bytes": 12891
   },
   {
    "name": "posts/a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough.fr.md",
-   "sha256": "ec8baf00e6c935eff0e521e99c655638bb0041febb07c21b9351958d5eb2b800",
-   "bytes": 13121
+   "sha256": "16692a3bb3e112fc0d2a97aeaed39333fcf3e1ba006340f5c8d3bb7aac8a6e3e",
+   "bytes": 12980
+  },
+  {
+   "name": "posts/a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj.en.md",
+   "sha256": "0d99b0ea59606299d2d65325b8756b5520d9c88405902b89668b347f2173ca9e",
+   "bytes": 9380
+  },
+  {
+   "name": "posts/a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj.fr.md",
+   "sha256": "02b70e52bb377ed72ff718f813af212c9a0391eb19a8f9b198b5b4f1fda1b51c",
+   "bytes": 10222
   },
   {
    "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.en.md",
-   "sha256": "9e7bb60c76f1ef641bf38784edae40194e8918f7fd1d69720542eecd92181831",
-   "bytes": 7998
+   "sha256": "cc5ac2db236509217c33f81b44947a2c1106eb540b96321fb6fcdda3e93b1c9b",
+   "bytes": 7926
   },
   {
    "name": "posts/agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4.fr.md",
-   "sha256": "99b5dc9eb46f6ac8c4fa907462445c0f252caffae3b45829558078879f6b36f7",
-   "bytes": 9111
+   "sha256": "a164579dadb18bed225b686211727464fd1f3e642aeb4937ecbf8a2b5cfdd46b",
+   "bytes": 9039
   },
   {
    "name": "posts/always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read.en.md",
-   "sha256": "5ee90ae25a56809a8c664a042e6866859aa790c63d415135e1a554cfae026ba2",
-   "bytes": 7397
+   "sha256": "e5a2f2446e1c04ed54129b5747d1f88da90cd9cb4658aa4068b62aff519e8af8",
+   "bytes": 7358
   },
   {
    "name": "posts/always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read.fr.md",
-   "sha256": "c28b992c39ea1c25d6ee81755c07c9ed403a66d391355743b52d45e64e597b89",
-   "bytes": 7583
+   "sha256": "b7a0e30896b5ea840e55974eefa59941104ed1dc504099275c6ec07be5012073",
+   "bytes": 7541
   },
   {
    "name": "posts/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks.en.md",
-   "sha256": "cd77f51a6b47aa1e75c4ecf57b95c16198d7423bdd69dea5e20552b7f1abbda1",
-   "bytes": 14601
+   "sha256": "652cf04d729443943838815464a547b9dd219909c2c3d2604cb9e00cb57add00",
+   "bytes": 14559
   },
   {
    "name": "posts/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks.fr.md",
-   "sha256": "8921b446cc8437ef560e24c260d63e2778f29e354aec88e033c4db599adfa5c2",
-   "bytes": 16426
+   "sha256": "ead2a433142f6501d05c5f962f1182373e4082946c0ce5eada993dd65f4de0d6",
+   "bytes": 16384
   },
   {
    "name": "posts/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default.en.md",
-   "sha256": "c01c7009c282f28ef30ad48b9a8d47cfabec9c2c23b54ca710abba2bc07186bc",
-   "bytes": 8569
+   "sha256": "5203c6d635fe6650237f4effdd83cca74cf4aab67324c2489bc8f83956d0ebcc",
+   "bytes": 8500
   },
   {
    "name": "posts/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default.fr.md",
-   "sha256": "9de9af15fec796189f7099f9f094ea9b548e895f66ab7a03d780de6bbb3f45fc",
-   "bytes": 8677
+   "sha256": "8092ae22567de2b0209d94ea717d293d0ba49c7d08211d36bd69a7f95c2178cc",
+   "bytes": 8608
   },
   {
    "name": "posts/every-no-ai-contributions-policy-is-a-level-0-control.en.md",
-   "sha256": "193c0b118733c84afdf735787685fb1c0d5f00cbb167f564c76c56ed98d9ad99",
-   "bytes": 12587
+   "sha256": "40e8ac61977ebe6e2668a3622ffd7a16a944e531e1d1a19ef6b17539af4db823",
+   "bytes": 12452
   },
   {
    "name": "posts/every-no-ai-contributions-policy-is-a-level-0-control.fr.md",
-   "sha256": "ebadac450c5879841c7fe72ad654482f6a9b4eaf9e7d1bb9c84dec1545c7473e",
-   "bytes": 12613
+   "sha256": "8111985b4f1c8d4c148f0cacc7b19d998af195ebfe777544d30c1645aa40addb",
+   "bytes": 12478
   },
   {
    "name": "posts/every-page-of-this-blog-is-sealed-here-is-how-to-verify-it.en.md",
-   "sha256": "44b8129220d60b0d5fcf96ac745dacb856bfd4931948850347cf04e3a3de28af",
-   "bytes": 3901
+   "sha256": "d15682df837a08c9986d96ac13c08b641ba14f648100a9998c5591f039fae315",
+   "bytes": 3856
   },
   {
    "name": "posts/every-page-of-this-blog-is-sealed-here-is-how-to-verify-it.fr.md",
-   "sha256": "9e86dbc4e8f34944438e618fa6d2cef425d93ae04f4f988ac8fe1dca40ae9185",
-   "bytes": 4564
+   "sha256": "0c1de1c2c58c9a244712fa4e565a7b85677237d3abaeea1893600d5b3ad2e91b",
+   "bytes": 4513
   },
   {
    "name": "posts/five-witnesses-and-two-rirs-the-cas-just-discovered-custody.en.md",
-   "sha256": "eb0929ecd412c815a9135041042c17b6d08205770151eb08fa872faecbd99adc",
-   "bytes": 8964
+   "sha256": "7db24ca83cba0096748afb993139f1fb274492f821cae1f7e384fc0e49b9dea3",
+   "bytes": 8895
   },
   {
    "name": "posts/five-witnesses-and-two-rirs-the-cas-just-discovered-custody.fr.md",
-   "sha256": "0a5c0a7fbc95f3894736f111982e85accb36f4bca46240dca1486db7f069cce5",
-   "bytes": 9895
+   "sha256": "274eca1e25553119ba9cb53ca4ca334a7928e6be62952c785e7426f94aabc77f",
+   "bytes": 9826
   },
   {
    "name": "posts/five-witnesses.devto.md",
-   "sha256": "4fafacd38d380dad07521f9ee2a65223078bad3b6df846bf7bc24cee0bd50d2a",
-   "bytes": 8499
+   "sha256": "c1ec9e30c5f214e588515399dfe3dbc4ecd8200ca87436ca2cef5b4d181915cb",
+   "bytes": 8433
   },
   {
    "name": "posts/gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f.en.md",
-   "sha256": "05a91d9779dddb66431f04086719965c2b378d3684c23229d75c7f1a2e26bef6",
-   "bytes": 7571
+   "sha256": "92e2e3922fa3df0f86658062dc42be8343d58e1fafc99dc8a9ef83e0a7bed63a",
+   "bytes": 7493
   },
   {
    "name": "posts/gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f.fr.md",
-   "sha256": "205ed47896dc070a20ef3f366ab8fcc432193c644b6c77a1c5811babd06cc7ae",
-   "bytes": 8297
+   "sha256": "63c0a2ac8f8ed50a2233d2dc8519f92d4da9c11d494a212304e778341167d1fc",
+   "bytes": 8219
   },
   {
    "name": "posts/i-attack-tested-my-agents-seatbelt-heres-what-survived.en.md",
-   "sha256": "dfdce1c6667083266f05917c40e39a81c01bb53152a4eff3f44d76f5cfa1543f",
-   "bytes": 7775
+   "sha256": "f91bd35f042ce6a06ba9fb5ff63da71f73230110c58168c8d3fc23fbf021ae0e",
+   "bytes": 7712
   },
   {
    "name": "posts/i-attack-tested-my-agents-seatbelt-heres-what-survived.fr.md",
-   "sha256": "2a0c26e3c629d6c5c989c976dd2605e86393bda7cf6d3ff805fa71bb0d22cb98",
-   "bytes": 7918
+   "sha256": "788198b2e711d73f1f6e13aa39a06f9c08cebe0d1e3cfd02eb42285dc4b9f756",
+   "bytes": 7855
   },
   {
    "name": "posts/i-built-the-flight-data-recorder-for-ai-agents.en.md",
-   "sha256": "f1aed70b4ed0283b81cf90b807bf58cf371a97fc38a2ed78185a83d93ee52fef",
-   "bytes": 12849
+   "sha256": "f1aeca2f9dbf0373c391df56317233298e21ff39ab473b07ef94dfd965881cac",
+   "bytes": 12698
   },
   {
    "name": "posts/i-built-the-flight-data-recorder-for-ai-agents.fr.md",
-   "sha256": "7caf7fa2d20ad7fe37f43fed74afec733bdeda7731876e2996e459d27187e800",
-   "bytes": 12963
+   "sha256": "8d5e128e62db23848f8de57cf4a0f96f53310b74cd93fa59d9f2c6f3531bea49",
+   "bytes": 12809
   },
   {
    "name": "posts/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8.devto.md",
-   "sha256": "f49604ea3263f7ccc1c0f811e5f488ffb1527f8c553bc8386ff3693c860d0bf6",
-   "bytes": 16602
+   "sha256": "15843b0ed5b69fc26763c020a056d21cd66e85a4c8c5da2f913255b7fb6abd0c",
+   "bytes": 16497
   },
   {
    "name": "posts/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8.en.md",
-   "sha256": "14249615845874a9b30d0fee648688233af4ca316ffbc28bd061b80563b4f211",
-   "bytes": 16760
+   "sha256": "9d61b9235cae55ea09cad5a2d0744efe6cd166ea9c2f9fa9402b90a4a0c0e604",
+   "bytes": 16652
   },
   {
    "name": "posts/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8.fr.md",
-   "sha256": "12dc444ab8754c90ddfcf4a663cc13b90697ca245bd2720f12b811070cbe9768",
-   "bytes": 18548
+   "sha256": "60e798cfc2c441975566659dea5211fdb43219ccc276f68ce8100190987cc22f",
+   "bytes": 18425
   },
   {
    "name": "posts/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth.en.md",
-   "sha256": "434f7c12d72d556c3f760b439be78d3b2d6f5986ee487ed861ae83395dfa4fbb",
-   "bytes": 7489
+   "sha256": "d5895852be4c2bc27b460ca3c7844d64a70a1ce6802bacbf5286d0374088ffc3",
+   "bytes": 7414
   },
   {
    "name": "posts/my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth.fr.md",
-   "sha256": "3a7ee123c7fac49dbfa7e4e2be000884e18dfb3997a603e25f594765514e58a2",
-   "bytes": 7560
+   "sha256": "6c3b5965ee2cf364e8bc0c8c15b8cb8b7399743537fc8cb683b7e2be7babd4df",
+   "bytes": 7482
   },
   {
    "name": "posts/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch.en.md",
-   "sha256": "45611085e058f3c3f43cb938c0b3dc97fbd9de4907beb9581ed4bcc7e458aa66",
-   "bytes": 9623
+   "sha256": "829c91d4003397b8022d25a73b7b50a38d279ce749474979af9c7690b6576bf2",
+   "bytes": 9521
   },
   {
    "name": "posts/nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch.fr.md",
-   "sha256": "83a933e423467d067d1d8d3228d7df030b39ae8e7fa3729ee7b22cee907d985b",
-   "bytes": 9644
+   "sha256": "fc0126303d3381002645bd51f7bdd83ed084e40316d2ecf322693eb5f2a048f5",
+   "bytes": 9539
   },
   {
    "name": "posts/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry.en.md",
-   "sha256": "003b60a5f0ef6d51343079ea4b06f0e949795e5f9bbca1d94fd4776537c78ea2",
-   "bytes": 7434
+   "sha256": "df91428bace6ec109b725756f5d3663a03c0780d3bffb0790ff6bc8f4077bfd1",
+   "bytes": 7380
   },
   {
    "name": "posts/one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry.fr.md",
-   "sha256": "a4934824330d655b9706e5f3b387b2bdf6247aa1135d7aed4d13159c026f6675",
-   "bytes": 7486
+   "sha256": "6b042b5b8a82138b04fcc9714fce7f2647db47e2e220419d74d06fca084185b8",
+   "bytes": 7432
   },
   {
    "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.en.md",
-   "sha256": "bff8b6ce8621d6b96d59a047488cad58ed554d86207d257da434df58761b7ea0",
-   "bytes": 8079
+   "sha256": "4f5b2da765515f446f560c4fdf7821a855ed56e040c0a09811f9612d0467652e",
+   "bytes": 8010
   },
   {
    "name": "posts/one-sql-update-your-ai-agents-alibi-destroyed-and-caught-in-458-ms.fr.md",
-   "sha256": "a414b2859b0d9978c7ece7d0bb5ecbf4cea25440574a3f3de2d581819a75f507",
-   "bytes": 8975
+   "sha256": "43fd5827d365ef6453fd0ca7beecd53d4f023cdc0284d14689c51476b9e5f99b",
+   "bytes": 8906
   },
   {
    "name": "posts/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts.en.md",
-   "sha256": "78431ebe3427140206d9b1df3c305296c982dc6e51caeb18cc5fbc930b527e19",
-   "bytes": 9532
+   "sha256": "f7e7e86aade5bf0f88a2ce07ad3fd6511b7e0e120fac05e4242ce99fbc6fca8a",
+   "bytes": 9442
   },
   {
    "name": "posts/one-unescaped-semicolon-was-enough-to-steal-telegram-accounts.fr.md",
-   "sha256": "d737da6ad328abce09029849a9821d3d9ee3c24e4ddcc63eda7b559fc83aa731",
-   "bytes": 9585
+   "sha256": "da181726f9ce1aacec1d49b1d29e6e18ff9850a0d8527042c4dfae9750d1228d",
+   "bytes": 9495
   },
   {
    "name": "posts/opencode-custody.devto.md",
-   "sha256": "9f181c982190c79fd73c45b134d71fbd2b54433960daa630c24ab94ee5a79fc9",
-   "bytes": 6895
+   "sha256": "2e09c9ba58a840fc40d3679cd3913f68eb44faf9ffb1bbfad3dce9c946742955",
+   "bytes": 6850
   },
   {
    "name": "posts/opencode-custody.en.md",
-   "sha256": "b42e5f662a2257d5ecc84c0f63da2a46cb180299dd94c83d9e3efe005a5cf44d",
-   "bytes": 7414
+   "sha256": "6e21af6268bce837cb5a1946a81cc3f207fc9ebf6abc9c69d9cb6577177c85d2",
+   "bytes": 7369
   },
   {
    "name": "posts/opencode-custody.fr.md",
-   "sha256": "796b4dee32a41322519553a441016d04a704b87a89d6a9afb5d2fed15b2d3168",
-   "bytes": 8622
+   "sha256": "c17fbd5291cddc3795ecaf387cacba98708655bfe6df0688f7507704d1308b0b",
+   "bytes": 8574
   },
   {
    "name": "posts/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine.devto.md",
-   "sha256": "9f181c982190c79fd73c45b134d71fbd2b54433960daa630c24ab94ee5a79fc9",
-   "bytes": 6895
+   "sha256": "2e09c9ba58a840fc40d3679cd3913f68eb44faf9ffb1bbfad3dce9c946742955",
+   "bytes": 6850
   },
   {
    "name": "posts/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine.en.md",
-   "sha256": "b42e5f662a2257d5ecc84c0f63da2a46cb180299dd94c83d9e3efe005a5cf44d",
-   "bytes": 7414
+   "sha256": "6e21af6268bce837cb5a1946a81cc3f207fc9ebf6abc9c69d9cb6577177c85d2",
+   "bytes": 7369
   },
   {
    "name": "posts/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine.fr.md",
-   "sha256": "796b4dee32a41322519553a441016d04a704b87a89d6a9afb5d2fed15b2d3168",
-   "bytes": 8622
+   "sha256": "c17fbd5291cddc3795ecaf387cacba98708655bfe6df0688f7507704d1308b0b",
+   "bytes": 8574
   },
   {
    "name": "posts/php2shell-cve-2026-109618-cve-2026-109619-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-38f6.en.md",
-   "sha256": "5be7315279e4d9a18a9b27c857786208ee2a71ee9270fbc91e092c940b72f103",
-   "bytes": 6479
+   "sha256": "cf6a390af0130f31d52821c9973f6ec30dac7c8ba306dc21a76675b429b18f28",
+   "bytes": 6440
   },
   {
    "name": "posts/php2shell-cve-2026-109618-cve-2026-109619-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-38f6.fr.md",
-   "sha256": "72e5e119031a5d2acf3e5585fbdf6d23acc813cfb0be7de3e02b0cd6ba0b59f4",
-   "bytes": 7261
+   "sha256": "7c87c847168d933ef98893ab555ca0ca3095eeb248d45fc43431d50a5f84e1d1",
+   "bytes": 7222
   },
   {
    "name": "posts/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge.en.md",
-   "sha256": "a83a5a3237a41878995bdc7d9434edad6d2e2563da63c49176a0887287afd4ae",
-   "bytes": 8522
+   "sha256": "170c2d9dbf10a275ccba2885bd04bddc051116ba128251ab4d67c6bfe7d3db79",
+   "bytes": 8468
   },
   {
    "name": "posts/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge.fr.md",
-   "sha256": "6e33fb7d2fa2d8b5afaf4aad5d9e69f9f7218e5411db32dddac4f038caf476cd",
-   "bytes": 8618
+   "sha256": "a6688e0d27c21195349618f5d30b63a1a2d1c5e264ca03b4202c6ca720da2d8f",
+   "bytes": 8564
   },
   {
    "name": "posts/six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list.en.md",
-   "sha256": "0f3bf9d3570167ad603b52483d1cdc014de8d92e912dadfc02ed6fbaea65396e",
-   "bytes": 7732
+   "sha256": "fbb62b0c0ed882f0d31e8236524d08bbc79b8f90f954390084c2f1c94cf252ac",
+   "bytes": 7672
   },
   {
    "name": "posts/six-unpatched-linux-kernel-vulnerabilities-just-leaked-to-a-public-mailing-list.fr.md",
-   "sha256": "523504f98ad94ec2bd2ae34574f3f3cd1b5871cbfd7bddda456db19a279c60d6",
-   "bytes": 8447
+   "sha256": "63a13e40eb0e665ff5d4a2bc7b6dd788d854939fb45846f08016d5fee8289814",
+   "bytes": 8387
   },
   {
    "name": "posts/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works.en.md",
-   "sha256": "2c3d5a3ee857396d6293e9d571b390f0e2b3d3f69e46fb4f02e6df2dc851e844",
-   "bytes": 8186
+   "sha256": "fbe98e23638591c5143d860baefd42568e7687f1707535cad5a3e50edb66c754",
+   "bytes": 8120
   },
   {
    "name": "posts/someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works.fr.md",
-   "sha256": "6f03b9f2d3f85885aa4ec775e18b639f63d55ebe5108a9e71973d4b34fd27096",
-   "bytes": 8233
+   "sha256": "fa3a3e46ab9f0af81a7cbd11db9b1df7afe22b4674bbf5a9789144aef84bc3b1",
+   "bytes": 8164
   },
   {
    "name": "posts/synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did.en.md",
-   "sha256": "8fd85a4f2fd53c69ed2c935bfb3d5d2cb186f83ac3e267748b17c73c50745ef1",
-   "bytes": 4246
+   "sha256": "ad82458e83f08584bca67a1c754f0e72ea1d51aaa932dbeb0e9feaff56394d3f",
+   "bytes": 4201
   },
   {
    "name": "posts/synthetic-monitoring-cant-pass-this-page-a-real-browser-session-did.fr.md",
-   "sha256": "9d21b817474824fd1b01fd920ada2ba7918807b556743efed54f2cd56a519e29",
-   "bytes": 5079
+   "sha256": "153a20b3faeff1f7d2f10eb9700e31049f87eded6fd387a683e4cb54c75d079a",
+   "bytes": 5031
   },
   {
    "name": "posts/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box.en.md",
-   "sha256": "8c243900b4753f05e2f1b917dfb51b33085c48d4a2ffdb1a27681bd9f40fa764",
-   "bytes": 10265
+   "sha256": "96d2ea200354f4283efadd8807176122429b34f0eb865f6c93b5863c96a14456",
+   "bytes": 10157
   },
   {
    "name": "posts/ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box.fr.md",
-   "sha256": "bda15e0ab8f5660332610f8bf70cede90e063376e76841999555ed947fef345b",
-   "bytes": 10275
+   "sha256": "9f2c12605b854ef2df86c0344905074baf4258c5d6df1c30648610d13821b4cc",
+   "bytes": 10167
   },
   {
    "name": "posts/the-11-year-old-premise-inside-rusts-memory-safety-proof.en.md",
-   "sha256": "45790245e714d7475ebea125b52d2f08f33c65342b2ba5ea17581dc507b0e3a4",
-   "bytes": 7982
+   "sha256": "b39f56a0ebae61d5bc3d53cd0630f10a4490824b5bdff1cbf3a3460df1448956",
+   "bytes": 7916
   },
   {
    "name": "posts/the-11-year-old-premise-inside-rusts-memory-safety-proof.fr.md",
-   "sha256": "f4c85aec92ecf108ca76a4aa0868c3ec963ee7bb6caebbe840246124ff1fff5d",
-   "bytes": 7964
+   "sha256": "744d7331acd911ed351c2113c6530c64d7704c025cf31a6495ba8c707cbb130e",
+   "bytes": 7898
   },
   {
    "name": "posts/the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable.en.md",
-   "sha256": "ebe9254d7e0f1fd4d703427965ff3d67865d7373e11e56ecd09efdb428227563",
-   "bytes": 9271
+   "sha256": "a836e8cb55b6b85d0f32ebc3e2659de4c7a64f4a2bc6daa6ba9878a5d9c7ed67",
+   "bytes": 9253
   },
   {
    "name": "posts/the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable.fr.md",
-   "sha256": "bd6ef7ae4671d9a944be6eb6b8a5ce56c81dfec7422d99e637312e16ae631c2b",
-   "bytes": 9427
+   "sha256": "64caf6af026157957a17be3e15fadf3a920135150b8d25a4902a782b70f5967c",
+   "bytes": 9406
   },
   {
    "name": "posts/the-authority-ladder-five-rungs-down-four-premises-standing.en.md",
-   "sha256": "afa2de58f81a998ec66fe1dde8ae1849f6d819b2320575797e29a1adfe8a6aa6",
-   "bytes": 12308
+   "sha256": "bcfba53114513eff02d8bf861320d263ca056d84001ccab893f25d9a9af2cd25",
+   "bytes": 12146
   },
   {
    "name": "posts/the-authority-ladder-five-rungs-down-four-premises-standing.fr.md",
-   "sha256": "9bf2632ee75ae06fd8f199f47df6471fc8bb867e5801008fd5e098549a69ad7f",
-   "bytes": 12330
+   "sha256": "1ab8d32929a100272e8d0d1bb0b9607cff309c7f8412d828c02c0a55b8e5dbfc",
+   "bytes": 12168
   },
   {
    "name": "posts/the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema.en.md",
-   "sha256": "405a9005d486eb0fa10b06bfc48f05fa55dea9bb523c88b5f1ea34c5494a06bc",
-   "bytes": 10830
+   "sha256": "afec74b65ccce01f348a74beb24d303864be68f4e97dff3abeec0b0c70491e65",
+   "bytes": 10749
   },
   {
    "name": "posts/the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema.fr.md",
-   "sha256": "7f0f2524dc93c0adc03731d01f76f6b0fb03cf8ac466bb0256db5b4921043f02",
-   "bytes": 12009
+   "sha256": "0fdf6d327615a489552ba488972ac4412c01dacc15174334602d44ae060663e2",
+   "bytes": 11922
   },
   {
    "name": "posts/the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba.en.md",
-   "sha256": "7715e59abb576a6640feb1c411d34dba1a0aeac6b62096229b538b7afdfe1984",
-   "bytes": 8651
+   "sha256": "2040b11a71ae8ac579188c66573422d4cada7995666bfee3db5458e23664af0c",
+   "bytes": 8585
   },
   {
    "name": "posts/the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba.fr.md",
-   "sha256": "d015d1f07abd82a99a18d5187bf0e25a2e56d355bd9bc0ba9ab465a88de2b731",
-   "bytes": 9822
+   "sha256": "0e83f4842304689d927778e2b459a657cfce460700f74ba79f7897e241069c67",
+   "bytes": 9756
   },
   {
    "name": "posts/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742.devto.md",
-   "sha256": "a15aa6b4fa449fe9a82ff3bdbcb27be20a416338b47d9f590bc82fdcbf22411b",
-   "bytes": 17858
+   "sha256": "95eb7ec4bfcf7d36f8bb8d40f348d30f8e7a0abf36bc16e8de8a5c8df55d7e49",
+   "bytes": 17759
   },
   {
    "name": "posts/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742.en.md",
-   "sha256": "ebd4d3b7ca9ba666ad3188ba2607076988b1b669283d19aadcdcee9441faa904",
-   "bytes": 18834
+   "sha256": "0ddf8df5a94be3667556d136404a42a3cd9d2013583093e493fc33bb26901613",
+   "bytes": 18744
   },
   {
    "name": "posts/the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742.fr.md",
-   "sha256": "a9a26abf9b9cbd3239c40fd5743ada7349e4f856ea6832c95b8845b161fd5446",
-   "bytes": 20997
+   "sha256": "7a1df6c9150ceabb32a68b2baf35e1baf62dc5979b0fdb35831beab5508711ce",
+   "bytes": 20892
   },
   {
    "name": "posts/the-eu-really-did-ban-eco-friendly-just-not-quite-the-way-you-were-told.en.md",
-   "sha256": "62e6f43e73e6a186f6e824ffddc0c3b2c1b50bbc6eb37cce65be32c3b82ccdf4",
-   "bytes": 6689
+   "sha256": "651c8685b84f205fc81d34a96903b860bda30ff596888247d768f4f2efd9beb3",
+   "bytes": 6641
   },
   {
    "name": "posts/the-eu-really-did-ban-eco-friendly-just-not-quite-the-way-you-were-told.fr.md",
-   "sha256": "dd625776c297f1e4827cd46d5c7f745b39dd7a056a59b525637ee0076ba2ac93",
-   "bytes": 7650
+   "sha256": "0649767c5998dc008a822d3b4529f1574c46048104fe13b1d0282ec9cc79d443",
+   "bytes": 7602
   },
   {
    "name": "posts/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready.en.md",
-   "sha256": "41aa55d448a9619c0ed5ab01e986269b5248e9890bcedc54427b5014d27484ea",
-   "bytes": 9163
+   "sha256": "81ecc68b0b4c774fe13b6246184445c5bec0fc257cb97b8923574d466ec3dec5",
+   "bytes": 9067
   },
   {
    "name": "posts/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready.fr.md",
-   "sha256": "e73d1f121f1e1f0ea2c95c5774533364aefa092cd2997ac7b86fa41655cc3af0",
-   "bytes": 9241
+   "sha256": "75be6990b07ae597a8b849c06639e1d5527a7c6c1ad140292d2536b1863a708c",
+   "bytes": 9142
   },
   {
    "name": "posts/the-quietest-backdoor-runs-on-your-own-gpu-5ggb.devto.md",
-   "sha256": "8cbac2b820470abe5fc3fd3e7f128ca261bfb3f99811c158085a12525c6f18a3",
-   "bytes": 8140
+   "sha256": "f02a42d2c937e8d02c048223c2f7ad89f397fbdee39cef91f97cd4af8d8e484c",
+   "bytes": 8071
   },
   {
    "name": "posts/the-quietest-backdoor-runs-on-your-own-gpu-5ggb.en.md",
-   "sha256": "88c8c7488c2e57302f2d7787d43fc013efb74403cfa61bb9a7a40247de8ce009",
-   "bytes": 8437
+   "sha256": "de7b15c19a436b8e82c232f59f139ff1e5c1886b9f0cdd1c292d262911740a3b",
+   "bytes": 8368
   },
   {
    "name": "posts/the-quietest-backdoor-runs-on-your-own-gpu-5ggb.fr.md",
-   "sha256": "bdb0b9918ab6538b467c616f58ed29e57746355ae180407372d2da2cfb4d10ad",
-   "bytes": 9546
+   "sha256": "d3278a245ff95ec725d7b53375286c83cc5fd36e7c3f6d4d8e03ed524be2806c",
+   "bytes": 9477
   },
   {
    "name": "posts/the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why.en.md",
-   "sha256": "761c1c03064fae9a509cc9dc2a3ddbe84a791fb3bf7d5d230f5115075dd8cf3f",
-   "bytes": 8318
+   "sha256": "1494da1d1bcc2077f2cec108be6cb5c32f19bfbfcb48d2c67549c2715c77731d",
+   "bytes": 8258
   },
   {
    "name": "posts/the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why.fr.md",
-   "sha256": "be29d6ea7e3dcb71d76afa2c554df2b95210c647ed4afbdf82a67731e64fc642",
-   "bytes": 8423
+   "sha256": "fa2f3804bbcb5905d059534a381b5299e77f30a5d3f162a6f7d59f5373885df6",
+   "bytes": 8360
   },
   {
    "name": "posts/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app.en.md",
-   "sha256": "5a658f4bd3c279db07057d419c6718f0069c6d32cfedf81014bc69ed4380786e",
-   "bytes": 9763
+   "sha256": "daa16fb6ac762ed76f8d025b0fbd82c199f206f1604759dd9f2a4126c6609c65",
+   "bytes": 9631
   },
   {
    "name": "posts/tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app.fr.md",
-   "sha256": "d07a2f8dc5ef94623c24abb5c1d1eb109751e28f5ad6257f3ab40cbbc616929b",
-   "bytes": 9731
+   "sha256": "72db4dd9f110fd03027bdac1996fbdcb6298015ea81dca37f602248f888511af",
+   "bytes": 9599
   },
   {
    "name": "posts/twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions.en.md",
-   "sha256": "375ef2c5fff8ff3c52c94441dce05eb72f8a7bc7325e180cfcecd63f909a49cf",
-   "bytes": 3742
+   "sha256": "2579d5ca39e257f2247890f4cbbbc5b4303ecf4caa6b3240eb21c3c2dc0810e5",
+   "bytes": 3697
   },
   {
    "name": "posts/twenty-real-browsers-for-zero-euro-a-fleet-on-free-github-actions.fr.md",
-   "sha256": "6cd2a5eafa747e016e784cd19f09148f397a7648a7e2ba4ca8166304044535fd",
-   "bytes": 4475
+   "sha256": "ca75dd29a0b0fbc06283bc7dca8c785fb1eee5f0dc84b03b4cad7bcfe863213d",
+   "bytes": 4424
   },
   {
    "name": "posts/we-tested-pre-training-gravity-on-open-weights-it-stayed-home.en.md",
-   "sha256": "885f29c6333627b8261e1fe6501594ca2b0e4d63f1b579d6ee16dfbda3a0083f",
-   "bytes": 7312
+   "sha256": "da5c723f9aa700990af7b439fa06794808ba8d34691c3a926b8bc5ebb1e61f73",
+   "bytes": 7231
   },
   {
    "name": "posts/we-tested-pre-training-gravity-on-open-weights-it-stayed-home.fr.md",
-   "sha256": "9bad5e697243c903955fcbe17215fc2447d1a30ee75cfcbb5bb01481ba9dfda9",
-   "bytes": 7371
+   "sha256": "d5356feefb9af5b54ed5a45f078c466a8a73198d6c14fc1e3977ded7409c64f8",
+   "bytes": 7290
   },
   {
    "name": "posts/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8.devto.md",
-   "sha256": "e0c5fb45970acf70b5374bf82c3814444d793ef7cfb3d5d95e59f9b7f6351cf0",
-   "bytes": 7286
+   "sha256": "84284ec5d76647720802d09a83043d4ac6321bc45f6b3aec5e8c0e32d9ace1d7",
+   "bytes": 7232
   },
   {
    "name": "posts/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8.en.md",
-   "sha256": "4f08da3a8ef0800d1c397c6b034bd8835e94055be7c050ed0ca4b0074f2ca83c",
-   "bytes": 7633
+   "sha256": "2d89236fbe4cd4651f0144964e47509ca9bc3210214c764288e313a410b16b57",
+   "bytes": 7579
   },
   {
    "name": "posts/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8.fr.md",
-   "sha256": "c1a635950a5da396cddcac69a46432c35b5595477d472efb33fe1486a276c4d0",
-   "bytes": 8704
+   "sha256": "679048f82795d8ca77003c974e258bad090e83fb40d6d32e4347bda8436e3706",
+   "bytes": 8653
   },
   {
    "name": "posts/your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg.en.md",
@@ -526,32 +536,32 @@
   },
   {
    "name": "posts/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it.en.md",
-   "sha256": "0d80f15a9112d82999836c34987b1f9d56f9c6d51532f3f7f93d40a9e5fa18b4",
-   "bytes": 8950
+   "sha256": "054bd1ecf463be41e0bf5ddac3850108c8648907bb0ecc8ac4e0dbe8de6877b0",
+   "bytes": 8857
   },
   {
    "name": "posts/zerojour-an-advisories-agent-that-only-works-because-the-content-is-structured-and-we-prove-it.fr.md",
-   "sha256": "ce3624b0d7d9ca531d22590fd89c09513bfc835389f9f49181f0a322a14a78af",
-   "bytes": 9054
+   "sha256": "67f5096e51f1f366d7ab1ee024627e3815e7b9194d8d828e3a4d9a9680205199",
+   "bytes": 8961
   },
   {
    "name": "posts/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content.en.md",
-   "sha256": "00c2956924a589886ce278e2bddaab794ccc99cf8dee0f6faaabf6300f0e0aa2",
-   "bytes": 6379
+   "sha256": "a184d963cd1d452eb538a2a2952173ea21c7dbcec916194dfa6fc4b33013816a",
+   "bytes": 6307
   },
   {
    "name": "posts/zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content.fr.md",
-   "sha256": "e828994b5cb73a40f6eb9982130f2f89d5f2a0e99c1db0931eaf148f073a573b",
-   "bytes": 6455
+   "sha256": "48e68e45d593cfda14ee4c36051ac16cf3a8735a70fd9e228db714367b22de18",
+   "bytes": 6380
   },
   {
    "name": "rss.xml",
-   "sha256": "2c17f688e7d7ea703d646710ae307197d4d4de6f616f102eb0b8e788e3758d7f",
-   "bytes": 29753
+   "sha256": "7a47bf546b844139e24423a2cc0a2080c3f321ac6930f5f3a4b066b0d418c19f",
+   "bytes": 30397
   }
  ],
- "head": "d521ce2c40afb1ecf073a783ec7cfe00ba564c948649052b827ebf96c1b61de2",
- "sig": "elHlk7TkpN6PgjsbIIwGbfA1v01O5WwG9hUt8FjX6cu5fZ9HHqsDlPtZCEI2LrwVZ95XzZ0rgTrUaJSRj5YQDw==",
+ "head": "98e028de0e80c6d4026f7a7cd14e88d6563c118fbb160d93e24a5f08661f32de",
+ "sig": "+6eRFnoRq4Xu/EeyXC2aeloiLrzS1iJXZuDlwYH/yEZ2in3nMkS4I6tNo6/tPJQFTuoE54cfD5V+DMdbupagCg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
