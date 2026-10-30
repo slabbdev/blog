@@ -187,6 +187,20 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     });
   }
 
+  /* stats dev.to : ligne dans bmeta si l'article a un miroir dev.to et des données committées */
+  function devto(fm){
+    if(!fm.source)return;
+    var m=String(fm.source).match(/dev\.to\/[^\/]+\/([^\/?#]+)/);if(!m)return;
+    fetch('/devto-stats.json').then(function(r){return r.ok?r.json():null}).then(function(s){
+      if(!s||!s.articles)return;var a=s.articles[m[1]];if(!a)return;
+      var b=document.getElementById('bmeta');if(!b)return;
+      var sp=document.createElement('span');
+      var loc=langs==='en'?'en-GB':'fr-FR';
+      sp.textContent=a.views.toLocaleString(loc)+' '+L('vues sur dev.to','views on dev.to')+' · '+a.reactions.toLocaleString(loc)+' ♥';
+      b.appendChild(sp);
+    }).catch(function(){});
+  }
+
   function render(lang){
     var c=cache[lang];if(!c)return;
     document.documentElement.lang=lang;
@@ -203,6 +217,7 @@ h1{font-size:clamp(1.9rem,4.6vw,2.9rem);line-height:1.12}
     var d=new Intl.DateTimeFormat(lang==='en'?'en-GB':'fr-FR',{day:'numeric',month:'long',year:'numeric'}).format(new Date(c.fm.date||Date.now()));
     document.getElementById('bmeta').innerHTML='<span>'+d+'</span><span>'+mins+' min '+L('de lecture','read')+'</span>'+
       (c.fm.source?'<a href="'+esc(c.fm.source)+'" target="_blank" rel="noopener">'+L('source ↗','source ↗')+'</a>':'');
+    devto(c.fm);
     var hw=document.getElementById('heroWrap');
     var hro=document.getElementById('hero');
     if(hro&&!hro.classList.contains('lz-w')&&hro.parentElement&&!hro.parentElement.classList.contains('lz')){
