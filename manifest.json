@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-30T19:53:05+00:00",
+ "built_at": "2026-10-31T10:49:33+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "abc4620b4048993decba9ed0b995ad72ad81e140742b99d4ed83032b1bd9768e",
-   "bytes": 3915
+   "sha256": "2d922970aa727457921653e0a8d469875f9d3f09a14c1dbbfc4ef1e68d05b888",
+   "bytes": 4018
   },
   {
    "name": "article.html",
@@ -520,6 +520,16 @@
    "bytes": 7290
   },
   {
+   "name": "posts/we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c.en.md",
+   "sha256": "ca23506da92f3f14bc2619394713b9d62b541cbafcc0ea88b90560382298f3c4",
+   "bytes": 9765
+  },
+  {
+   "name": "posts/we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c.fr.md",
+   "sha256": "32eb71c69bbe01c3added17eaf47f84692fd35ffe489f979dee837a556204095",
+   "bytes": 10758
+  },
+  {
    "name": "posts/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8.devto.md",
    "sha256": "84284ec5d76647720802d09a83043d4ac6321bc45f6b3aec5e8c0e32d9ace1d7",
    "bytes": 7232
@@ -566,12 +576,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "619334646a6d349071e31138bca4a21171af0770f9abf71f20b759eda3f7d2a0",
-   "bytes": 31206
+   "sha256": "e3c256296fca14db783a859d3094478410364ba10594eb3986d6f538e083306a",
+   "bytes": 32111
   }
  ],
- "head": "fa321471f9ab20735f34f5f32775ce0eea82fbc717a6f9f2af87ef280ba3d618",
- "sig": "2tO+81WgOH5lWxHMkPHdgG+ubhHxqMpM2POhXeoJdPLYTIBtDKka62JWrA1qnhjyAaJ7BDhSWfZkrGVWGRoRDw==",
+ "head": "dc541e3f481f6b6c875b4b7ce61d70532b59d92afcd124e8bc42bc96b8641318",
+ "sig": "v7qnPZrTSqoCmtWvA7Btlb8EkKoP72uYV5YKxnchE/xkOxOmD0pojfDX/z0htozScvaRpVD0W5rwihPhMaXrBw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
