@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-10-30T21:17:25Z",
+ "generated_at": "2026-10-31T09:31:55Z",
  "totals": {
-  "views": 10476,
-  "reactions": 392
+  "views": 10559,
+  "reactions": 399
  },
  "articles": {
   "pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f": {
-   "views": 26,
-   "reactions": 5
+   "views": 39,
+   "reactions": 8
   },
   "a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj": {
-   "views": 137,
-   "reactions": 10
+   "views": 161,
+   "reactions": 14
   },
   "your-macs-git-cloned-a-fake-githubcom-without-a-warning-apple-emudhra-act-three-3e9k": {
-   "views": 44,
+   "views": 46,
    "reactions": 10
   },
   "your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg": {
-   "views": 75,
+   "views": 95,
    "reactions": 9
   },
   "a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i": {
@@ -30,7 +30,7 @@
    "reactions": 9
   },
   "jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc": {
-   "views": 369,
+   "views": 381,
    "reactions": 20
   },
   "gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f": {
@@ -42,7 +42,7 @@
    "reactions": 6
   },
   "agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4": {
-   "views": 865,
+   "views": 866,
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
@@ -50,7 +50,7 @@
    "reactions": 7
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2358,
+   "views": 2368,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -138,7 +138,7 @@
    "reactions": 9
   },
   "docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18": {
-   "views": 428,
+   "views": 429,
    "reactions": 25
   },
   "my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth-1h2g": {
