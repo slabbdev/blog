@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-02T09:31:48Z",
+ "generated_at": "2026-11-03T09:31:42Z",
  "totals": {
-  "views": 11577,
-  "reactions": 417
+  "views": 11890,
+  "reactions": 418
  },
  "articles": {
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
@@ -10,11 +10,11 @@
    "reactions": 10
   },
   "pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f": {
-   "views": 66,
-   "reactions": 10
+   "views": 83,
+   "reactions": 11
   },
   "a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj": {
-   "views": 226,
+   "views": 247,
    "reactions": 16
   },
   "your-macs-git-cloned-a-fake-githubcom-without-a-warning-apple-emudhra-act-three-3e9k": {
@@ -34,7 +34,7 @@
    "reactions": 9
   },
   "jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc": {
-   "views": 426,
+   "views": 488,
    "reactions": 20
   },
   "gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f": {
@@ -42,19 +42,19 @@
    "reactions": 8
   },
   "the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema": {
-   "views": 188,
+   "views": 198,
    "reactions": 6
   },
   "agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4": {
-   "views": 909,
+   "views": 922,
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1639,
+   "views": 1649,
    "reactions": 7
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2380,
+   "views": 2400,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -62,7 +62,7 @@
    "reactions": 7
   },
   "who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8": {
-   "views": 352,
+   "views": 382,
    "reactions": 11
   },
   "a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7": {
@@ -70,7 +70,7 @@
    "reactions": 6
   },
   "mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8": {
-   "views": 73,
+   "views": 83,
    "reactions": 7
   },
   "the-control-panel-behind-a-100-site-ai-hacking-spree-has-no-login-i-ran-one-742": {
@@ -78,7 +78,7 @@
    "reactions": 5
   },
   "the-quietest-backdoor-runs-on-your-own-gpu-5ggb": {
-   "views": 53,
+   "views": 63,
    "reactions": 7
   },
   "opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g": {
@@ -94,7 +94,7 @@
    "reactions": 11
   },
   "the-quiz-hook-is-a-level-1-control-and-the-bypass-is-logged-43f": {
-   "views": 37,
+   "views": 47,
    "reactions": 8
   },
   "but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks-3p8d": {
@@ -118,7 +118,7 @@
    "reactions": 6
   },
   "every-no-ai-contributions-policy-is-a-level-0-control-1a99": {
-   "views": 87,
+   "views": 97,
    "reactions": 11
   },
   "one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry-5hc8": {
@@ -138,7 +138,7 @@
    "reactions": 7
   },
   "one-unescaped-semicolon-was-enough-to-steal-telegram-accounts-5gja": {
-   "views": 276,
+   "views": 286,
    "reactions": 9
   },
   "docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18": {
@@ -146,7 +146,7 @@
    "reactions": 25
   },
   "my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth-1h2g": {
-   "views": 81,
+   "views": 111,
    "reactions": 3
   },
   "700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl": {
@@ -154,15 +154,15 @@
    "reactions": 5
   },
   "the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e": {
-   "views": 84,
+   "views": 94,
    "reactions": 6
   },
   "she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge-134o": {
-   "views": 83,
+   "views": 93,
    "reactions": 5
   },
   "the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why-5am3": {
-   "views": 107,
+   "views": 117,
    "reactions": 5
   },
   "i-attack-tested-my-agents-seatbelt-heres-what-survived-15mj": {
@@ -170,7 +170,7 @@
    "reactions": 6
   },
   "594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached-1odg": {
-   "views": 113,
+   "views": 123,
    "reactions": 8
   },
   "always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read-1m14": {
@@ -178,7 +178,7 @@
    "reactions": 1
   },
   "the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn": {
-   "views": 160,
+   "views": 170,
    "reactions": 7
   },
   "tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app-no-1b1e": {
