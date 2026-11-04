@@ -1,20 +1,24 @@
 {
- "generated_at": "2026-11-03T09:31:42Z",
+ "generated_at": "2026-11-04T09:31:46Z",
  "totals": {
-  "views": 11890,
-  "reactions": 418
+  "views": 12062,
+  "reactions": 429
  },
  "articles": {
+  "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
+   "views": 5,
+   "reactions": 8
+  },
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
-   "views": 99,
-   "reactions": 10
+   "views": 101,
+   "reactions": 12
   },
   "pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f": {
-   "views": 83,
+   "views": 87,
    "reactions": 11
   },
   "a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj": {
-   "views": 247,
+   "views": 267,
    "reactions": 16
   },
   "your-macs-git-cloned-a-fake-githubcom-without-a-warning-apple-emudhra-act-three-3e9k": {
@@ -22,7 +26,7 @@
    "reactions": 11
   },
   "your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg": {
-   "views": 165,
+   "views": 185,
    "reactions": 10
   },
   "a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i": {
@@ -34,8 +38,8 @@
    "reactions": 9
   },
   "jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc": {
-   "views": 488,
-   "reactions": 20
+   "views": 509,
+   "reactions": 21
   },
   "gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f": {
    "views": 86,
@@ -50,7 +54,7 @@
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1649,
+   "views": 1719,
    "reactions": 7
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
@@ -58,7 +62,7 @@
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
-   "views": 1258,
+   "views": 1268,
    "reactions": 7
   },
   "who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8": {
@@ -170,7 +174,7 @@
    "reactions": 6
   },
   "594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached-1odg": {
-   "views": 123,
+   "views": 143,
    "reactions": 8
   },
   "always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read-1m14": {
