@@ -1,23 +1,23 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-10-31T10:49:33+00:00",
+ "built_at": "2026-11-04T07:36:36+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "2d922970aa727457921653e0a8d469875f9d3f09a14c1dbbfc4ef1e68d05b888",
-   "bytes": 4018
+   "sha256": "48f137a4445aee77f3005b989bfefa08e4953ef28845858356c42064e78098fe",
+   "bytes": 4119
   },
   {
    "name": "article.html",
-   "sha256": "9c1db79027925fd427e43b66f17174c42fd967d192d3ef485e7655de752c7e3c",
-   "bytes": 18658
+   "sha256": "88f81a2681cc207d0acd2da16981e137fb426cc7173f201964ea8a4d22455a2e",
+   "bytes": 19410
   },
   {
    "name": "index.html",
-   "sha256": "95f985dfc2a8db4869b7d2a8ee29b87c5f9b569c9257f478fca50dfe81890605",
-   "bytes": 18872
+   "sha256": "fdd580c98a55209451ba4683cd99ae49002eebafb7711510293f0eb94229f453",
+   "bytes": 19674
   },
   {
    "name": "legal.html",
@@ -330,6 +330,16 @@
    "bytes": 9895
   },
   {
+   "name": "posts/postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc.en.md",
+   "sha256": "669a0759cd6545ced57c8d14621afebf30159f2c508d813b28490d5033d45f3e",
+   "bytes": 9198
+  },
+  {
+   "name": "posts/postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc.fr.md",
+   "sha256": "56911be0781c49b1ff82b2d7afcc6f311c494997a0e345e3ee92679ea250419d",
+   "bytes": 10520
+  },
+  {
    "name": "posts/she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge.en.md",
    "sha256": "170c2d9dbf10a275ccba2885bd04bddc051116ba128251ab4d67c6bfe7d3db79",
    "bytes": 8468
@@ -576,12 +586,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "e3c256296fca14db783a859d3094478410364ba10594eb3986d6f538e083306a",
-   "bytes": 32111
+   "sha256": "97f7da13c20503821ecdc591d23574bae2c4aa8c100c47a190a89566c39b4435",
+   "bytes": 32982
   }
  ],
- "head": "dc541e3f481f6b6c875b4b7ce61d70532b59d92afcd124e8bc42bc96b8641318",
- "sig": "v7qnPZrTSqoCmtWvA7Btlb8EkKoP72uYV5YKxnchE/xkOxOmD0pojfDX/z0htozScvaRpVD0W5rwihPhMaXrBw==",
+ "head": "d63dfac34ba9cf87fb9461633763d3bb010168e2783ddc7b61590f4a11f315dc",
+ "sig": "cVp8Bbl8gAocGCrjLU+6Y0GrGqQ7l/hXsekvRO5BZ9ww7J8u17w80GcWIYHYUkVWoLb1O7eLuJMPsrDPDjGhDA==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
