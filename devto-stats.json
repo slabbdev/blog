@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-04T09:31:46Z",
+ "generated_at": "2026-11-05T09:31:43Z",
  "totals": {
-  "views": 12062,
-  "reactions": 429
+  "views": 12198,
+  "reactions": 430
  },
  "articles": {
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
-   "views": 5,
-   "reactions": 8
+   "views": 70,
+   "reactions": 9
   },
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
    "views": 101,
@@ -34,7 +34,7 @@
    "reactions": 10
   },
   "155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8": {
-   "views": 102,
+   "views": 112,
    "reactions": 9
   },
   "jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc": {
@@ -50,15 +50,15 @@
    "reactions": 6
   },
   "agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4": {
-   "views": 922,
+   "views": 923,
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1719,
+   "views": 1729,
    "reactions": 7
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2400,
+   "views": 2410,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -70,7 +70,7 @@
    "reactions": 11
   },
   "a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7": {
-   "views": 83,
+   "views": 93,
    "reactions": 6
   },
   "mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8": {
@@ -114,7 +114,7 @@
    "reactions": 7
   },
   "the-11-year-old-premise-inside-rusts-memory-safety-proof-4804": {
-   "views": 76,
+   "views": 86,
    "reactions": 5
   },
   "the-authority-ladder-five-rungs-down-four-premises-standing-4p5f": {
@@ -150,7 +150,7 @@
    "reactions": 25
   },
   "my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth-1h2g": {
-   "views": 111,
+   "views": 121,
    "reactions": 3
   },
   "700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl": {
@@ -166,7 +166,7 @@
    "reactions": 5
   },
   "the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why-5am3": {
-   "views": 117,
+   "views": 127,
    "reactions": 5
   },
   "i-attack-tested-my-agents-seatbelt-heres-what-survived-15mj": {
