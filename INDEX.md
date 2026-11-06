@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6
 - postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc
 - we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c
 - pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f

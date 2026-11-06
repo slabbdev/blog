@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-04T07:36:36+00:00",
+ "built_at": "2026-11-06T08:26:02+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "48f137a4445aee77f3005b989bfefa08e4953ef28845858356c42064e78098fe",
-   "bytes": 4119
+   "sha256": "ae2f1bf6e36d39d4d15dde9d30a6b1dd15e93191383665745db392bbd2b5a9f5",
+   "bytes": 4221
   },
   {
    "name": "article.html",
@@ -138,6 +138,16 @@
    "name": "posts/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks.fr.md",
    "sha256": "ead2a433142f6501d05c5f962f1182373e4082946c0ce5eada993dd65f4de0d6",
    "bytes": 16384
+  },
+  {
+   "name": "posts/claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6.en.md",
+   "sha256": "21a8840ce7a1b62527af3df4173b91d75854a2bf01942c4586e06b237a524dc8",
+   "bytes": 9162
+  },
+  {
+   "name": "posts/claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6.fr.md",
+   "sha256": "edb369476745ae27072807c8d486245ab8278e52cd81e1d76cdb5490205e87d7",
+   "bytes": 9855
   },
   {
    "name": "posts/docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default.en.md",
@@ -586,12 +596,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "97f7da13c20503821ecdc591d23574bae2c4aa8c100c47a190a89566c39b4435",
-   "bytes": 32982
+   "sha256": "57f1fd6bdf721a2f9fbf3388829a147b59c88f877c2ff013e588dc2588f09957",
+   "bytes": 33904
   }
  ],
- "head": "d63dfac34ba9cf87fb9461633763d3bb010168e2783ddc7b61590f4a11f315dc",
- "sig": "cVp8Bbl8gAocGCrjLU+6Y0GrGqQ7l/hXsekvRO5BZ9ww7J8u17w80GcWIYHYUkVWoLb1O7eLuJMPsrDPDjGhDA==",
+ "head": "7c1b9cfbb690f89b99df148efef8628886994caf821f1c20fdc1b6a918682e88",
+ "sig": "QQ6IO4GN3AxAtYpEHf3zg0RJ1d4Goa3HwQSPBKpZ2hgcUB5L/VwhQiC6A3LXodKllt+4W2yKgBiOro2AGSvyCg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
