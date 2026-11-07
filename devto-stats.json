@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-06T09:31:38Z",
+ "generated_at": "2026-11-07T09:31:23Z",
  "totals": {
-  "views": 12480,
-  "reactions": 445
+  "views": 12696,
+  "reactions": 452
  },
  "articles": {
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 15,
-   "reactions": 6
+   "views": 104,
+   "reactions": 10
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
-   "views": 84,
-   "reactions": 12
+   "views": 118,
+   "reactions": 13
   },
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
    "views": 111,
-   "reactions": 13
+   "reactions": 14
   },
   "pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f": {
-   "views": 107,
+   "views": 117,
    "reactions": 12
   },
   "a-trojanized-claude-code-extension-plants-an-ssh-backdoor-the-7-point-audit-for-your-machine-23cj": {
@@ -38,7 +38,7 @@
    "reactions": 11
   },
   "155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8": {
-   "views": 112,
+   "views": 114,
    "reactions": 9
   },
   "jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc": {
@@ -58,19 +58,19 @@
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1779,
+   "views": 1799,
    "reactions": 7
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2460,
+   "views": 2470,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
-   "views": 1268,
+   "views": 1288,
    "reactions": 7
   },
   "who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8": {
-   "views": 382,
+   "views": 383,
    "reactions": 11
   },
   "a-92-unauthenticated-rce-in-php-the-audit-the-patch-window-and-the-offline-switch-51l7": {
@@ -86,7 +86,7 @@
    "reactions": 5
   },
   "the-quietest-backdoor-runs-on-your-own-gpu-5ggb": {
-   "views": 63,
+   "views": 73,
    "reactions": 7
   },
   "opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g": {
@@ -115,7 +115,7 @@
   },
   "nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch-15oi": {
    "views": 72,
-   "reactions": 7
+   "reactions": 8
   },
   "the-11-year-old-premise-inside-rusts-memory-safety-proof-4804": {
    "views": 86,
@@ -182,11 +182,11 @@
    "reactions": 8
   },
   "always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read-1m14": {
-   "views": 53,
+   "views": 63,
    "reactions": 1
   },
   "the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn": {
-   "views": 180,
+   "views": 190,
    "reactions": 7
   },
   "tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app-no-1b1e": {
