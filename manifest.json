@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-06T08:26:02+00:00",
+ "built_at": "2026-11-09T10:32:43+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "ae2f1bf6e36d39d4d15dde9d30a6b1dd15e93191383665745db392bbd2b5a9f5",
-   "bytes": 4221
+   "sha256": "966162256a3af33c43e0f78a81ca07db570577178b1e8798639360d72e666950",
+   "bytes": 4322
   },
   {
    "name": "article.html",
@@ -138,6 +138,16 @@
    "name": "posts/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks.fr.md",
    "sha256": "ead2a433142f6501d05c5f962f1182373e4082946c0ce5eada993dd65f4de0d6",
    "bytes": 16384
+  },
+  {
+   "name": "posts/chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h.en.md",
+   "sha256": "aa304cac3f097013393c62221366648f3318a4e65db7a3a5e0ff244cede23f41",
+   "bytes": 8521
+  },
+  {
+   "name": "posts/chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h.fr.md",
+   "sha256": "18c4a6605202e69cdfe3e4c97a1d9e7dfcd2a9e80d8eb17c31d8fee462f5f7ff",
+   "bytes": 9768
   },
   {
    "name": "posts/claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6.en.md",
@@ -596,12 +606,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "57f1fd6bdf721a2f9fbf3388829a147b59c88f877c2ff013e588dc2588f09957",
-   "bytes": 33904
+   "sha256": "d812eeaf92a743f5e50c95e88bc0f4a123342f7ccfe117d743067e0b622f4367",
+   "bytes": 34745
   }
  ],
- "head": "7c1b9cfbb690f89b99df148efef8628886994caf821f1c20fdc1b6a918682e88",
- "sig": "QQ6IO4GN3AxAtYpEHf3zg0RJ1d4Goa3HwQSPBKpZ2hgcUB5L/VwhQiC6A3LXodKllt+4W2yKgBiOro2AGSvyCg==",
+ "head": "85bf0dd3f34eca594361530184ec8b12d263bbedc8c73c0f9a839b0271cfaca6",
+ "sig": "io7kryvVEwWcnnQ0Cr7ZQR3kigilP9AWTzOjKMvPoPMc2ve2uXPEHPEanQxP/ey78dgKDyASAC8CT3S9RxBeDg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
