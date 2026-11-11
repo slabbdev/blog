@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-10T09:31:49Z",
+ "generated_at": "2026-11-11T09:31:42Z",
  "totals": {
-  "views": 13026,
+  "views": 13123,
   "reactions": 467
  },
  "articles": {
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
-   "views": 44,
+   "views": 64,
    "reactions": 7
   },
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 160,
+   "views": 195,
    "reactions": 17
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
@@ -62,11 +62,11 @@
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1871,
+   "views": 1891,
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2483,
+   "views": 2493,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -94,7 +94,7 @@
    "reactions": 7
   },
   "opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g": {
-   "views": 127,
+   "views": 129,
    "reactions": 11
   },
   "five-witnesses-and-two-rirs-the-cas-just-discovered-custody-4aie": {
@@ -162,7 +162,7 @@
    "reactions": 3
   },
   "700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl": {
-   "views": 146,
+   "views": 156,
    "reactions": 5
   },
   "the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e": {
