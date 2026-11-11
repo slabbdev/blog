@@ -3,6 +3,7 @@
 Ordre d'affichage (du plus récent au plus ancien).
 Pour publier : déposez `posts/<slug>.fr.md` (et `<slug>.en.md` si traduit), puis ajoutez le slug ci-dessous.
 
+- 38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65
 - chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h
 - claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6
 - postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc

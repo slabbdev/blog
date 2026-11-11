@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-09T10:32:43+00:00",
+ "built_at": "2026-11-11T10:44:08+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "966162256a3af33c43e0f78a81ca07db570577178b1e8798639360d72e666950",
-   "bytes": 4322
+   "sha256": "0dc426ad91174abb8ea1924d167561042f63ef1e01e7c7003e14b6c1e0c992a3",
+   "bytes": 4421
   },
   {
    "name": "article.html",
@@ -33,6 +33,16 @@
    "name": "posts/155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8.fr.md",
    "sha256": "41559c98c46708141b57120ec2576ded992837e5a1b5e2f83fc87419a27da3a4",
    "bytes": 10419
+  },
+  {
+   "name": "posts/38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65.en.md",
+   "sha256": "36b6b95f6e548ef58f5f257117c24424d1dcef125e86a4d177367cf7f0e65c5d",
+   "bytes": 8425
+  },
+  {
+   "name": "posts/38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65.fr.md",
+   "sha256": "260ae4ec93f6dcce145b9db658a01b2b11455ca8e66fec5efd15c8b04d7e9a13",
+   "bytes": 9414
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
@@ -606,12 +616,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "d812eeaf92a743f5e50c95e88bc0f4a123342f7ccfe117d743067e0b622f4367",
-   "bytes": 34745
+   "sha256": "87b8d1ab61c2072932528932d1c0141cb994ef46d5f88735bec4f084d430fc37",
+   "bytes": 35599
   }
  ],
- "head": "85bf0dd3f34eca594361530184ec8b12d263bbedc8c73c0f9a839b0271cfaca6",
- "sig": "io7kryvVEwWcnnQ0Cr7ZQR3kigilP9AWTzOjKMvPoPMc2ve2uXPEHPEanQxP/ey78dgKDyASAC8CT3S9RxBeDg==",
+ "head": "12597de13aa5c238e52803c4afba9c00c72a2243a46f5dba6c0fb485bf34440e",
+ "sig": "tQ9ht/P4n2dPemWK3P+TepO5fdlrY28IeIKWEVZHDndRmb9rKvNkJbZEtyg1yEDXhduH4f9eS9JvngLdMru9AA==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
