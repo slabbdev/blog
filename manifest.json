@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-11T10:44:08+00:00",
+ "built_at": "2026-11-12T12:09:07+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "0dc426ad91174abb8ea1924d167561042f63ef1e01e7c7003e14b6c1e0c992a3",
-   "bytes": 4421
+   "sha256": "ddc3d97cd63e90cc0526da975f429f64bd5eaf60b3f3b5e6dc371b772e842dbb",
+   "bytes": 4516
   },
   {
    "name": "article.html",
@@ -138,6 +138,16 @@
    "name": "posts/always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read.fr.md",
    "sha256": "b7a0e30896b5ea840e55974eefa59941104ed1dc504099275c6ec07be5012073",
    "bytes": 7541
+  },
+  {
+   "name": "posts/apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj.en.md",
+   "sha256": "aab50f005025be3a548d1e515b36aa826d3f77e18d9b423e902d2f29e996b1b9",
+   "bytes": 7579
+  },
+  {
+   "name": "posts/apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj.fr.md",
+   "sha256": "63c2b42fe274deaed03b7ea45e4f9f8a500e0624d0564da8baa7dadb3963c78e",
+   "bytes": 8343
   },
   {
    "name": "posts/but-ethical-the-agent-asked-pulled-147451-private-rows-and-reverted-its-tracks.en.md",
@@ -616,12 +626,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "87b8d1ab61c2072932528932d1c0141cb994ef46d5f88735bec4f084d430fc37",
-   "bytes": 35599
+   "sha256": "08e95ad7ece1f9317cceec8197a4432c546eaa23923baa74a9a1751690752d11",
+   "bytes": 36443
   }
  ],
- "head": "12597de13aa5c238e52803c4afba9c00c72a2243a46f5dba6c0fb485bf34440e",
- "sig": "tQ9ht/P4n2dPemWK3P+TepO5fdlrY28IeIKWEVZHDndRmb9rKvNkJbZEtyg1yEDXhduH4f9eS9JvngLdMru9AA==",
+ "head": "6e64f313efacd8ecd7e22c31e05c7eacbd67040936dd1cd8f384e12e8ef6342f",
+ "sig": "OFIxTRYrKqrFdyf5FBpZo/Gm3MntnkV0r1Lch3STTNzMDv/OB+H6MSdQbIgPcCO8NqIoW/LdJB/u6tPNkK8WBw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
