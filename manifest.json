@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-12T12:09:07+00:00",
+ "built_at": "2026-11-13T07:42:14+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "ddc3d97cd63e90cc0526da975f429f64bd5eaf60b3f3b5e6dc371b772e842dbb",
-   "bytes": 4516
+   "sha256": "e564203d3ac9bf1cffe405d55980fa4d0817816439b97597e95093083162bbb3",
+   "bytes": 4615
   },
   {
    "name": "article.html",
@@ -43,6 +43,16 @@
    "name": "posts/38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65.fr.md",
    "sha256": "260ae4ec93f6dcce145b9db658a01b2b11455ca8e66fec5efd15c8b04d7e9a13",
    "bytes": 9414
+  },
+  {
+   "name": "posts/4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm.en.md",
+   "sha256": "22454842b0f426b680cd14f10438257bb0b50449148ed393ca10e95036f6298c",
+   "bytes": 8845
+  },
+  {
+   "name": "posts/4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm.fr.md",
+   "sha256": "a79428390283972321365660570a880ecb2aa9bf1102b81d48c0de9dd3ab162e",
+   "bytes": 9723
   },
   {
    "name": "posts/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached.en.md",
@@ -626,12 +636,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "08e95ad7ece1f9317cceec8197a4432c546eaa23923baa74a9a1751690752d11",
-   "bytes": 36443
+   "sha256": "946eaa6c76b4126293ce8cd64f2c3e00d949764c40bff65ed1664efb38ab8b26",
+   "bytes": 37293
   }
  ],
- "head": "6e64f313efacd8ecd7e22c31e05c7eacbd67040936dd1cd8f384e12e8ef6342f",
- "sig": "OFIxTRYrKqrFdyf5FBpZo/Gm3MntnkV0r1Lch3STTNzMDv/OB+H6MSdQbIgPcCO8NqIoW/LdJB/u6tPNkK8WBw==",
+ "head": "b7ea716e8d3a656abb3a9fa0be53cfd14d0face8d3b6ac194495d162df88ffca",
+ "sig": "5tWGTWoKdrUvlNh1uMwlIseBhzjLkcbb7PcPA3C1E2ho6aLkrACHB2HVJSKDttyy4AGDgK6ybhhs/FDaL0V/Dw==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
