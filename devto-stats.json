@@ -1,24 +1,32 @@
 {
- "generated_at": "2026-11-12T09:31:42Z",
+ "generated_at": "2026-11-13T09:31:43Z",
  "totals": {
-  "views": 13314,
-  "reactions": 474
+  "views": 13469,
+  "reactions": 488
  },
  "articles": {
-  "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
-   "views": 37,
+  "4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm": {
+   "views": 17,
    "reactions": 6
   },
+  "apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj": {
+   "views": 5,
+   "reactions": 7
+  },
+  "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
+   "views": 45,
+   "reactions": 7
+  },
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
-   "views": 66,
+   "views": 76,
    "reactions": 8
   },
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 235,
+   "views": 250,
    "reactions": 17
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
-   "views": 131,
+   "views": 141,
    "reactions": 13
   },
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
@@ -42,7 +50,7 @@
    "reactions": 11
   },
   "a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i": {
-   "views": 23,
+   "views": 33,
    "reactions": 11
   },
   "155-responses-leaked-between-ai-customers-the-glm-53-kv-cache-bug-and-the-canary-test-for-your-59n8": {
@@ -54,7 +62,7 @@
    "reactions": 21
   },
   "gheist-13500-secret-dumping-workflows-planted-with-stolen-github-tokens-audit-yours-in-5-minutes-299f": {
-   "views": 86,
+   "views": 96,
    "reactions": 8
   },
   "the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema": {
@@ -66,11 +74,11 @@
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1921,
+   "views": 1931,
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2503,
+   "views": 2523,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -102,7 +110,7 @@
    "reactions": 11
   },
   "five-witnesses-and-two-rirs-the-cas-just-discovered-custody-4aie": {
-   "views": 68,
+   "views": 78,
    "reactions": 9
   },
   "i-put-a-logging-proxy-in-front-of-an-llm-client-heres-what-it-emitted-5dii": {
@@ -138,7 +146,7 @@
    "reactions": 11
   },
   "one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry-5hc8": {
-   "views": 66,
+   "views": 76,
    "reactions": 6
   },
   "we-tested-pre-training-gravity-on-open-weights-it-stayed-home-243i": {
@@ -158,7 +166,7 @@
    "reactions": 9
   },
   "docker-just-shipped-the-agent-wall-i-wanted-its-off-by-default-f18": {
-   "views": 529,
+   "views": 539,
    "reactions": 25
   },
   "my-agent-met-the-real-web-403s-challenges-and-the-coming-tollbooth-1h2g": {
@@ -166,7 +174,7 @@
    "reactions": 3
   },
   "700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl": {
-   "views": 156,
+   "views": 166,
    "reactions": 5
   },
   "the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e": {
