@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-13T09:31:43Z",
+ "generated_at": "2026-11-14T09:31:32Z",
  "totals": {
-  "views": 13469,
-  "reactions": 488
+  "views": 13566,
+  "reactions": 490
  },
  "articles": {
   "4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm": {
-   "views": 17,
-   "reactions": 6
+   "views": 41,
+   "reactions": 8
   },
   "apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj": {
-   "views": 5,
+   "views": 15,
    "reactions": 7
   },
   "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
-   "views": 45,
+   "views": 46,
    "reactions": 7
   },
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
@@ -22,7 +22,7 @@
    "reactions": 8
   },
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 250,
+   "views": 252,
    "reactions": 17
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
@@ -30,7 +30,7 @@
    "reactions": 13
   },
   "we-took-over-chatgpt-accounts-the-mathlive-postmessage-chain-and-the-20-line-audit-for-your-own-442c": {
-   "views": 121,
+   "views": 131,
    "reactions": 14
   },
   "pip-install-could-have-been-hijacked-i-tested-every-trust-store-on-my-mac-against-the-compromised-e8f": {
@@ -70,15 +70,15 @@
    "reactions": 6
   },
   "agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4": {
-   "views": 954,
+   "views": 964,
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1931,
+   "views": 1941,
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2523,
+   "views": 2533,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -130,7 +130,7 @@
    "reactions": 9
   },
   "nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch-15oi": {
-   "views": 82,
+   "views": 92,
    "reactions": 8
   },
   "the-11-year-old-premise-inside-rusts-memory-safety-proof-4804": {
@@ -202,7 +202,7 @@
    "reactions": 1
   },
   "the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn": {
-   "views": 200,
+   "views": 210,
    "reactions": 7
   },
   "tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app-no-1b1e": {
