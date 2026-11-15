@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-14T09:31:32Z",
+ "generated_at": "2026-11-15T09:31:52Z",
  "totals": {
-  "views": 13566,
+  "views": 13623,
   "reactions": 490
  },
  "articles": {
   "4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm": {
-   "views": 41,
+   "views": 44,
    "reactions": 8
   },
   "apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj": {
-   "views": 15,
+   "views": 25,
    "reactions": 7
   },
   "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
-   "views": 46,
+   "views": 48,
    "reactions": 7
   },
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
@@ -22,7 +22,7 @@
    "reactions": 8
   },
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 252,
+   "views": 254,
    "reactions": 17
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
@@ -74,7 +74,7 @@
    "reactions": 34
   },
   "the-ca-whose-private-key-was-the-number-4-just-quit-the-certificate-business-18ba": {
-   "views": 1941,
+   "views": 1961,
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
@@ -146,7 +146,7 @@
    "reactions": 11
   },
   "one-quoted-tilde-in-your-bashrc-is-an-attacker-controlled-path-entry-5hc8": {
-   "views": 76,
+   "views": 86,
    "reactions": 6
   },
   "we-tested-pre-training-gravity-on-open-weights-it-stayed-home-243i": {
@@ -206,7 +206,7 @@
    "reactions": 7
   },
   "tinyjs-app-studio-the-gui-to-wrap-any-website-or-js-project-into-a-6-mb-desktop-app-no-1b1e": {
-   "views": 53,
+   "views": 63,
    "reactions": 5
   },
   "zerojour-the-press-edition-a-newspaper-that-prints-itself-from-structured-content-where-the-2734": {
