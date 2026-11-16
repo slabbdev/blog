@@ -1,28 +1,28 @@
 {
- "generated_at": "2026-11-15T09:31:52Z",
+ "generated_at": "2026-11-16T09:40:40Z",
  "totals": {
-  "views": 13623,
-  "reactions": 490
+  "views": 13782,
+  "reactions": 493
  },
  "articles": {
   "4-sql-statements-and-a-segfault-inside-postgresqls-22-year-old-type-confusion-cve-2026-6460-1ggm": {
-   "views": 44,
-   "reactions": 8
+   "views": 54,
+   "reactions": 10
   },
   "apache-httpd-shipped-a-critical-http2-rce-yesterday-and-one-of-the-finders-was-a-machine-5jj": {
-   "views": 25,
+   "views": 37,
    "reactions": 7
   },
   "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
-   "views": 48,
-   "reactions": 7
+   "views": 64,
+   "reactions": 8
   },
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
    "views": 76,
    "reactions": 8
   },
   "claude-code-was-mailing-your-email-address-to-every-website-it-visited-the-user-agent-leak-the-12k6": {
-   "views": 254,
+   "views": 255,
    "reactions": 17
   },
   "postman-silently-installed-itself-into-claude-code-and-codex-the-log-lines-the-self-approving-16dc": {
@@ -46,7 +46,7 @@
    "reactions": 12
   },
   "your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg": {
-   "views": 205,
+   "views": 215,
    "reactions": 11
   },
   "a-16-year-old-buffer-overflow-boots-before-your-defenses-cve-2026-97631-in-edk-iis-pxe-driver-412i": {
@@ -78,7 +78,7 @@
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2533,
+   "views": 2543,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -110,7 +110,7 @@
    "reactions": 11
   },
   "five-witnesses-and-two-rirs-the-cas-just-discovered-custody-4aie": {
-   "views": 78,
+   "views": 88,
    "reactions": 9
   },
   "i-put-a-logging-proxy-in-front-of-an-llm-client-heres-what-it-emitted-5dii": {
@@ -126,7 +126,7 @@
    "reactions": 8
   },
   "ten-findings-ten-answers-publishing-the-audit-of-our-own-black-box-1d29": {
-   "views": 141,
+   "views": 151,
    "reactions": 9
   },
   "nine-years-a-ps5-pico-and-100-nanoseconds-the-xbox-verification-glitch-15oi": {
@@ -134,7 +134,7 @@
    "reactions": 8
   },
   "the-11-year-old-premise-inside-rusts-memory-safety-proof-4804": {
-   "views": 86,
+   "views": 96,
    "reactions": 5
   },
   "the-authority-ladder-five-rungs-down-four-premises-standing-4p5f": {
@@ -154,11 +154,11 @@
    "reactions": 1
   },
   "a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough-59oe": {
-   "views": 356,
+   "views": 376,
    "reactions": 20
   },
   "someone-anchored-339-billion-web-pages-to-bitcoin-heres-how-it-works-2hm5": {
-   "views": 119,
+   "views": 129,
    "reactions": 7
   },
   "one-unescaped-semicolon-was-enough-to-steal-telegram-accounts-5gja": {
@@ -174,11 +174,11 @@
    "reactions": 3
   },
   "700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl": {
-   "views": 166,
+   "views": 176,
    "reactions": 5
   },
   "the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready-3j8e": {
-   "views": 94,
+   "views": 104,
    "reactions": 6
   },
   "she-used-claude-as-a-diary-the-terms-of-service-are-now-part-of-the-charge-134o": {
@@ -194,11 +194,11 @@
    "reactions": 6
   },
   "594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached-1odg": {
-   "views": 153,
+   "views": 163,
    "reactions": 8
   },
   "always-on-agents-arrived-this-week-heres-the-gate-for-what-they-read-1m14": {
-   "views": 63,
+   "views": 73,
    "reactions": 1
   },
   "the-ai-act-went-live-two-months-ago-your-agents-logs-are-still-editable-46dn": {
