@@ -1,13 +1,13 @@
 {
  "site": "blog.slabb.dev",
  "format": "seal v1 — SHA-256 chain + Ed25519",
- "built_at": "2026-11-13T07:42:14+00:00",
+ "built_at": "2026-11-16T11:48:03+00:00",
  "genesis": "blog-slabb-dev-genesis",
  "files": [
   {
    "name": "INDEX.md",
-   "sha256": "e564203d3ac9bf1cffe405d55980fa4d0817816439b97597e95093083162bbb3",
-   "bytes": 4615
+   "sha256": "ccdd23f1f4adba6db1ef709b8a2a9a649f985092f5efb145cf0fd40d42ae62a6",
+   "bytes": 4719
   },
   {
    "name": "article.html",
@@ -515,6 +515,16 @@
    "bytes": 7602
   },
   {
+   "name": "posts/the-internet-dependent-mattress-has-a-recovery-mode-rooting-the-eight-sleep-pod-3-with-a-gnu-tar-3hi4.en.md",
+   "sha256": "0b58f5eeb63f8539d3c476c01dcbb5af4c08cd34868c4446a60c116c7e7df1e2",
+   "bytes": 8015
+  },
+  {
+   "name": "posts/the-internet-dependent-mattress-has-a-recovery-mode-rooting-the-eight-sleep-pod-3-with-a-gnu-tar-3hi4.fr.md",
+   "sha256": "572fc40dfeec71f3f5986f9b53e16193ca1acaf32ac4fc3c82e70f6b1ea06e2a",
+   "bytes": 8920
+  },
+  {
    "name": "posts/the-internets-root-key-rotates-in-five-days-your-resolver-may-not-be-ready.en.md",
    "sha256": "81ecc68b0b4c774fe13b6246184445c5bec0fc257cb97b8923574d466ec3dec5",
    "bytes": 9067
@@ -636,12 +646,12 @@
   },
   {
    "name": "rss.xml",
-   "sha256": "946eaa6c76b4126293ce8cd64f2c3e00d949764c40bff65ed1664efb38ab8b26",
-   "bytes": 37293
+   "sha256": "ccc0889ed3888189e77734b8aacce9d835ca45b573afad2a16fe8805f2685f8f",
+   "bytes": 38255
   }
  ],
- "head": "b7ea716e8d3a656abb3a9fa0be53cfd14d0face8d3b6ac194495d162df88ffca",
- "sig": "5tWGTWoKdrUvlNh1uMwlIseBhzjLkcbb7PcPA3C1E2ho6aLkrACHB2HVJSKDttyy4AGDgK6ybhhs/FDaL0V/Dw==",
+ "head": "31a9d111d46335c8b4749bc14c995f213fb8e4db757d56fa48f4cfb66ba628b6",
+ "sig": "fQoIsFf19A9KGMCISlZzNP7dRhXcOD1ZKzF2bHn7fe7muldHVebEAfX62pIVCWwmFMp7QbvLycv2nyXIUejaBg==",
  "pubkey": "khRlqzmV5e0gTEz4PXDbUG9stn5kTiTLK6zzo+pAUcY=",
  "fingerprint": "sha256:64cba499e2568c97"
 }
