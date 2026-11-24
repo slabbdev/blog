@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-23T09:33:12Z",
+ "generated_at": "2026-11-24T09:31:15Z",
  "totals": {
-  "views": 14325,
+  "views": 14355,
   "reactions": 502
  },
  "articles": {
@@ -70,7 +70,7 @@
    "reactions": 8
   },
   "the-breaking-unpatched-php-rce-that-wasnt-what-cve-2026-115560-actually-requires-2ema": {
-   "views": 218,
+   "views": 228,
    "reactions": 6
   },
   "agents-should-never-hold-your-api-keys-nvidia-just-open-sourced-the-runtime-that-enforces-it-3jm4": {
@@ -82,7 +82,7 @@
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2583,
+   "views": 2593,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
@@ -190,7 +190,7 @@
    "reactions": 5
   },
   "the-status-page-was-green-while-apps-crashed-the-postmortem-explains-why-5am3": {
-   "views": 127,
+   "views": 137,
    "reactions": 5
   },
   "i-attack-tested-my-agents-seatbelt-heres-what-survived-15mj": {
