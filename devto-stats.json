@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-25T09:31:50Z",
+ "generated_at": "2026-11-26T09:31:34Z",
  "totals": {
-  "views": 14385,
+  "views": 14425,
   "reactions": 502
  },
  "articles": {
@@ -46,7 +46,7 @@
    "reactions": 17
   },
   "your-macs-git-cloned-a-fake-githubcom-without-a-warning-apple-emudhra-act-three-3e9k": {
-   "views": 76,
+   "views": 86,
    "reactions": 12
   },
   "your-pdf-says-aes-256-the-key-had-9-bits-of-entropy-cdg": {
@@ -82,11 +82,11 @@
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2593,
+   "views": 2603,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
-   "views": 1318,
+   "views": 1328,
    "reactions": 7
   },
   "who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8": {
@@ -154,7 +154,7 @@
    "reactions": 6
   },
   "we-tested-pre-training-gravity-on-open-weights-it-stayed-home-243i": {
-   "views": 64,
+   "views": 74,
    "reactions": 1
   },
   "a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough-59oe": {
