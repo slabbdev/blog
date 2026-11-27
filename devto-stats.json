@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-26T09:31:34Z",
+ "generated_at": "2026-11-27T09:31:33Z",
  "totals": {
-  "views": 14425,
+  "views": 14455,
   "reactions": 502
  },
  "articles": {
@@ -18,7 +18,7 @@
    "reactions": 7
   },
   "38000-ai-found-vulnerabilities-217-fixed-auditing-glasswing-anthropics-bug-discovery-machine-k65": {
-   "views": 84,
+   "views": 94,
    "reactions": 8
   },
   "chatgpt-desktop-forwards-your-ssh-agent-to-the-machines-its-agent-runs-on-your-keys-its-repos-359h": {
@@ -82,11 +82,11 @@
    "reactions": 8
   },
   "a-ca-private-key-was-the-number-4-your-curl-still-trusts-it-cve-2026-111943-45o4": {
-   "views": 2603,
+   "views": 2613,
    "reactions": 8
   },
   "php2shell-two-critical-rces-in-php-core-lab-demo-and-how-to-fix-cve-2026-109618-and-2ieb": {
-   "views": 1328,
+   "views": 1338,
    "reactions": 7
   },
   "who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8": {
